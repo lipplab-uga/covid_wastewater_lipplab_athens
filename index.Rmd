@@ -1,12 +1,12 @@
 ---
-title: "Wastewater Surviellence for SARS-CoV-2 in Athens, GA"
+title: "Wastewater Surveillance for SARS-CoV-2 in Athens, GA"
 output: html_document
 ---
 
-<div style="margin-bottom:50px;">
+<div style="margin-bottom:25px;">
 </div>
 
-## Wastewater Surviellence for SARS-CoV-2 in Athens, GA {.tabset}
+## {.tabset}
 
 Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS-CoV-2, the virus that causes COVID-19. 
 
@@ -23,6 +23,12 @@ load(file = "./plotly_fig.rda")
 p1
 ```
 
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='right', echo=FALSE}
+knitr::include_graphics("./good_legend.png")
+```
+
+<div style="margin-bottom:50px;">
+</div>
 
 ### Purpose
 
