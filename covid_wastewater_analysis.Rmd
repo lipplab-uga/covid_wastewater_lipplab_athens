@@ -1,0 +1,120 @@
+---
+title: "COVID-19 Wastewater Analysis"
+author: "Lipp Laboratory, Department of Environmental Health Science, University of Georgia"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc_depth: 3
+---
+
+Load all required libraries.
+```{r}
+library(tidyverse)
+library(plotly)
+```
+
+Read in raw data from RDS.
+```{r}
+raw_data <- readRDS("./n1_n2_cleaned_cases.rds")
+```
+
+Make a few small modifications to names and data for visualizations.
+```{r}
+final_data <- raw_data %>% mutate(log_copy_per_L = log10(mean_copy_num_L)) %>%
+  rename(Facility = wrf) %>%
+  mutate(Facility = recode(Facility, 
+                           "NO" = "WRF A",
+                           "MI" = "WRF B",
+                           "CC" = "WRF C"))
+```
+
+Create the plot:  
+1)Start with a basic bar plot to show Department of Public Health Data  
+2)Layer a line plot to show 7-day moving average  
+3)Layer a scatterplot to show wastewater data  
+4)Layer a horizontal line and annotation to indicate the limit of detection (LOD) for RT-qPCR  
+5)Finish with asthetics (note legend asthetics are split to maintain theme_classic)  
+```{r}
+clean_plot <- final_data %>% ggplot() + 
+  geom_bar(aes(x = date, y = new_cases_clarke), stat = "sum", alpha = 0.35, fill = "#7570B3", show.legend = FALSE)
+  
+clean_plot <- clean_plot + 
+  geom_line(aes(x = date, y = X10_day_ave_clarke), size = 1, color ="#E6AB02") +           
+  geom_point(aes(x = date, y = log_copy_per_L*10, color = target, shape = Facility), size = 2.5) +
+  geom_hline(yintercept = 35.5, linetype = "dashed") +
+  annotate("text", x = as.Date("2020-03-20"), y = 39, label = "LOD")
+
+clean_plot <- clean_plot + 
+  scale_y_continuous(limits = c(0,80), breaks = seq(0, 80, 20), 
+  sec.axis = sec_axis(~. / 10, name = "SARS CoV-2 Log Copies Per L")) +
+  ylab("Clarke County Daily Cases") + xlab("Date") + 
+  theme_classic() + guides(color=guide_legend("SARS CoV-2 Target")) 
+
+clean_plot <- clean_plot + 
+  theme(legend.position = "none") #generating tidy legend as png file
+
+clean_plot <- clean_plot + scale_color_manual(na.translate = FALSE, values = c("#1B9E77", "#D95F02")) + scale_shape_manual(na.translate = FALSE, values = c(1:2))
+
+clean_plot
+```
+
+Save the plot!
+```{r}
+ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot)
+```
+
+
+```{r}
+only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
+only_background <<-final_data %>% 
+  select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
+  group_by(date) %>% summarise_if(is.numeric, mean)
+
+#specify fun colors
+background_color <- "#7570B3"
+ten_day_ave_color <- "#E6AB02"
+marker_colors <- c('N1' = '#1B9E77','N2' = '#D95F02')
+    
+```
+
+
+
+```{r}
+        p1 <- only_background %>%
+              plotly::plot_ly() %>%
+              plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
+                                type = "bar", 
+                                alpha = 0.5,
+                                name = "Daily Reported Cases",
+                                color = background_color,
+                                colors = background_color) %>%
+            layout(yaxis = list(title = "Clarke County Daily Cases", range = c(0,80), showline=TRUE)) %>%
+            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+        
+        #renders the main plot layer two as ten day moving average
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+                             type = "scatter",
+                             mode = "lines",
+                             name = "Ten Day Moving Average Athens",
+                             colors = ten_day_ave_color)
+        
+        #renders the main plot layer three as positive target hits
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~log_copy_per_L,
+                                       type = "scatter",
+                                       mode = "markers",
+                                       data = only_positives,
+                                       colors = marker_colors,
+                                       symbol = ~Facility,
+                                       yaxis = "y2") %>%
+            layout(yaxis2 = list(overlaying = "y", side = "right", title = "SARS CoV-2 Log Copies Per L", range = c(0, 8), showline = TRUE)) %>%
+            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+        
+        p1
+```
+
+
+```{r}
+save(p1, file = "./plotly_fig.rda")
+```
+
+
