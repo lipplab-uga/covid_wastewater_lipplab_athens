@@ -1,5 +1,5 @@
 ---
-title: "COVID-19 Wastewater Analysis"
+title: "Wastewater Surviellence for SARS-CoV-2 in Athens, GA"
 author: "Lipp Laboratory, Department of Environmental Health Science, University of Georgia"
 date: "`r Sys.Date()`"
 output: 
