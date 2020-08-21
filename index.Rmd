@@ -24,10 +24,6 @@ p1
 ```
 
 
-```{r out.height = "100%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_fig_2.rda")
-p2
-```
 ### Purpose
 
 Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population. 

@@ -66,14 +66,18 @@ ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot
 
 ```{r}
 only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
+only_n1 <- subset(only_positives, target == "N1")
+only_n2 <- subset(only_positives, target == "N2")
 only_background <<-final_data %>% 
   select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
   group_by(date) %>% summarise_if(is.numeric, mean)
 
+
+
 #specify fun colors
 background_color <- "#7570B3"
 ten_day_ave_color <- "#E6AB02"
-marker_colors <- c('N1' = '#1B9E77','N2' = '#D95F02')
+marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
 
@@ -84,10 +88,14 @@ marker_colors <- c('N1' = '#1B9E77','N2' = '#D95F02')
               plotly::plot_ly() %>%
               plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
                                 type = "bar", 
+                                hoverinfo = "text",
+                                text = ~paste('</br> Date: ', date,
+                                                     '</br> Daily Cases: ', new_cases_clarke),
                                 alpha = 0.5,
                                 name = "Daily Reported Cases",
                                 color = background_color,
-                                colors = background_color) %>%
+                                colors = background_color,
+                                showlegend = FALSE) %>%
             layout(yaxis = list(title = "Clarke County Daily Cases", range = c(0,80), showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
@@ -95,19 +103,53 @@ marker_colors <- c('N1' = '#1B9E77','N2' = '#D95F02')
         p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
                              type = "scatter",
                              mode = "lines",
+                             hoverinfo = "text",
+                            text = ~paste('</br> Date: ', date,
+                                                     '</br> Ten-Day Moving Average: ', X10_day_ave_clarke),
                              name = "Ten Day Moving Average Athens",
-                             colors = ten_day_ave_color)
+                             line = list(color = ten_day_ave_color),
+                             showlegend = FALSE)
         
         #renders the main plot layer three as positive target hits
+        
         p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~log_copy_per_L,
                                        type = "scatter",
                                        mode = "markers",
-                                       data = only_positives,
-                                       colors = marker_colors,
+                                       hoverinfo = "text",
+                                       text = ~paste('</br> Date: ', date,
+                                                     '</br> Facility: ', Facility,
+                                                     '</br> Target: ', target,
+                                                     '</br> Log Copies/L: ', round(log_copy_per_L, digits = 2)),
+                                       data = only_n1,
                                        symbol = ~Facility,
-                                       yaxis = "y2") %>%
-            layout(yaxis2 = list(overlaying = "y", side = "right", title = "SARS CoV-2 Log Copies Per L", range = c(0, 8), showline = TRUE)) %>%
+                                       yaxis = "y2",
+                                       marker = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                                       showlegend = FALSE) %>%
+          plotly::add_trace(x = ~date, y = ~log_copy_per_L,
+                                       type = "scatter",
+                                       mode = "markers",
+                                       hoverinfo = "text",
+                                       text = ~paste('</br> Date: ', date,
+                                                     '</br> Facility: ', Facility,
+                                                     '</br> Target: ', target,
+                                                     '</br> Log Copies/L: ', round(log_copy_per_L, digits = 2)),
+                                       data = only_n2,
+                                       symbol = ~Facility,
+                                       yaxis = "y2",
+                                       marker = list(color = '#D95F02', size = 8, opacity = 0.65),
+                                       showlegend = FALSE) %>%
+            layout(yaxis2 = list(overlaying = "y", 
+                                 side = "right", 
+                                 title = "SARS CoV-2 Log Copies Per L", 
+                                 range = c(0, 8), showline = TRUE,
+                                 automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+        
+        p1 <- p1 %>% plotly::add_segments(x = as.Date("2020-03-14"), xend = ~max(date + 10), y = 35.5, yend = 35.5,
+                                          opacity = 0.35,
+                                          line = list(color = "black", dash = "dash")) %>%
+          layout(annotations = list(x = as.Date("2020-03-27"), y = 38, xref = "x", yref = "y", 
+                                    text = "Limit of Detection", showarrow = FALSE))
         
         p1
 ```
