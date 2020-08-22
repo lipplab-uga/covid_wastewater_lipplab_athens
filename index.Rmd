@@ -60,15 +60,6 @@ The N1 and N2 gene targets are measured and reported as a concentration, by the 
 A more detailed explanation of the research methods can be found [here](https://docs.google.com/document/d/1vvRGrvR5iF3P6d40tKPjUpOZBBKGz_OZAr9Z5xJiCKw/edit?usp=sharing).
 
 
-### Results
-
-Main Figure (again)
-
-Total Viral Load 
-
-Number of Assays positive/week
-
-
 ### About
 
 This weekly monitoring is conducted in partnership between Athens-Clarke County Utilities, the Lipp Laboratory, and the College of Public Health at the University of Georgia.

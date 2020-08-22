@@ -45,3 +45,14 @@ load(file = "./plotly_fig.rda")
 plotly_p
 ```
 
+
+###results section
+
+### Results
+
+Main Figure (again)
+
+Total Viral Load 
+
+Number of Assays positive/week
+
