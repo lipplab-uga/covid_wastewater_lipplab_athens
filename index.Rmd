@@ -31,15 +31,15 @@ knitr::include_graphics("./good_legend.png")
 
 #### Weekly Data Update {.tabset}
 
-##### Prior to August 16, 2020
-Data collection began in June of 2020 where the concentration of ARS&#8209;CoV&#8209;2 was below the limit of detection at the start of experimentation. At the end of June SARS&#8209;CoV&#8209;2 concentration had rose to over 10 million copies per liter and held moderately steady through mid-July. Following July 21, 2020 SARS&#8209;CoV&#8209;2 copies began to decline through early August. Since August 4, 2020 ARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets.  
-
-These results were consistent with the increases and declines observed in the daily cases reported for Athens-Clarke County, GA. 
-
 ##### August 16-22
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is not reflected in the daily reported cases for Athens-Clarke county and may precede an increase in the number of reported COVID&#8209;19.  
 
 Furthermore, this week marks the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
+
+##### Prior to August 16, 2020
+Weekly analyses of SARS&#8209;CoV&#8209;2 in sewage began June 16, 2020, at which time concentrations were below the current method limit of detection and new cases were reported at <10 per day. Reported cases began to increase to >20 per day in late June and SARS&#8209;CoV&#8209;2 concentration  increased to up to 10 million viral copies per liter. Sewage concentrations were steady through mid-July inline with newly reported cases averaging 35 per day. Beginning July 21, 2020 SARS&#8209;CoV&#8209;2 concentrations in sewage began to decline through early August, while concurrent case report remained high. We suspect that this decline possibly preceded the decline in cases noted in late August, which may be due to lags in testing results and case reporting.  
+
+Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets. This suggests that sewage concentrations may be a leading indicator for new cases in the community, but more data collection and  monitoring of delays in testing reports will be needed to confirm this trend.
 
 <div style="margin-bottom:25px;">
 </div>
