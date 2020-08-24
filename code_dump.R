@@ -56,3 +56,21 @@ Total Viral Load
 
 Number of Assays positive/week
 
+
+
+### For trendlines with mean values
+plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
+                  type = "scatter",
+                  mode = "lines",
+                  data = trend1,
+                  showlegend = FALSE,
+                  opacity = 0.5,
+                  line = list(color = '#1B9E77')) %>%
+  
+  plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
+                    type = "scatter",
+                    mode = "lines",
+                    data = trend2,
+                    showlegend = FALSE,
+                    opacity = 0.5,
+                    line = list(color = '#D95F02'))

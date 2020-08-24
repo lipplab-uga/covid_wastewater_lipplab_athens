@@ -7,8 +7,6 @@ output: html_document
 <div style="margin-bottom:25px;">
 </div>
 
-## {.tabset}
-
 Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;2, the virus that causes COVID&#8209;19. 
 
 We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. The theoretical Limit of Detection (LOD) is noted.
@@ -31,7 +29,18 @@ knitr::include_graphics("./good_legend.png")
 <div style="margin-bottom:50px;">
 </div>
 
-### Purpose
+#### Weekly Data Update {.tabset}
+
+##### August 16-22
+Prior to June 30, 2020, the quantity of SARS&#8209;CoV&#8209;2 in wastewater was below the limit of detection. By June 30, 2020, the quantity of SASARS&#8209;CoV&#8209;2 rose to over 10 million copies per liter, but then began to decline again by August 8, 2020. Daily reported cases declined around August 18, 2020, approximately 10 days later.
+On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased again to over 10 million copies per liter. This reflects a ___ % increase from the concentration reported on August 11, 2020. This uptick may precede an increase in the number of reported COVID&#8209;19 cases. Results and preliminary discussion will be updated weekly.
+
+<div style="margin-bottom:50px;">
+</div>
+
+#### Research Overview {.tabset}
+
+##### Purpose
 
 Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population. 
 
@@ -45,8 +54,10 @@ We are developing and evaluating our methods in real-time. We will share with yo
 
 To learn more about national surviellence efforts, using wastewater-based epidemiology, please visit the CDC's <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/wastewater-surveillance.html" target="_blank">National Wastewater Surveillance System (NWSS).</a> 
 
+<div style="margin-bottom:50px;">
+</div>
 
-### Methods
+##### Methods
 
 Since May 2020, sewage samples have been collected weekly from the water reclamation facilities (WRFs) that serve Athens-Clarke County. Samples are collected from a 24-hour composite of the influent wastewater received by each WRF. 
 
@@ -60,12 +71,14 @@ The N1 and N2 gene targets are measured and reported as a concentration, by the 
 
 A more detailed explanation of the research methods can be found <a href="https://docs.google.com/document/d/1vvRGrvR5iF3P6d40tKPjUpOZBBKGz_OZAr9Z5xJiCKw/edit?usp=sharing" target="_blank">here</a>. 
 
+<div style="margin-bottom:50px;">
+</div>
 
-### About
+##### About
 
 This weekly monitoring is conducted in partnership between Athens-Clarke County Utilities, the Lipp Laboratory, and the College of Public Health at the University of Georgia.
 
-#### Team 
+##### Team 
 
 Dr. Erin Lipp
 
@@ -76,3 +89,6 @@ William Norfolk, PhD Student
 Megan Robertson, PhD Student 
 
 For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="http://www.lipplab.org/" target="_blank">website</a>.
+
+<div style="margin-bottom:50px;">
+</div>
