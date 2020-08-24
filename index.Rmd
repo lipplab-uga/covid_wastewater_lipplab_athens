@@ -19,7 +19,7 @@ We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastew
 <div style="margin-bottom:50px;">
 </div>
 
-```{r out.height = "120%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+```{r out.height = "150%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_fig.rda")
 p_combined
 ```
