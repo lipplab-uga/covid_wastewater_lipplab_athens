@@ -35,7 +35,7 @@ knitr::include_graphics("./good_legend.png")
 Prior to June 30, 2020, the quantity of SARS&#8209;CoV&#8209;2 in wastewater was below the limit of detection. By June 30, 2020, the quantity of SASARS&#8209;CoV&#8209;2 rose to over 10 million copies per liter, but then began to decline again by August 8, 2020. Daily reported cases declined around August 18, 2020, approximately 10 days later.
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased again to over 10 million copies per liter. This reflects a ___ % increase from the concentration reported on August 11, 2020. This uptick may precede an increase in the number of reported COVID&#8209;19 cases. Results and preliminary discussion will be updated weekly.
 
-<div style="margin-bottom:50px;">
+<div style="margin-bottom:25px;">
 </div>
 
 #### Research Overview {.tabset}
