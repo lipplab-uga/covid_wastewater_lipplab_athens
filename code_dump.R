@@ -74,3 +74,49 @@ plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
                     showlegend = FALSE,
                     opacity = 0.5,
                     line = list(color = '#D95F02'))
+
+
+
+### to move start date up
+
+```{r}
+only_background_2 <- subset(only_background, date > as.Date("2020-05-20"))
+```
+
+
+```{r}
+p2 <- only_background_2 %>%
+  plotly::plot_ly() %>%
+  plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
+                    type = "bar", 
+                    alpha = 0.5,
+                    name = "Daily Reported Cases",
+                    color = background_color,
+                    colors = background_color) %>%
+  layout(yaxis = list(title = "Clarke County Daily Cases", range = c(0,80), showline=TRUE)) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+
+#renders the main plot layer two as ten day moving average
+p2 <- p2 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+                               type = "scatter",
+                               mode = "lines",
+                               name = "Ten Day Moving Average Athens",
+                               colors = ten_day_ave_color)
+
+#renders the main plot layer three as positive target hits
+p2 <- p2 %>% plotly::add_trace(x = ~date, y = ~log_copy_per_L,
+                               type = "scatter",
+                               mode = "markers",
+                               data = only_positives,
+                               colors = marker_colors,
+                               symbol = ~Facility,
+                               yaxis = "y2") %>%
+  layout(yaxis2 = list(overlaying = "y", side = "right", title = "SARS CoV-2 Log Copies Per L", range = c(0, 8), showline = TRUE)) %>%
+  layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
+
+p2
+```
+
+```{r}
+save(p2, file = "./plotly_fig_2.rda")
+```

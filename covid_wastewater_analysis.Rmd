@@ -81,6 +81,23 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
 
+```{r}
+#add fits
+fit_n1 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n1, span = 0.8)
+fit_n2 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n2, span = 0.8)
+
+only_n1 <- only_n1 %>% mutate(pred_n1 = predict(fit_n1))
+only_n2 <- only_n2 %>% mutate(pred_n2 = predict(fit_n2))
+```
+
+```{r}
+trend1 <- only_n1 %>% group_by(date, target) %>%
+  summarize_if(is.numeric, mean) %>% 
+  ungroup()
+trend2 <- only_n2 %>% group_by(date, target) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup()
+```
 
 
 ```{r}
@@ -138,25 +155,31 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
                                        marker = list(color = '#D95F02', size = 8, opacity = 0.65),
                                        showlegend = FALSE) %>%
             layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
-                                 showline = TRUE,
+                                 range = c(3, 8), showline = TRUE,
+                                 type = "log",
                                  automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
-        p2 <- p2 %>% plotly::add_segments(x = as.Date("2020-03-14"), xend = ~max(date + 10), y = 3571.4, yend = 3571.4,
+        p2 <- p2 %>% plotly::add_segments(x = as.Date("2020-03-14"), 
+                                          xend = ~max(date + 10), 
+                                          y = 3571.429, yend = 3571.429,
                                           opacity = 0.35,
                                           line = list(color = "black", dash = "dash")) %>%
-          layout(annotations = list(x = as.Date("2020-03-28"), y = 510000, xref = "x", yref = "y", 
+          layout(annotations = list(x = as.Date("2020-03-28"), y = 3.8, xref = "x", yref = "y", 
                                     text = "Limit of Detection", showarrow = FALSE))
+
         
+
         p1
         p2
+        
 ```
 
 ```{r}
 p_combined <-
     plotly::subplot(p2,p1, # plots to combine, top to bottom
       nrows = 2,
-      heights = c(.5,.5),  # relative heights of the two plots
+      heights = c(.6,.4),  # relative heights of the two plots
       shareX = TRUE,  # plots will share an X axis
       titleY = TRUE
     ) %>%
@@ -179,47 +202,9 @@ p_combined
 save(p_combined, file = "./plotly_fig.rda")
 ```
 
-
-
-
 ```{r}
-only_background_2 <- subset(only_background, date > as.Date("2020-05-20"))
+htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
 ```
 
 
-```{r}
-        p2 <- only_background_2 %>%
-              plotly::plot_ly() %>%
-              plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
-                                type = "bar", 
-                                alpha = 0.5,
-                                name = "Daily Reported Cases",
-                                color = background_color,
-                                colors = background_color) %>%
-            layout(yaxis = list(title = "Clarke County Daily Cases", range = c(0,80), showline=TRUE)) %>%
-            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
-        
-        #renders the main plot layer two as ten day moving average
-        p2 <- p2 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
-                             type = "scatter",
-                             mode = "lines",
-                             name = "Ten Day Moving Average Athens",
-                             colors = ten_day_ave_color)
-        
-        #renders the main plot layer three as positive target hits
-        p2 <- p2 %>% plotly::add_trace(x = ~date, y = ~log_copy_per_L,
-                                       type = "scatter",
-                                       mode = "markers",
-                                       data = only_positives,
-                                       colors = marker_colors,
-                                       symbol = ~Facility,
-                                       yaxis = "y2") %>%
-            layout(yaxis2 = list(overlaying = "y", side = "right", title = "SARS CoV-2 Log Copies Per L", range = c(0, 8), showline = TRUE)) %>%
-            layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
-        
-        p2
-```
 
-```{r}
-save(p2, file = "./plotly_fig_2.rda")
-```
