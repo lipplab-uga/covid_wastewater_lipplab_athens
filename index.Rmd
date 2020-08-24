@@ -1,5 +1,6 @@
 ---
 title: "Wastewater Surveillance for SARS-CoV-2 in Athens, GA"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
 output: html_document
 ---
 
@@ -8,19 +9,19 @@ output: html_document
 
 ## {.tabset}
 
-Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS-CoV-2, the virus that causes COVID-19. 
+Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;2, the virus that causes COVID&#8209;19. 
 
-We measure the virus by detecting two genes specific to SARS-CoV-2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. Note that the viral copies per liter are shown in a log scale, such that log 5, for example, equals 10^5 copies or 100,000 copies per liter. The theoretical limit of detection (LOD) is noted.
+We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. Note that the viral copies per liter are shown in a log scale, such that log 5, for example, equals 10^5 copies or 100,000 copies per liter. The theoretical limit of detection (LOD) is noted.
 
-We predict that changes in the concentration of SARS-CoV-2 in wastewater will reflect the community trends of circulating COVID-19 infections. The daily number of newly reported COVID-19 cases in Athens-Clarke County (grey) appear alongside the 10-day moving average of new cases (yellow). Changes in SARS-CoV-2 in wastewater may precede changes in reported cases because of lags in clinical testing.
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (grey) appear alongside the 10-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
 
 
 <div style="margin-bottom:50px;">
 </div>
 
-```{r out.height = "100%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+```{r out.height = "120%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_fig.rda")
-p1
+p_combined
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='right', echo=FALSE}
@@ -34,13 +35,13 @@ knitr::include_graphics("./good_legend.png")
 
 Wastewater surveillance is an emerging tool for monitoring disease outbreaks. Coupled with clinical surveillance, wastewater surveillance can be used to estimate the level of viruses circulating in local population. 
 
-To better understand the outbreak of the novel Coronavirus disease-19 (COVID-19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS-CoV-2. 
+To better understand the outbreak of the novel Coronavirus disease-19 (COVID&#8209;19) on a local level, we are monitoring wastewater samples from water reclamation facilities in Athens, GA. Wastewater samples are collected weekly and tested to detect the disease-causing virus, SARS&#8209;CoV&#8209;2. 
 
 Each sample is a composite of the wastewater received by the water reclamation facility in a single day. By examining these samples, we are capturing a snapshot into the health of the entire community that contributes to the sewershed. This wastewater-based research provides a new approach to epidemiology; sewage surveillance may be used to predict the total burden of disease at a community-scale, without extensive clinical sampling.
 
-We are sharing here some of the preliminary results of our wastewater monitoring program. Our objective is to critically examine the use of SARS-CoV-2 wastewater-based epidemiology for the detection and surveillance of SARS-CoV-2 in our local community. 
+We are sharing here some of the preliminary results of our wastewater monitoring program. Our objective is to critically examine the use of SARS&#8209;CoV&#8209;2 wastewater-based epidemiology for the detection and surveillance of SARS&#8209;CoV&#8209;2 in our local community. 
 
-We are developing and evaluating our methods in real-time. We will share with you our weekly results and newest developments. This data is intended to complement clinical-based COVID-19 surveillance data, that will together, inform public health decisions.
+We are developing and evaluating our methods in real-time. We will share with you our weekly results and newest developments. This data is intended to complement clinical-based COVID&#8209;19 surveillance data, that will together, inform public health decisions.
 
 To learn more about national surviellence efforts, using wastewater-based epidemiology, please visit the CDC's [National Wastewater Surveillance System (NWSS)](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/wastewater-surveillance.html). 
 
@@ -49,11 +50,11 @@ To learn more about national surviellence efforts, using wastewater-based epidem
 
 Since May 2020, sewage samples have been collected weekly from the water reclamation facilities (WRFs) that serve Athens-Clarke County. Samples are collected from a 24-hour composite of the influent wastewater received by each WRF. 
 
-Samples are processed by the Lipp Laboratory at the University of Georgia to detect and measure the abundance of SARS-CoV-2 virus in wastewater. 
+Samples are processed by the Lipp Laboratory at the University of Georgia to detect and measure the abundance of SARS&#8209;CoV&#8209;2 virus in wastewater. 
 
-Viral RNA, the genetic material of the SARS-CoV-2 virus, is extracted from each sample using the [QIAamp Viral RNA Mini Kit](https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation). 
+Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracted from each sample using the [QIAamp Viral RNA Mini Kit](https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation). 
 
-The viral RNA is then measured using Real-Time RT-PCR Assays, following the [CDC’s test protocol](https://www.cdc.gov/sars/guidance/f-lab/assays.html) for the N1 and N2 SARS-CoV-2 nucleocapsid genes. 
+The viral RNA is then measured using Real-Time RT-PCR Assays, following the [CDC’s test protocol](https://www.cdc.gov/sars/guidance/f-lab/assays.html) for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. 
 
 The N1 and N2 gene targets are measured and reported as a concentration, by the number of gene copies measured per liter of wastewater.
 
