@@ -31,9 +31,15 @@ knitr::include_graphics("./good_legend.png")
 
 #### Weekly Data Update {.tabset}
 
+##### Prior to August 16, 2020
+Data collection began in June of 2020 where the concentration of ARS&#8209;CoV&#8209;2 was below the limit of detection at the start of experimentation. At the end of June SARS&#8209;CoV&#8209;2 concentration had rose to over 10 million copies per liter and held moderately steady through mid-July. Following July 21, 2020 SARS&#8209;CoV&#8209;2 copies began to decline through early August. Since August 4, 2020 ARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets.  
+
+These results were consistent with the increases and declines observed in the daily cases reported for Athens-Clarke County, GA. 
+
 ##### August 16-22
-Prior to June 30, 2020, the quantity of SARS&#8209;CoV&#8209;2 in wastewater was below the limit of detection. By June 30, 2020, the quantity of SASARS&#8209;CoV&#8209;2 rose to over 10 million copies per liter, but then began to decline again by August 8, 2020. Daily reported cases declined around August 18, 2020, approximately 10 days later.
-On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased again to over 10 million copies per liter. This reflects a ___ % increase from the concentration reported on August 11, 2020. This uptick may precede an increase in the number of reported COVID&#8209;19 cases. Results and preliminary discussion will be updated weekly.
+On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is not reflected in the daily reported cases for Athens-Clarke county and may precede an increase in the number of reported COVID&#8209;19.  
+
+Furthermore, this week is aligned with the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
 
 <div style="margin-bottom:25px;">
 </div>
