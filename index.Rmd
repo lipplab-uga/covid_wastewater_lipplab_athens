@@ -11,7 +11,7 @@ Sewage samples are collected weekly from water reclamation facilities that serve
 
 We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. The theoretical Limit of Detection (LOD) is noted.
 
-We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (grey) appear alongside the 10-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple) appear alongside the 10-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
 
 
 <div style="margin-bottom:50px;">
@@ -32,7 +32,7 @@ knitr::include_graphics("./good_legend.png")
 #### Weekly Data Update {.tabset}
 
 ##### August 16-22
-On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is not reflected in the daily reported cases for Athens-Clarke county and may precede an increase in the number of reported COVID&#8209;19.  
+On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is somewhat reflected in the daily reported cases for Athens-Clarke county and may indicate further increases in the coming weeks.  
 
 Furthermore, this week marks the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
 
@@ -84,7 +84,7 @@ A more detailed explanation of the research methods can be found <a href="https:
 
 This weekly monitoring is conducted in partnership between Athens-Clarke County Utilities, the Lipp Laboratory, and the College of Public Health at the University of Georgia.
 
-##### Team 
+**Team**
 
 Dr. Erin Lipp
 
