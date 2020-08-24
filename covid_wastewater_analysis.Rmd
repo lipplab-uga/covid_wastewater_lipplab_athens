@@ -96,7 +96,7 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
                                 color = background_color,
                                 colors = background_color,
                                 showlegend = FALSE) %>%
-            layout(yaxis = list(title = "Clarke County Daily Cases", range = c(0,80), showline=TRUE)) %>%
+            layout(yaxis = list(title = "Athens Daily Cases", range = c(0,80), showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
         #renders the main plot layer two as ten day moving average
@@ -112,51 +112,71 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
         
         #renders the main plot layer three as positive target hits
         
-        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~log_copy_per_L,
+        p2 <- plotly::plot_ly() %>%
+          plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
                                        type = "scatter",
                                        mode = "markers",
                                        hoverinfo = "text",
                                        text = ~paste('</br> Date: ', date,
                                                      '</br> Facility: ', Facility,
                                                      '</br> Target: ', target,
-                                                     '</br> Log Copies/L: ', round(log_copy_per_L, digits = 2)),
+                                                     '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
                                        data = only_n1,
                                        symbol = ~Facility,
-                                       yaxis = "y2",
                                        marker = list(color = '#1B9E77', size = 8, opacity = 0.65),
                                        showlegend = FALSE) %>%
-          plotly::add_trace(x = ~date, y = ~log_copy_per_L,
+          plotly::add_trace(x = ~date, y = ~mean_copy_num_L,
                                        type = "scatter",
                                        mode = "markers",
                                        hoverinfo = "text",
                                        text = ~paste('</br> Date: ', date,
                                                      '</br> Facility: ', Facility,
                                                      '</br> Target: ', target,
-                                                     '</br> Log Copies/L: ', round(log_copy_per_L, digits = 2)),
+                                                     '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
                                        data = only_n2,
                                        symbol = ~Facility,
-                                       yaxis = "y2",
                                        marker = list(color = '#D95F02', size = 8, opacity = 0.65),
                                        showlegend = FALSE) %>%
-            layout(yaxis2 = list(overlaying = "y", 
-                                 side = "right", 
-                                 title = "SARS CoV-2 Log Copies Per L", 
-                                 range = c(0, 8), showline = TRUE,
+            layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
+                                 showline = TRUE,
                                  automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
-        p1 <- p1 %>% plotly::add_segments(x = as.Date("2020-03-14"), xend = ~max(date + 10), y = 35.5, yend = 35.5,
+        p2 <- p2 %>% plotly::add_segments(x = as.Date("2020-03-14"), xend = ~max(date + 10), y = 3571.4, yend = 3571.4,
                                           opacity = 0.35,
                                           line = list(color = "black", dash = "dash")) %>%
-          layout(annotations = list(x = as.Date("2020-03-27"), y = 38, xref = "x", yref = "y", 
+          layout(annotations = list(x = as.Date("2020-03-28"), y = 510000, xref = "x", yref = "y", 
                                     text = "Limit of Detection", showarrow = FALSE))
         
         p1
+        p2
+```
+
+```{r}
+p_combined <-
+    plotly::subplot(p2,p1, # plots to combine, top to bottom
+      nrows = 2,
+      heights = c(.5,.5),  # relative heights of the two plots
+      shareX = TRUE,  # plots will share an X axis
+      titleY = TRUE
+    ) %>%
+    # create a vertical "spike line" to compare data across 2 plots
+    plotly::layout(
+      xaxis = list(
+        spikethickness = 1,
+        spikedash = "dot",
+        spikecolor = "black",
+        spikemode = "across+marker",
+        spikesnap = "cursor"
+      ),
+      yaxis = list(spikethickness = 0)
+    )
+p_combined
 ```
 
 
 ```{r}
-save(p1, file = "./plotly_fig.rda")
+save(p_combined, file = "./plotly_fig.rda")
 ```
 
 
