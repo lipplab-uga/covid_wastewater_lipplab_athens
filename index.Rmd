@@ -75,6 +75,8 @@ The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a h
 
 The N1 and N2 gene targets are measured and reported as a concentration, by the number of gene copies measured per liter of wastewater.
 
+Reported case data for COVID-19 has been collected from <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">Georgia's Department of Public Health</a> and summarized by Mark Ebell, MD, MS <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS701zSLS_VgpMUVSuGWI89Y05Yev3QCCF-l0nbwtSN1tE-hGlMV1T2Tg0GFVuiVD010szZ1ukr7vnM/pubhtml" target="_blank">here</a>. 
+
 A more detailed explanation of the research methods can be found <a href="https://docs.google.com/document/d/1vvRGrvR5iF3P6d40tKPjUpOZBBKGz_OZAr9Z5xJiCKw/edit?usp=sharing" target="_blank">here</a>. 
 
 <div style="margin-bottom:50px;">
