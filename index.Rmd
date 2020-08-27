@@ -34,7 +34,7 @@ _Updated every Thursday_
 
 ##### August 25
 
-On August 25, 2020 wastewater surveillance showed a minor increase in the concentration of SARS&#8209;CoV&#8209;2 copies in Athens-Clarke county. This increase is consistent with the upward trend observed over the prior three weeks and suggests that the number of infected individuals has been steadily increasing since August 4^th^. Reported cases remained moderately steady through the week averaging between 30-50 new cases per day. 
+SARS-CoV-2 concentrations in Athens-Clarke County wastewater increased slightly in this week's samples (reaching >900,000 copies of the virus per liter of sewage). This moderate increase continues the upward trend observed over the prior three weeks. Reported cases have remained steady through the week (8/18 - 8/25/2020) averaging ~30 new cases per day.
 
 ##### August 18
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is somewhat reflected in the daily reported cases for Athens-Clarke county and may indicate further increases in the coming weeks.  
