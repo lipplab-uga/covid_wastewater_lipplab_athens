@@ -120,3 +120,29 @@ p2
 ```{r}
 save(p2, file = "./plotly_fig_2.rda")
 ```
+
+
+
+###Smoothing figs
+```{r}
+smooth_n1 <- only_n1 %>% group_by(date) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup()
+
+smooth_n2 <- only_n2 %>% group_by(date) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup()
+
+p3 <- plotly::plot_ly() %>%
+  plotly::add_trace(x = ~date, y = ~log10(mean_copy_num_L),
+                    type = "scatter",
+                    mode = "markers",
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date,
+                                  '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
+                    data = smooth_n1,
+                    markers = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE)
+
+p3
+```
