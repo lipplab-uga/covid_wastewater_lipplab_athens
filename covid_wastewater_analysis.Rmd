@@ -11,6 +11,7 @@ Load all required libraries.
 ```{r}
 library(tidyverse)
 library(plotly)
+library(broom)
 ```
 
 Read in raw data from RDS.
@@ -205,6 +206,5 @@ save(p_combined, file = "./plotly_fig.rda")
 ```{r}
 htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
 ```
-
 
 

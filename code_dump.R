@@ -125,24 +125,89 @@ save(p2, file = "./plotly_fig_2.rda")
 
 ###Smoothing figs
 ```{r}
-smooth_n1 <- only_n1 %>% group_by(date) %>%
-  summarize_if(is.numeric, mean) %>%
-  ungroup()
+#create smothing data frames for loess
+#n1
+smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_copy_num_L)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L))
 
-smooth_n2 <- only_n2 %>% group_by(date) %>%
-  summarize_if(is.numeric, mean) %>%
-  ungroup()
+#n2
+smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_copy_num_L)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L))
+
+sumfit_1 <- loess(log_sum_copies_L ~ new_cases_clarke, data = smooth_n1, span = 0.8)
+sumfit_2 <- loess(log_sum_copies_L ~ new_cases_clarke, data = smooth_n2, span = 0.8)
 
 p3 <- plotly::plot_ly() %>%
-  plotly::add_trace(x = ~date, y = ~log10(mean_copy_num_L),
+  plotly::add_trace(x = ~date, y = ~log_sum_copies_L,
                     type = "scatter",
                     mode = "markers",
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date,
-                                  '</br> Copies/L: ', round(mean_copy_num_L, digits = 2)),
+                                  '</br> Copies/L: ', round(sum_copy_num_L, digits = 2)),
                     data = smooth_n1,
-                    markers = list(color = '#1B9E77', size = 8, opacity = 0.65),
-                    showlegend = FALSE)
+                    marker = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+  plotly::add_trace(x = ~date, y = ~log_sum_copies_L,
+                    type = "scatter",
+                    mode = "markers",
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date,
+                                  '</br> Copies/L: ', round(sum_copy_num_L, digits = 2)),
+                    data = smooth_n2,
+                    marker = list(color = '#D95F02', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+  plotly::add_lines(x = ~date, y = predict(sumfit_1),
+                    data = smooth_n1,
+                    hoverinfo = "text",
+                    text = NULL,
+                    showlegend = FALSE,
+                    line = list(color = '#1B9E77')) %>%
+  plotly::add_lines(x = ~date, y = predict(sumfit_2),
+                    data = smooth_n2,
+                    hoverinfo = "text",
+                    text = NULL,
+                    showlegend = FALSE,
+                    line = list(color = '#D95F02'))
+
 
 p3
 ```
+
+```{r}
+ddd <- smooth_n1 %>% ggplot() + geom_smooth(aes(x = date, y = log_sum_copies_L), span = 0.8)
+ddd
+```
+
+
+
+
+
+
+
+
+#fit smoothing to loess function and predict values for standard error
+sumfit_1 <- loess(log_sum_copies_L ~ new_cases_clarke, data = smooth_n1, span = 0.95)
+sumfit_2 <- loess(log_sum_copies_L ~ new_cases_clarke, data = smooth_n2, span = 0.95)
+pred_1 <- predict(sumfit_1, se = TRUE)
+pred_2 <- predict(sumfit_2, se = TRUE)
+
+#combine fits/predictions into a dataframe
+smooth_df_n1 <- data.frame(x = sumfit_1$x, fit = pred_1$fit, 
+                           ymin = pred_1$fit - (1.96 * pred_1$se.fit), 
+                           ymax = pred_1$fit + (1.96 * pred_1$se.fit))
+#smooth_df_n1 <- smooth_df_n1[order(smooth_df_n1$date)]
+
+
+p3 <- p3 %>%  plotly::add_ribbons(data = augment(sumfit_1),
+                                  x = ~date,
+                                  ymin = ~.fitted - 1.96 * .se.fit,
+                                  ymax = ~.fitted + 1.96 * .se.fit,
+                                  line = list(color = 'rgba(7, 164, 181, 0.05)'),
+                                  fillcolor = 'rgba(7, 164, 181, 0.2)',
+                                  name = "Standard Error")
