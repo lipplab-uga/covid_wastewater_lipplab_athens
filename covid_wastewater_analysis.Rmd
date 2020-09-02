@@ -29,51 +29,16 @@ final_data <- raw_data %>% mutate(log_copy_per_L = log10(mean_copy_num_L)) %>%
                            "CC" = "WRF C"))
 ```
 
-Create the plot:  
-1)Start with a basic bar plot to show Department of Public Health Data  
-2)Layer a line plot to show 7-day moving average  
-3)Layer a scatterplot to show wastewater data  
-4)Layer a horizontal line and annotation to indicate the limit of detection (LOD) for RT-qPCR  
-5)Finish with asthetics (note legend asthetics are split to maintain theme_classic)  
+
+Seperate the data by gene target to ease layering in the final plot
 ```{r}
-clean_plot <- final_data %>% ggplot() + 
-  geom_bar(aes(x = date, y = new_cases_clarke), stat = "sum", alpha = 0.35, fill = "#7570B3", show.legend = FALSE)
-  
-clean_plot <- clean_plot + 
-  geom_line(aes(x = date, y = X10_day_ave_clarke), size = 1, color ="#E6AB02") +           
-  geom_point(aes(x = date, y = log_copy_per_L*10, color = target, shape = Facility), size = 2.5) +
-  geom_hline(yintercept = 35.5, linetype = "dashed") +
-  annotate("text", x = as.Date("2020-03-20"), y = 39, label = "LOD")
-
-clean_plot <- clean_plot + 
-  scale_y_continuous(limits = c(0,80), breaks = seq(0, 80, 20), 
-  sec.axis = sec_axis(~. / 10, name = "SARS CoV-2 Log Copies Per L")) +
-  ylab("Clarke County Daily Cases") + xlab("Date") + 
-  theme_classic() + guides(color=guide_legend("SARS CoV-2 Target")) 
-
-clean_plot <- clean_plot + 
-  theme(legend.position = "none") #generating tidy legend as png file
-
-clean_plot <- clean_plot + scale_color_manual(na.translate = FALSE, values = c("#1B9E77", "#D95F02")) + scale_shape_manual(na.translate = FALSE, values = c(1:2))
-
-clean_plot
-```
-
-Save the plot!
-```{r}
-#ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot)
-```
-
-
-```{r}
+#make three data layers
 only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
 only_n1 <- subset(only_positives, target == "N1")
 only_n2 <- subset(only_positives, target == "N2")
 only_background <<-final_data %>% 
   select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
   group_by(date) %>% summarise_if(is.numeric, mean)
-
-
 
 #specify fun colors
 background_color <- "#7570B3"
@@ -82,26 +47,11 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
 
+
+Build the main plot
 ```{r}
-#add fits
-fit_n1 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n1, span = 0.8)
-fit_n2 <- loess(mean_copy_num_L ~ new_cases_clarke, data = only_n2, span = 0.8)
 
-only_n1 <- only_n1 %>% mutate(pred_n1 = predict(fit_n1))
-only_n2 <- only_n2 %>% mutate(pred_n2 = predict(fit_n2))
-```
-
-```{r}
-trend1 <- only_n1 %>% group_by(date, target) %>%
-  summarize_if(is.numeric, mean) %>% 
-  ungroup()
-trend2 <- only_n2 %>% group_by(date, target) %>%
-  summarize_if(is.numeric, mean) %>%
-  ungroup()
-```
-
-
-```{r}
+      #first layer is the background epidemic curve
         p1 <- only_background %>%
               plotly::plot_ly() %>%
               plotly::add_trace(x = ~date, y = ~new_cases_clarke, 
@@ -161,6 +111,7 @@ trend2 <- only_n2 %>% group_by(date, target) %>%
                                  automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
+        #adds the limit of detection dashed line
         p2 <- p2 %>% plotly::add_segments(x = as.Date("2020-03-14"), 
                                           xend = ~max(date + 10), 
                                           y = 3571.429, yend = 3571.429,
@@ -175,6 +126,7 @@ trend2 <- only_n2 %>% group_by(date, target) %>%
         p2
         
 ```
+Combine the two main plot pieces as a subplot
 
 ```{r}
 p_combined <-
@@ -198,11 +150,12 @@ p_combined <-
 p_combined
 ```
 
-
+Save the plot to pull into the index
 ```{r}
 save(p_combined, file = "./plotly_fig.rda")
 ```
 
+Save an htmlwidget for website embedding
 ```{r}
 htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
 ```
