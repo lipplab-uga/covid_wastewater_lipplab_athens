@@ -61,7 +61,7 @@ clean_plot
 
 Save the plot!
 ```{r}
-ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot)
+#ggsave(filename = "./athens_covid_wastewater_master_plot.png", plot = clean_plot)
 ```
 
 
