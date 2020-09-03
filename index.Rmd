@@ -123,14 +123,15 @@ For more information about our team and other ongoing research please visit the 
 
 ### Data Trends
 
-The total viral load of SARS-CoV-2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS‑CoV‑2, the virus that causes COVID‑19.  
+The total viral load of SARS&#8209;CoV&#8209;2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;222, the virus that causes COVID&#8209;19.  
 
-The total viral load of SARS-CoV-2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
+The total viral load of SARS&#8209;CoV&#8209;2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
 
-The trendlines below reflect the estimated total viral load of SARS-CoV-2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS). The error associated with these estimates (the 95% confidence interval) is displayed.  
+The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS). The error associated with these estimates (the 95% confidence interval) is displayed.  
 
 Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
-We predict that changes in the concentration of SARS‑CoV‑2 in wastewater will reflect the community trends of circulating COVID‑19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
+
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
 
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
