@@ -64,7 +64,7 @@ Build the main plot
                                 color = background_color,
                                 colors = background_color,
                                 showlegend = FALSE) %>%
-            layout(yaxis = list(title = "Athens Daily Cases", showline=TRUE)) %>%
+            layout(yaxis = list(title = "Clarke County Daily Cases", showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
         #renders the main plot layer two as seven day moving average
