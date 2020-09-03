@@ -161,3 +161,147 @@ htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
 ```
 
 
+Build loess smoothing figures figures
+
+```{r}
+#create smoothing data frames 
+#n1
+smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
+  mutate(target = "N1")
+
+#n2
+smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
+  mutate(target = "N2")
+```
+
+
+```{r}
+#add trendlines 
+#extract data from geom_smooth
+#n1 extract
+extract_n1 <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
+  stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', span = 0.8)
+#n2 extract
+extract_n2 <- ggplot(smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
+  stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', span = 0.8)
+
+#look at the fits to align dates and total observations
+#n1
+extract_n1
+fit_n1
+#n2
+extract_n2
+fit_n2
+
+#assign fits to a vector
+n1_trend <- fit_n1
+n2_trend <- fit_n2
+
+#extract y min and max for each
+limits_n1 <- ggplot_build(extract_n1)$data
+limits_n1 <- as.data.frame(limits_n1)
+n1_ymin <- limits_n1$ymin
+n1_ymax <- limits_n1$ymax
+
+limits_n2 <- ggplot_build(extract_n2)$data
+limits_n2 <- as.data.frame(limits_n2)
+n2_ymin <- limits_n2$ymin
+n2_ymax <- limits_n2$ymax
+
+#reassign dataframes (just to be safe)
+work_n1 <- smooth_n1
+work_n2 <- smooth_n2
+
+#fill in missing dates to smooth fits
+work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+date_vec_n1 <- work_n1$date
+work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+date_vec_n2 <- work_n2$date
+
+#create a new smooth dataframe to layer
+smooth_frame_n1 <- data.frame(date_vec_n1, n1_trend, n1_ymin, n1_ymax)
+smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend, n2_ymin, n2_ymax)
+
+#plot smooth frames
+p3 <- plotly::plot_ly() %>%
+  plotly::add_lines(x = ~date_vec_n1, y = ~n1_trend,
+                    data = smooth_frame_n1,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n1,
+                                  '</br> Log Copies/L: ', round(n1_trend, digits = 2),
+                                  '</br> Target: N1'),
+                    line = list(color = '#1B9E77', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
+                  data = smooth_frame_n2,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n2,
+                                  '</br> Log Copies/L: ', round(n2_trend, digits = 2),
+                                  '</br> Target: N2'),
+                    line = list(color = '#D95F02', size = 8, opacity = 0.65),
+                    showlegend = FALSE) %>%
+plotly::add_ribbons(x ~date_vec_n1, ymin = ~n1_ymin, ymax = ~n1_ymax,
+                    showlegend = FALSE,
+                    opacity = 0.25,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n1, #leaving in case we want to change
+                                  '</br> Max Log Copies/L: ', round(n1_ymax, digits = 2),
+                                  '</br> Min Log Copies/L: ', round(n1_ymin, digits = 2),
+                                  '</br> Target: N1'),
+                    name = "",
+                    line = list(color = '#1B9E77')) %>%
+plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
+                    showlegend = FALSE,
+                    opacity = 0.25,
+                    hoverinfo = "text",
+                    text = ~paste('</br> Date: ', date_vec_n2, #leaving in case we want to change
+                                  '</br> Max Log Copies/L: ', round(n2_ymax, digits = 2),
+                                  '</br> Min Log Copies/L: ', round(n2_ymin, digits = 2),
+                                  '</br> Target: N2'),
+                    name = "",
+                    line = list(color = '#D95F02')) %>%
+                layout(yaxis = list(title = "Log SARS CoV-2 Copies/L", 
+                                 showline = TRUE,
+                                 automargin = TRUE)) %>%
+                layout(xaxis = list(title = "Date"))
+
+p3
+```
+
+Create final trend plot by stacking with epidemic curve
+
+```{r}
+smooth_extract <-
+    plotly::subplot(p3,p1, # plots to combine, top to bottom
+      nrows = 2,
+      heights = c(.6,.4),  # relative heights of the two plots
+      shareX = TRUE,  # plots will share an X axis
+      titleY = TRUE
+    ) %>%
+    # create a vertical "spike line" to compare data across 2 plots
+    plotly::layout(
+      xaxis = list(
+        spikethickness = 1,
+        spikedash = "dot",
+        spikecolor = "black",
+        spikemode = "across+marker",
+        spikesnap = "cursor"
+      ),
+      yaxis = list(spikethickness = 0)
+    )
+
+smooth_extract
+```
+
+```{r}
+save(smooth_extract, file = "./smooth_extract.rda")
+```
+
