@@ -7,11 +7,15 @@ output: html_document
 <div style="margin-bottom:25px;">
 </div>
 
+## {.tabset}
+
+### All Data
+
 Sewage samples are collected weekly from water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;2, the virus that causes COVID&#8209;19. 
 
 We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater. The theoretical Limit of Detection (LOD) is noted.
 
-We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple) appear alongside the 10-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
+We predict that changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). Changes in SARS&#8209;CoV&#8209;2 in wastewater may precede changes in reported cases because of lags in clinical testing.
 
 
 <div style="margin-bottom:50px;">
@@ -32,16 +36,26 @@ knitr::include_graphics("./good_legend.png")
 #### Weekly Data Update {.tabset}
 _Updated every Thursday_
 
-##### August 25
+##### Sept 1
 
-SARS-CoV-2 concentrations in Athens-Clarke County wastewater increased slightly in this week's samples (reaching >900,000 copies of the virus per liter of sewage). This moderate increase continues the upward trend observed over the prior three weeks. Reported cases have remained steady through the week (8/18 - 8/25/2020) averaging ~30 new cases per day.
+This week continues the trend of the past month with SARS&#8209;CoV&#8209;2 concentrations increasing in wastewater. Levels increased to their highest point since the beginning of data collection with average concentrations for both plants and both targets exceeding 3 million copies of virus per liter of sewage, approximately 10-fold higher than the prior week. Daily reported cases in Clarke County also continued to rise reaching a 7-day moving average of >74 cases per day.
 
-##### August 18
+<div style="margin-bottom:25px;">
+</div>
+
+##### Aug 25
+
+SARS-CoV-2 concentrations in Athens-Clarke County wastewater increased slightly in this week's samples (reaching >900,000 copies of the virus per liter of sewage). This moderate increase continues the upward trend observed over the prior three weeks. Reported cases have remained steady through the week (8/18 - 8/25/2020) averaging ~30 new cases per day.  
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Aug 18
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is somewhat reflected in the daily reported cases for Athens-Clarke county and may indicate further increases in the coming weeks.  
 
 Furthermore, this week marks the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
 
-##### Prior to August 18, 2020
+##### Prior to Aug 18, 2020
 Weekly analyses of SARS&#8209;CoV&#8209;2 in sewage began June 16, 2020, at which time concentrations were below the current method limit of detection and new cases were reported at <10 per day. Reported cases began to increase to >20 per day in late June and SARS&#8209;CoV&#8209;2 concentration  increased to up to 10 million viral copies per liter. Sewage concentrations were steady through mid-July inline with newly reported cases averaging 35 per day. Beginning July 21, 2020 SARS&#8209;CoV&#8209;2 concentrations in sewage began to decline through early August, while concurrent case report remained high. We suspect that this decline possibly preceded the decline in cases noted in late August, which may be due to lags in testing results and case reporting.  
 
 Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets. This suggests that sewage concentrations may be a leading indicator for new cases in the community, but more data collection and  monitoring of delays in testing reports will be needed to confirm this trend.
@@ -101,7 +115,35 @@ William Norfolk, PhD Student
 
 Megan Robertson, PhD Student 
 
-For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="http://www.lipplab.org/" target="_blank">website</a>.
+For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="https://publichealth.uga.edu/faculty-member/erin-k-lipp/" target="_blank">website</a>.
 
 <div style="margin-bottom:50px;">
 </div>
+
+
+### Data Trends
+
+The total viral load of SARS-CoV-2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS‑CoV‑2, the virus that causes COVID‑19.  
+
+The total viral load of SARS-CoV-2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
+
+The trendlines below reflect the estimated total viral load of SARS-CoV-2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS). The error associated with these estimates (the 95% confidence interval) is displayed.  
+
+Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
+We predict that changes in the concentration of SARS‑CoV‑2 in wastewater will reflect the community trends of circulating COVID‑19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
+
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./smooth_extract.rda")
+smooth_extract
+```
+
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./trend_legend.png")
+```
+
+
+<div style="margin-bottom:50px;">
+</div>
+

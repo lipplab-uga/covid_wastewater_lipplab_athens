@@ -37,12 +37,12 @@ only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
 only_n1 <- subset(only_positives, target == "N1")
 only_n2 <- subset(only_positives, target == "N2")
 only_background <<-final_data %>% 
-  select(c(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke)) %>%
+  select(c(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke)) %>%
   group_by(date) %>% summarise_if(is.numeric, mean)
 
 #specify fun colors
 background_color <- "#7570B3"
-ten_day_ave_color <- "#E6AB02"
+seven_day_ave_color <- "#E6AB02"
 marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
@@ -64,19 +64,21 @@ Build the main plot
                                 color = background_color,
                                 colors = background_color,
                                 showlegend = FALSE) %>%
-            layout(yaxis = list(title = "Athens Daily Cases", range = c(0,80), showline=TRUE)) %>%
+            layout(yaxis = list(title = "Athens Daily Cases", showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
-        #renders the main plot layer two as ten day moving average
-        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X10_day_ave_clarke, 
+        #renders the main plot layer two as seven day moving average
+        p1 <- p1 %>% plotly::add_trace(x = ~date, y = ~X7_day_ave_clarke, 
                              type = "scatter",
                              mode = "lines",
                              hoverinfo = "text",
                             text = ~paste('</br> Date: ', date,
-                                                     '</br> Ten-Day Moving Average: ', X10_day_ave_clarke),
-                             name = "Ten Day Moving Average Athens",
-                             line = list(color = ten_day_ave_color),
+                                                     '</br> Seven-Day Moving Average: ', X7_day_ave_clarke),
+                             name = "Seven Day Moving Average Athens",
+                             line = list(color = seven_day_ave_color),
                              showlegend = FALSE)
+      
+
         
         #renders the main plot layer three as positive target hits
         
@@ -106,7 +108,7 @@ Build the main plot
                                        marker = list(color = '#D95F02', size = 8, opacity = 0.65),
                                        showlegend = FALSE) %>%
             layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
-                                 range = c(3, 8), showline = TRUE,
+                                 showline = TRUE,
                                  type = "log",
                                  automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
@@ -167,7 +169,7 @@ Build loess smoothing figures figures
 #create smoothing data frames 
 #n1
 smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
@@ -175,7 +177,7 @@ smooth_n1 <- only_n1 %>% select(-c(Facility)) %>%
 
 #n2
 smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X10_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(log_sum_copies_L = log10(sum_copy_num_L)) %>%
@@ -221,9 +223,9 @@ work_n1 <- smooth_n1
 work_n2 <- smooth_n2
 
 #fill in missing dates to smooth fits
-work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
 date_vec_n1 <- work_n1$date
-work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +9, by = "1 day"))
+work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
 date_vec_n2 <- work_n2$date
 
 #create a new smooth dataframe to layer
@@ -236,7 +238,7 @@ p3 <- plotly::plot_ly() %>%
                     data = smooth_frame_n1,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n1,
-                                  '</br> Log Copies/L: ', round(n1_trend, digits = 2),
+                                  '</br> Log Copies: ', round(n1_trend, digits = 2),
                                   '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
@@ -244,7 +246,7 @@ plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
                   data = smooth_frame_n2,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n2,
-                                  '</br> Log Copies/L: ', round(n2_trend, digits = 2),
+                                  '</br> Log Copies: ', round(n2_trend, digits = 2),
                                   '</br> Target: N2'),
                     line = list(color = '#D95F02', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
@@ -253,8 +255,8 @@ plotly::add_ribbons(x ~date_vec_n1, ymin = ~n1_ymin, ymax = ~n1_ymax,
                     opacity = 0.25,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n1, #leaving in case we want to change
-                                  '</br> Max Log Copies/L: ', round(n1_ymax, digits = 2),
-                                  '</br> Min Log Copies/L: ', round(n1_ymin, digits = 2),
+                                  '</br> Max Log Copies: ', round(n1_ymax, digits = 2),
+                                  '</br> Min Log Copies: ', round(n1_ymin, digits = 2),
                                   '</br> Target: N1'),
                     name = "",
                     line = list(color = '#1B9E77')) %>%
@@ -263,15 +265,45 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                     opacity = 0.25,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n2, #leaving in case we want to change
-                                  '</br> Max Log Copies/L: ', round(n2_ymax, digits = 2),
-                                  '</br> Min Log Copies/L: ', round(n2_ymin, digits = 2),
+                                  '</br> Max Log Copies: ', round(n2_ymax, digits = 2),
+                                  '</br> Min Log Copies: ', round(n2_ymin, digits = 2),
                                   '</br> Target: N2'),
                     name = "",
                     line = list(color = '#D95F02')) %>%
-                layout(yaxis = list(title = "Log SARS CoV-2 Copies/L", 
+                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
-                layout(xaxis = list(title = "Date"))
+                layout(xaxis = list(title = "Date")) %>%
+    plotly::add_segments(x = as.Date("2020-06-24"), 
+                                          xend = as.Date("2020-06-24"), 
+                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          opacity = 0.35,
+                                          name = "Bars Repoen",
+                                          hoverinfo = "text",
+                                          text = "</br> Bars Reopen",
+                                                 "</br> 2020-06-24",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+    plotly::add_segments(x = as.Date("2020-07-09"), 
+                                          xend = as.Date("2020-07-09"), 
+                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          opacity = 0.35,
+                                          name = "Mask Mandate",
+                                          hoverinfo = "text",
+                                          text = "</br> Mask Mandate",
+                                                 "</br> 2020-07-09",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash")) %>%
+    plotly::add_segments(x = as.Date("2020-08-20"), 
+                                          xend = as.Date("2020-08-20"), 
+                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          opacity = 0.35,
+                                          name = "</br> Classes Begin",
+                                                 "</br> 2020-08-20",
+                                          hoverinfo = "text",
+                                          text = "Classes Begin",
+                                          showlegend = FALSE,
+                                          line = list(color = "black", dash = "dash"))
 
 p3
 ```
