@@ -110,6 +110,7 @@ Build the main plot
             layout(yaxis = list(title = "SARS CoV-2 Copies/L", 
                                  showline = TRUE,
                                  type = "log",
+                                 dtick = 1,
                                  automargin = TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
@@ -189,11 +190,14 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #add trendlines 
 #extract data from geom_smooth
 #n1 extract
+#*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_n1 <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
-  stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', span = 0.8)
+  stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', 
+              span = 0.8, n = 85)
 #n2 extract
 extract_n2 <- ggplot(smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
-  stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', span = 0.8)
+  stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', 
+              span = 0.8, n = 85)
 
 #look at the fits to align dates and total observations
 #n1
@@ -223,9 +227,9 @@ work_n1 <- smooth_n1
 work_n2 <- smooth_n2
 
 #fill in missing dates to smooth fits
-work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
+work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date), by = "1 day"))
 date_vec_n1 <- work_n1$date
-work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date) +2, by = "1 day"))
+work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date), by = "1 day"))
 date_vec_n2 <- work_n2$date
 
 #create a new smooth dataframe to layer
