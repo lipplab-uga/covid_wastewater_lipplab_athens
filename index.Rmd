@@ -36,6 +36,10 @@ knitr::include_graphics("./good_legend.png")
 #### Weekly Data Update {.tabset}
 _Updated every Thursday_
 
+##### Sept 8
+
+The September 8 data update is delayed due to a technical issue. New data will be added as soon as the as we are able. Thank you for your patience. 
+
 ##### Sept 1
 
 This week continues the trend of the past month with SARS&#8209;CoV&#8209;2 concentrations increasing in wastewater. Levels increased to their highest point since the beginning of data collection with average concentrations for both plants and both targets exceeding 3 million copies of virus per liter of sewage, approximately 10-fold higher than the prior week. Daily reported cases in Clarke County also continued to rise reaching a 7-day moving average of >74 cases per day.
