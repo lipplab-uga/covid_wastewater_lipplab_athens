@@ -34,7 +34,8 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 #### Weekly Data Update {.tabset}
-_Updated every Thursday_
+_Updated every Thursday_  
+_Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
 ##### Sept 8
 
