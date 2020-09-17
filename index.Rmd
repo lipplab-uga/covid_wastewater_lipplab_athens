@@ -37,6 +37,13 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Sept 15
+
+The September 15 update is experiencing a delay and will be posted by Friday Sept 18. We apologize for any inconvenience 
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Sept 8
 
 This week, levels of SARS&#8209;CoV&#8209;2 for both targets at both plants continued to exceed 1 million copies of virus per liter of sewage. Average values were similar to concentrations from the prior week (September 1, 2020) with virtually no change in the average levels at WRF B and a 6% reduction at WRF A.  
@@ -134,7 +141,6 @@ For more information about our team and other ongoing research please visit the 
 <div style="margin-bottom:50px;">
 </div>
 
-
 ### Data Trends
 
 The total viral load of SARS&#8209;CoV&#8209;2 in the sewershed was estimated using data from our weekly wastewater monitoring. Sewage samples are collected weekly from two of the three water reclamation facilities that serve Athens Clarke County (WRF A and WRF B). Samples are tested to detect and measure SARS&#8209;CoV&#8209;222, the virus that causes COVID&#8209;19.  
@@ -158,6 +164,13 @@ smooth_extract
 knitr::include_graphics("./trend_legend.png")
 ```
 
+
+<div style="margin-bottom:25px;">
+</div>
+
+## 
+**How to Cite**  
+Lott M, Norfolk W, Robertson M, & Lipp E. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases.
 
 <div style="margin-bottom:50px;">
 </div>
