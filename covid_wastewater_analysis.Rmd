@@ -319,14 +319,14 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                        hoverinfo = "text",
                        showlegend = FALSE,
                        text = ~paste('</br> Date: ', date, 
-                                     '</br> Actual Log Copies: ', round(log_sum_copies_L, digits = 2)),
+                                     '</br> Observed Log Copies: ', round(log_sum_copies_L, digits = 2)),
                        marker = list(color = '#1B9E77', size = 6, opacity = 0.65)) %>%
     plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
                       data = smooth_n2,
                        hoverinfo = "text",
                        showlegend = FALSE,
                        text = ~paste('</br> Date: ', date, 
-                                     '</br> Actual Log Copies: ', round(log_sum_copies_L, digits = 2)),
+                                     '</br> Observed Log Copies: ', round(log_sum_copies_L, digits = 2)),
                        marker = list(color = '#D95F02', size = 6, opacity = 0.65))
 
 p3
