@@ -39,7 +39,7 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 ##### Sept 15
 
-The September 15 update is experiencing a delay and will be posted by Friday Sept 18. We apologize for any inconvenience 
+This week, the level SARS&#8209;CoV&#8209;2 continued to exceed 1 million copies of virus per liter of sewage. While the 7-day running average of new cases has declined in Athens-Clarke County, there were no significant changes in the level of SARS&#8209;CoV&#8209;2 virus in wastewater, compared to those observed on September 9, 2020.
 
 <div style="margin-bottom:25px;">
 </div>
@@ -160,7 +160,7 @@ smooth_extract
 ```
 
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./trend_legend.png")
 ```
 

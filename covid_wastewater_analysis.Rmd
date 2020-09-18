@@ -190,14 +190,15 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #add trendlines 
 #extract data from geom_smooth
 #n1 extract
+# *********************************span 0.6***********************************
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_n1 <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.8, n = 85)
+              span = 0.6, n = 92)
 #n2 extract
 extract_n2 <- ggplot(smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.8, n = 85)
+              span = 0.6, n = 92)
 
 #look at the fits to align dates and total observations
 #n1
@@ -236,13 +237,18 @@ date_vec_n2 <- work_n2$date
 smooth_frame_n1 <- data.frame(date_vec_n1, n1_trend, n1_ymin, n1_ymax)
 smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend, n2_ymin, n2_ymax)
 
+```
+
+```{r}
+#make plotlys
+
 #plot smooth frames
 p3 <- plotly::plot_ly() %>%
   plotly::add_lines(x = ~date_vec_n1, y = ~n1_trend,
                     data = smooth_frame_n1,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n1,
-                                  '</br> Log Copies: ', round(n1_trend, digits = 2),
+                                  '</br> Median Log Copies: ', round(n1_trend, digits = 2),
                                   '</br> Target: N1'),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
@@ -250,7 +256,7 @@ plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
                   data = smooth_frame_n2,
                     hoverinfo = "text",
                     text = ~paste('</br> Date: ', date_vec_n2,
-                                  '</br> Log Copies: ', round(n2_trend, digits = 2),
+                                  '</br> Median Log Copies: ', round(n2_trend, digits = 2),
                                   '</br> Target: N2'),
                     line = list(color = '#D95F02', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
@@ -307,7 +313,21 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                           hoverinfo = "text",
                                           text = "Classes Begin",
                                           showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash"))
+                                          line = list(color = "black", dash = "dash")) %>%
+  plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
+                      data = smooth_n1,
+                       hoverinfo = "text",
+                       showlegend = FALSE,
+                       text = ~paste('</br> Date: ', date, 
+                                     '</br> Actual Log Copies: ', round(log_sum_copies_L, digits = 2)),
+                       marker = list(color = '#1B9E77', size = 6, opacity = 0.65)) %>%
+    plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
+                      data = smooth_n2,
+                       hoverinfo = "text",
+                       showlegend = FALSE,
+                       text = ~paste('</br> Date: ', date, 
+                                     '</br> Actual Log Copies: ', round(log_sum_copies_L, digits = 2)),
+                       marker = list(color = '#D95F02', size = 6, opacity = 0.65))
 
 p3
 ```
