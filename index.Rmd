@@ -147,7 +147,7 @@ The total viral load of SARS&#8209;CoV&#8209;2 in the sewershed was estimated us
 
 The total viral load of SARS&#8209;CoV&#8209;2 is estimated by adjusting for the total wastewater volume collected by each water reclamation facility. The estimate is expressed as a sum of the total number of gene targets detected between the two facilities.   
 
-The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS). The error associated with these estimates (the 95% confidence interval) is displayed.  
+The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed.  
 
 Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
 
