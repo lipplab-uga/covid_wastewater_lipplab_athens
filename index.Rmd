@@ -37,6 +37,13 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Sept 22
+
+Concentrations of SARS&#8209;CoV&#8209;2 declined this week in wastewater collected from both WRFs. Average levels remain above 100,000 copies/L. This decline is consistent with declines in reported cases in Athens-Clarke County.
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Sept 15
 
 This week, the level SARS&#8209;CoV&#8209;2 continued to exceed 1 million copies of virus per liter of sewage. While the 7-day running average of new cases has declined in Athens-Clarke County, there were no significant changes in the level of SARS&#8209;CoV&#8209;2 virus in wastewater, compared to those observed on September 9, 2020.
