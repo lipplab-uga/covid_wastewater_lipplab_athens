@@ -41,7 +41,7 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 Levels of SARS&#8209;CoV&#8209;2 continue to decrease in wastewater samples collected from Athens-Clarke County. These results are consistent with the decrease in the number of newly-reported cases over the past two weeks.   
 
-It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have decreased to or at the limit of detection for our current method. Our theoretical limit of detection is approximately 357,000 copies/L. Below this concentration, viruses may be not be detected or quantified with accuracy.  
+It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have decreased to or at the limit of detection for our current method. Our theoretical limit of detection is approximately 3,570 copies/L. Below this concentration, viruses may be not be detected or quantified with accuracy.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -196,6 +196,10 @@ knitr::include_graphics("./trend_legend.png")
 ## 
 **How to Cite**  
 Lott M, Norfolk W, Robertson M, & Lipp E. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases.
+
+##
+**Contact**  
+Lipp Laboratory -- lipplab02@gmail.com
 
 <div style="margin-bottom:50px;">
 </div>
