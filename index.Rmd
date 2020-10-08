@@ -37,6 +37,15 @@ knitr::include_graphics("./good_legend.png")
 _Updated every Thursday_  
 _Please Note: We strive to get results for each week's sample updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 
+##### Oct 6
+
+Levels of SARS&#8209;CoV&#8209;2 continue to decrease in wastewater samples collected from Athens-Clarke County. These results are consistent with the decrease in the number of newly-reported cases over the past two weeks.   
+
+It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have decreased to or at the limit of detection for our current method. Our theoretical limit of detection is approximately 357,000 copies/L. Below this concentration, viruses may be not be detected or quantified with accuracy.  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Sept 29
 
 Overall SARS&#8209;CoV&#8209;2 concentrations continued to decline in sewage reaching Athens's WRFs, in line with decreasing reported cases in Athens Clarke County. The decline was especially evident at WRF A, where levels were at or below the limit of detection for our methods. However, concentrations at WRF B were virtually unchanged from last week.  
