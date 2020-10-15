@@ -39,7 +39,7 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 ##### Oct 13  
 
-Trends in SARS&#8209;CoV&#8209;2 concentrations in Athens wastewater were split this week between the two sampled plants. During the collection period (Oct 11 – 12), viral RNA concentrations at WRF B declined to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. It is too early to know if the increased SARS&#8209;CoV&#8209;2 signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
+Trends in SARS&#8209;CoV&#8209;2 concentrations in Athens wastewater were split this week between the two sampled plants. During the collection period (Oct 12 – 13), viral RNA concentrations at WRF B declined to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. It is too early to know if the increased SARS&#8209;CoV&#8209;2 signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
 
 Reported cases in Athens Clarke County have remained stable for the last 2 weeks (7-day running average between 21 and 24 new cases per day.  
 
@@ -183,7 +183,7 @@ The total viral load of SARS&#8209;CoV&#8209;2 is estimated by adjusting for the
 
 The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the sewershed. The viral load is estimated by the N1 (green) and N2 (orange) gene targets. Data trends were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed.  
 
-Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia.  
+Dashed lines indicate significant events that may affect local public health. On June 24, 2020 Georgia continues broad reopening, including bars. July 9, 2020 Athens-Clarke County implements mask mandate. On August 20, 2020 classes begin at the University of Georgia. On October 3, 2020 the university hosted its first home football game for the fall season.  
 
 We predict that changes in the concentration of SARS&#8209;CoV&#8209;22 in wastewater will reflect the community trends of circulating COVID&#8209;19 infections. The daily number of newly reported COVID‑19 cases in Athens-Clarke County (purple) appear alongside the 7-day moving average of new cases (yellow). 
 
