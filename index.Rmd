@@ -39,7 +39,7 @@ _Please Note: We strive to get results for each week's sample updated by 5:00 pm
 
 ##### Oct 27
 
-The October 27th data update is currently experiencing a processing delay. We will apologize for any inconvenience and will post updated data as soon as we are able.  
+Concentrations of SARS&#8209;CoV&#8209;2 in Athens Clarke County wastewater are comparable to those reported during the previous week (October 20, 2020). Concentrations are also similar between the two plants. These data suggest that there may be persistent viral shedding throughout the community. Reported cases in Athens Clarke County have been stable over the past three weeks, with a 7-day running averages of 20-24 cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
