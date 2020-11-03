@@ -50,8 +50,8 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
 
 ```{r}
 #remove facilty C for now
-only_n1 <- only_n1[!(only_n1$Facility == "WRF C"),]
-only_n2 <- only_n2[!(only_n2$Facility == "WRF C"),]
+#only_n1 <- only_n1[!(only_n1$Facility == "WRF C"),]
+#only_n2 <- only_n2[!(only_n2$Facility == "WRF C"),]
 
 ```
 
