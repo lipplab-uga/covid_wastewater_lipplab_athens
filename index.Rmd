@@ -64,6 +64,9 @@ Beginning November 3, 2020, data from all three plants is being reported on this
 
 Going forward, we will begin sampling twice weekly at the three WRFs with support from Athens-Clarke County. We will update this site with any anticipated changes in timing of our data reporting.   
 
+<span style="text-decoration:underline">November 3 data update:</span>
+Due to the shift to increased weekly sampling the data update for this week is experiencing a delay. We anticipate new results will be released by 9am on Friday November 6. We apologize for any inconvenience.   
+
 <div style="margin-bottom:25px;">
 </div>
 
