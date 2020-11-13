@@ -59,7 +59,9 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Nov 9 & 11
 
-Due to a delivery delay of critical test supplies our weekly data update will be postponed until Friday. We apologize for any inconvenience.
+This week, 24-hour composite samples were collected on Monday 11/9 and Wednesday 11/11. Total daily load estimates for the week show stable to increasing levels. WRF A loads increased modestly on 11/9 with little change by 11/11. At WRF B, estimated loads declined to the limit of detection on 11/9 but increased to >500,000 copies per liter for both gene targets by 11/11. WRF C loads increased through both sampling dates. Of note, both gene targets were detected this week, with notable increases in the N2 gene (which was largely below the limit of detection last week).  
+
+The 7-day running average of daily reported cases (PCR confirmed) in Athens-Clarke County has increased slightly in the last week to an average of 31 cases per day as of 11/12.   
 
 <div style="margin-bottom:25px;">
 </div>
