@@ -71,7 +71,7 @@ Build the main plot
                                 color = background_color,
                                 colors = background_color,
                                 showlegend = FALSE) %>%
-            layout(yaxis = list(title = "Clarke County Daily Cases", showline=TRUE)) %>%
+            layout(yaxis = list(title = "Daily Cases", showline=TRUE)) %>%
             layout(legend = list(orientation = "h", x = 0.2, y = -0.3))
         
         #renders the main plot layer two as seven day moving average
@@ -201,11 +201,11 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_n1 <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 149)
+              span = 0.6, n = 154)
 #n2 extract
 extract_n2 <- ggplot(smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 149)
+              span = 0.6, n = 154)
 
 #look at the fits to align dates and total observations
 #n1

@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Nov 16 & 18
+
+<span style="text-decoration:underline">November 16</span>  
+For the Monday sample this week (collected between 6:30 am Sunday 11/15 and 6:30 am Monday 11/16). We observed increased concentrations of SARS&#8209;CoV&#8209;2 at all plants based on the N1 gene; concentrations (copies per L) increased by >80% since the November 11 sample. However, the N2 gene target was below the limit of detection for all plants. We observed a similar divergence on 11/04 and we are continuing to evaluate the performance of both assays. On balance, the data suggest a slight but consistent increasing trend.  
+
+The 7-day running average of daily reported cases in Athens-Clarke County is 31 as of 11/17, similar to that reported last week, after several weeks of reported cases in the low 20s.  
+
+<span style="text-decoration:underline">November 18</span>  
+_Data coming soon._
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Nov 9 & 11
 
 This week, 24-hour composite samples were collected on Monday 11/9 and Wednesday 11/11. Total daily load estimates for the week show stable to increasing levels. WRF A loads increased modestly on 11/9 with little change by 11/11. At WRF B, estimated loads declined to the limit of detection on 11/9 but increased to >500,000 copies per liter for both gene targets by 11/11. WRF C loads increased through both sampling dates. Of note, both gene targets were detected this week, with notable increases in the N2 gene (which was largely below the limit of detection last week).  
@@ -160,19 +173,23 @@ This week continues the trend of the past month with SARS&#8209;CoV&#8209;2 conc
 <div style="margin-bottom:25px;">
 </div>
 
-##### Aug 25
+##### August 2020
 
+<span style="text-decoration:underline">Aug 25</span>    
 SARS-CoV-2 concentrations in Athens-Clarke County wastewater increased slightly in this week's samples (reaching >900,000 copies of the virus per liter of sewage). This moderate increase continues the upward trend observed over the prior three weeks. Reported cases have remained steady through the week (8/18 - 8/25/2020) averaging ~30 new cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Aug 18
+<span style="text-decoration:underline">Aug 18</span>    
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is somewhat reflected in the daily reported cases for Athens-Clarke county and may indicate further increases in the coming weeks.  
 
 Furthermore, this week marks the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
 
-##### Prior to Aug 18, 2020
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">Prior to Aug 18, 2020</span>    
 Weekly analyses of SARS&#8209;CoV&#8209;2 in sewage began June 16, 2020, at which time concentrations were below the current method limit of detection and new cases were reported at <10 per day. Reported cases began to increase to >20 per day in late June and SARS&#8209;CoV&#8209;2 concentration  increased to up to 10 million viral copies per liter. Sewage concentrations were steady through mid-July inline with newly reported cases averaging 35 per day. Beginning July 21, 2020 SARS&#8209;CoV&#8209;2 concentrations in sewage began to decline through early August, while concurrent case report remained high. We suspect that this decline possibly preceded the decline in cases noted in late August, which may be due to lags in testing results and case reporting.  
 
 Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets. This suggests that sewage concentrations may be a leading indicator for new cases in the community, but more data collection and  monitoring of delays in testing reports will be needed to confirm this trend.
