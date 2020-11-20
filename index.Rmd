@@ -65,7 +65,9 @@ For the Monday sample this week (collected between 6:30 am Sunday 11/15 and 6:30
 The 7-day running average of daily reported cases in Athens-Clarke County is 31 as of 11/17, similar to that reported last week, after several weeks of reported cases in the low 20s.  
 
 <span style="text-decoration:underline">November 18</span>  
-_Data coming soon._
+There was little change in the SARS&#8209;CoV&#8209;2 concentrations and total load for the sample collected on 11/18. Levels were comparable to those measured on 11/16 and in the previous week. Good agreement was observed in the estimation of both the N1 and N2 gene targets.  
+
+Daily reported cases remain at a seven-day average of 32
 
 <div style="margin-bottom:25px;">
 </div>
