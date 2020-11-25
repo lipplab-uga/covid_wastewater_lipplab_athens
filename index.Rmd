@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Nov 23 & 25
+
+<span style="text-decoration:underline">November 23</span>   
+The levels of SARS&#8209;CoV&#8209;2 have increased approximately 10-fold from the previous sampling period (November 18, 2020). It is too to soon to predict if the increase in SARS&#8209;CoV&#8209;2 levels indicates in increase in transmission. If there is increased transmission, we would expect to see this same trend in our next sampling period (November 25, 2020).  
+
+The 7-day running average of newly reported cases has remained stable for the last 2 weeks (ranging between 27 and 32 new cases per day).  
+
+<span style="text-decoration:underline">November 25</span>   
+_The Wednesday data update will be delayed until Monday November 30.  We apologize for the inconvenience._
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Nov 16 & 18
 
 <span style="text-decoration:underline">November 16</span>  
