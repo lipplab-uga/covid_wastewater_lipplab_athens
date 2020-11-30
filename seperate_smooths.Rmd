@@ -138,11 +138,11 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_n1a <- ggplot(wrfa_smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1a<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 161)
+              span = 0.6, n = 163)
 #n2 extract
 extract_n2a <- ggplot(wrfa_smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2a<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 161)
+              span = 0.6, n = 163)
 
 #look at the fits to align dates and total observations
 #n1
@@ -299,11 +299,11 @@ save(p_wrf_a, file = "./plotly_objs/p_wrf_a.rda")
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_n1b <- ggplot(wrfb_smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1b<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 161)
+              span = 0.6, n = 163)
 #n2 extract
 extract_n2b <- ggplot(wrfb_smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2b<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 161)
+              span = 0.6, n = 163)
 
 #look at the fits to align dates and total observations
 #n1
@@ -462,11 +462,11 @@ save(p_wrf_b, file = "./plotly_objs/p_wrf_b.rda")
 ```{r}
 extract_n1c <- ggplot(wrfc_smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n1c<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 147)
+              span = 0.6, n = 149)
 #n2 extract
 extract_n2c <- ggplot(wrfc_smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
   stat_smooth(aes(outfit=fit_n2c<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 147)
+              span = 0.6, n = 149)
 
 #look at the fits to align dates and total observations
 #n1

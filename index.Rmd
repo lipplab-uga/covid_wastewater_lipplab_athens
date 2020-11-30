@@ -65,7 +65,7 @@ The levels of SARS&#8209;CoV&#8209;2 have increased approximately 10-fold from t
 The 7-day running average of newly reported cases has remained stable for the last 2 weeks (ranging between 27 and 32 new cases per day).  
 
 <span style="text-decoration:underline">November 25</span>   
-_The Wednesday data update will be delayed until Monday November 30.  We apologize for the inconvenience._
+The increasing trend observed on 11/23 continued through 11/25 suggesting an increase in SARS&#8209;CoV&#8209;2 transmission compared to the prior weeks of sampling. This increase was not observed in the reported clinical cases which have remained steady at approximately 29 cases per day for the past two weeks.  
 
 <div style="margin-bottom:25px;">
 </div>
