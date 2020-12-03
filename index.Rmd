@@ -22,23 +22,23 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 ### Data Trends
 
-The trendlines below reflect the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
+The trendline below reflects the estimated total viral load of SARS&#8209;CoV&#8209;2 in the combined sewershed of Athens-Clarke County (the service area for all three plants) (top chart) over time. The daily number of newly reported COVID&#8209;19 cases in Athens-Clarke County (purple bars) appear alongside the 7-day moving average of new cases (yellow line) (bottom chart). We are using these data to estimate how changes in the concentration of SARS&#8209;CoV&#8209;2 in wastewater may reflect the community trends of circulating COVID&#8209;19 infections.  
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./smooth_extract.rda")
+load(file = "./plotly_fig.rda")
 smooth_extract
 ```
 
 
-```{r fig.hold='hold', out.height = "100%", out.width = "100%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./trend_legend.png")
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./good_legend.png")
 ```
 
 <div style="margin-bottom:25px;">
 </div>
 
 **Note about chart and methods**.    
-The viral load is estimated for both the N1 (green) and N2 (orange) gene targets (concentration of gene copies per liter x total flow in liters). Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are providing both to give a better idea of the range of viral numbers. The data trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate.; August 20, 2020 classes begin at the University of Georgia; October 3, 2020 the university hosted its first home football game for the fall season.  
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate.; August 20, 2020 classes begin at the University of Georgia; October 3, 2020 the university hosted its first home football game for the fall season. 
 
 <div style="margin-bottom:25px;">
 </div>
@@ -53,6 +53,22 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Thursday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Nov 30 & Dec 2
+
+<span style="text-decoration:underline">Site update announcement</span>   
+Starting this week (Nov 30 & Dec 2 sampling) we will be reporting our SARS&#8209;CoV&#8209;2 wastewater viral load data as a single metric to improve comprehension. Viral load data will be reported as the average of the N1 and N2 gene targets detected using our assay. Concentration values for both targets will still be reported independently in the "All Data" tab. We feel that this is an easier to understand presentation of the data and is supported after considering 30 weeks of data collection.  
+
+<span style="text-decoration:underline">November 30</span>    
+Total viral load for Sunday 11/29 through Monday 11/30 was similar to that noted last week, but continues the general upward trend for the past three weeks. Of note, this sample collection period included periods of heavy rain on Sunday, which resulted in infiltration of rainwater into sewer lines. This leads to higher than normal volumes entering the treatment plants and diluting of the sewage. Not surprisingly, we noted a decline in the concentration (number of viral copies per liter) because of this dilution (see ‘All Data’), but our estimation of total viral load (total viral copies present) accounts for this effect by correcting for the higher volume. Therefore, total viral load remains high despite the lower concentration.  
+
+As of Monday 11/30, the 7-day average of new cases in Athens Clarke County remained at 30. However, on Wednesday 12/2 the county reported 78 new cases, which is the largest single day report since 9/16 (80 cases).    
+
+<span style="text-decoration:underline">December 2</span>   
+_Data coming soon._
 
 <div style="margin-bottom:25px;">
 </div>
@@ -80,10 +96,7 @@ The 7-day running average of daily reported cases in Athens-Clarke County is 31 
 <span style="text-decoration:underline">November 18</span>  
 There was little change in the SARS&#8209;CoV&#8209;2 concentrations and total load for the sample collected on 11/18. Levels were comparable to those measured on 11/16 and in the previous week. Good agreement was observed in the estimation of both the N1 and N2 gene targets.  
 
-Daily reported cases remain at a seven-day average of 32
-
-<div style="margin-bottom:25px;">
-</div>
+Daily reported cases remain at a seven-day average of 32.  
 
 ##### Nov 9 & 11
 
@@ -93,6 +106,7 @@ The 7-day running average of daily reported cases (PCR confirmed) in Athens-Clar
 
 <div style="margin-bottom:25px;">
 </div>
+
 
 ##### Nov 2 & 4
 
@@ -104,7 +118,7 @@ Going forward, we will begin sampling twice weekly at the three WRFs with suppor
 <span style="text-decoration:underline">November 2 & 4 data update:</span>
 This week, we are reporting concentrations of SARS&#8209;CoV&#8209;2 in wastewater collected from two sampling events (~6:30 am Sunday Nov 1 to ~ 6:30 am Monday Nov. 2 and ~6:30 am Tuesday Nov. 3 to ~6:30 am Wednesday Nov. 4, 2020). The increased sampling frequency is intended to improve the resolution of our data.    
 
-This week, there was a notable difference in the trends based on the two gene targets, with viral gene copies attributed to the N1 gene increasing slightly (especially at WRF B) or staying steady and viral gene copies attributed to the N2 gene declining (with most samples at or below the limit of our detection). Detection rates of the two genes can vary, especially in wastewater; therefore, it is important to consider results of these targets together. In combination, we think that these results suggest SARS&#8209;CoV&#8209;2 loads are stable or may be declining. 
+This week, there was a notable difference in the trends based on the two gene targets, with viral gene copies attributed to the N1 gene increasing slightly (especially at WRF B) or staying steady and viral gene copies attributed to the N2 gene declining (with most samples at or below the limit of our detection). Detection rates of the two genes can vary, especially in wastewater; therefore, it is important to consider results of these targets together. In combination, we think that these results suggest SARS&#8209;CoV&#8209;2 loads are stable or may be declining   
 
 The 7-day running average of reported cases (PCR confirmed) in Athens-Clarke County has remained steady at 22 - 24 new cases per day.   
 
@@ -145,8 +159,9 @@ It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have dec
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 29
+##### September 2020
 
+<span style="text-decoration:underline">Sept 29</span>    
 Overall SARS&#8209;CoV&#8209;2 concentrations continued to decline in sewage reaching Athens's WRFs, in line with decreasing reported cases in Athens-Clarke County. The decline was especially evident at WRF A, where levels were at or below the limit of detection for our methods. However, concentrations at WRF B were virtually unchanged from last week.  
 
 With our current process, we cannot accurately detect virus concentrations below about 3,000 copies per L. Therefore, we cannot assume that a sample that is 'below the limit of detection' is negative for SARS&#8209;CoV&#8209;2, rather it may be at some level that we cannot accurately determine with our current method. Our lab is evaluating different detection options that may improve detection during times with lower levels of circulating virus.   
@@ -154,22 +169,19 @@ With our current process, we cannot accurately detect virus concentrations below
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 22
-
+<span style="text-decoration:underline">Sept 22</span>    
 Concentrations of SARS&#8209;CoV&#8209;2 declined this week in wastewater collected from both WRFs. Average levels remain above 100,000 copies/L. This decline is consistent with declines in reported cases in Athens-Clarke County.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 15
-
+<span style="text-decoration:underline">Sept 15</span>    
 This week, the level SARS&#8209;CoV&#8209;2 continued to exceed 1 million copies of virus per liter of sewage. While the 7-day running average of new cases has declined in Athens-Clarke County, there were no significant changes in the level of SARS&#8209;CoV&#8209;2 virus in wastewater, compared to those observed on September 9, 2020.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 8
-
+<span style="text-decoration:underline">Sept 8</span>    
 This week, levels of SARS&#8209;CoV&#8209;2 for both targets at both plants continued to exceed 1 million copies of virus per liter of sewage. Average values were similar to concentrations from the prior week (September 1, 2020) with virtually no change in the average levels at WRF B and a 6% reduction at WRF A.  
 
 An important note about sample collection this week was that it occurred over the Labor Day holiday and may explain the slight reduction in viral concentration at the WRF A plant. Samples were collected between ~6:30 am Monday through 6:30 am Tuesday. The volume of wastewater flowing into WRF A decreased from 5.73 million gallons on September 1, 2020 to 4.96 million gallons on September 8, 2020. The collection area for WRF A includes the UGA main campus and Downtown Athens. We suspect that this week's data point reflects the real-time effect of population movement on viral levels in wastewater. In other words, a closed campus and likely large number of people traveling reduces the input. Samples collected on a particular day reflect the inputs of that day and not necessarily the entire week.  
@@ -181,8 +193,7 @@ Daily reported cases in Athens-Clarke County continue to rise, now reaching a 7-
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 1
-
+<span style="text-decoration:underline">Sept 1</span>    
 This week continues the trend of the past month with SARS&#8209;CoV&#8209;2 concentrations increasing in wastewater. Levels increased to their highest point since the beginning of data collection with average concentrations for both plants and both targets exceeding 3 million copies of virus per liter of sewage, approximately 10-fold higher than the prior week. Daily reported cases in Clarke County also continued to rise reaching a 7-day moving average of >74 cases per day.
 
 <div style="margin-bottom:25px;">
@@ -196,13 +207,10 @@ SARS-CoV-2 concentrations in Athens-Clarke County wastewater increased slightly 
 <div style="margin-bottom:25px;">
 </div>
 
-<span style="text-decoration:underline">Aug 18</span>    
+<span style="text-decoration:underline">Aug 28</span>    
 On August 18, 2020, the concentration of SARS&#8209;CoV&#8209;2 increased to over 100,000 copies per liter for both gene targets. This uptick is somewhat reflected in the daily reported cases for Athens-Clarke county and may indicate further increases in the coming weeks.  
 
 Furthermore, this week marks the return of approximately 30,000 undergraduate students to the UGA main campus for the start of the fall semester.
-
-<div style="margin-bottom:25px;">
-</div>
 
 <span style="text-decoration:underline">Prior to Aug 18, 2020</span>    
 Weekly analyses of SARS&#8209;CoV&#8209;2 in sewage began June 16, 2020, at which time concentrations were below the current method limit of detection and new cases were reported at <10 per day. Reported cases began to increase to >20 per day in late June and SARS&#8209;CoV&#8209;2 concentration  increased to up to 10 million viral copies per liter. Sewage concentrations were steady through mid-July inline with newly reported cases averaging 35 per day. Beginning July 21, 2020 SARS&#8209;CoV&#8209;2 concentrations in sewage began to decline through early August, while concurrent case report remained high. We suspect that this decline possibly preceded the decline in cases noted in late August, which may be due to lags in testing results and case reporting.  
@@ -229,69 +237,59 @@ knitr::include_graphics("./map_image.png")
 #### WRF A
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_a.rda")
-load(file = "./plotly_objs/date_vec_n1a.rda")
-load(file = "./plotly_objs/date_vec_n2a.rda")
-load(file = "./plotly_objs/n1_ymina.rda")
-load(file = "./plotly_objs/n1_ymaxa.rda")
-load(file = "./plotly_objs/n2_ymina.rda")
-load(file = "./plotly_objs/n2_ymaxa.rda")
+#load(file = "./plotly_objs/date_vec_botha.rda")
+#load(file = "./plotly_objs/both_ymina.rda")
+#load(file = "./plotly_objs/both_ymaxa.rda")
 
 p_wrf_a
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfa_legend.png")
 ```
 
 #### WRF B
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_b.rda")
-load(file = "./plotly_objs/date_vec_n1b.rda")
-load(file = "./plotly_objs/date_vec_n2b.rda")
-
-load(file = "./plotly_objs/n1_yminb.rda")
-load(file = "./plotly_objs/n1_ymaxb.rda")
-load(file = "./plotly_objs/n2_yminb.rda")
-load(file = "./plotly_objs/n2_ymaxb.rda")
+#load(file = "./plotly_objs/date_vec_bothb.rda")
+#load(file = "./plotly_objs/both_yminb.rda")
+#load(file = "./plotly_objs/both_ymaxb.rda")
 p_wrf_b
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfb_legend.png")
 ```
 
 #### WRF C
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./plotly_objs/p_wrf_c.rda")
-load(file = "./plotly_objs/date_vec_n1c.rda")
-load(file = "./plotly_objs/date_vec_n2c.rda")
+#load(file = "./plotly_objs/date_vec_bothc.rda")
+#load(file = "./plotly_objs/both_yminc.rda")
+#load(file = "./plotly_objs/both_ymaxc.rda")
 
-load(file = "./plotly_objs/n1_yminc.rda")
-load(file = "./plotly_objs/n1_ymaxc.rda")
-load(file = "./plotly_objs/n2_yminc.rda")
-load(file = "./plotly_objs/n2_ymaxc.rda")
 p_wrf_c
 ```
 
 ```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./indiv_legend.png")
+knitr::include_graphics("./wrfc_legend.png")
 ```
 
 ### All Data
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
-load(file = "./plotly_fig.rda")
+load(file = "./all_data.rda")
 p_combined
 ```
 
 ```{r fig.hold='hold', out.height = "65%", out.width = "65%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./good_legend.png")
+knitr::include_graphics("./updated_fig_legend.png")
 ```
 
 <div style="margin-bottom:25px;">
 </div>
 
-This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. Symbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
+This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. ymbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
 
 Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
 
@@ -330,7 +328,7 @@ Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracte
 
 The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a href="https://www.cdc.gov/sars/guidance/f-lab/assays.html" target="_blank">CDC's test protocol </a> for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. 
 
-The N1 and N2 gene targets are measured and reported as a concentration, by the number of gene copies measured per liter of wastewater.
+The N1 and N2 gene targets are measured and reported as a concentration per liter of wastewater (shown in ‘All Data’). N1 and N2 concentrations are then averaged and multiplied by the incoming flow at each plant to determine a total viral load per sampling day.  
 
 Reported case data for COVID-19 has been collected from <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">Georgia's Department of Public Health</a> and summarized by Mark Ebell, MD, MS <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vS701zSLS_VgpMUVSuGWI89Y05Yev3QCCF-l0nbwtSN1tE-hGlMV1T2Tg0GFVuiVD010szZ1ukr7vnM/pubhtml" target="_blank">here</a>. 
 

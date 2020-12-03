@@ -1,0 +1,105 @@
+---
+title: "raster"
+author: "William Norfolk"
+date: "11/30/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(plotly)
+```
+
+```{r}
+base_data <- readRDS("./n1_n2_cleaned_cases.rds")
+```
+
+```{r}
+final_data <- base_data %>% mutate(log_copy_per_L = log10(mean_copy_num_L)) %>%
+  rename(Facility = wrf) %>%
+  mutate(Facility = recode(Facility, 
+                           "NO" = "WRF A",
+                           "MI" = "WRF B",
+                           "CC" = "WRF C"))
+
+only_positives <<- subset(final_data, (!is.na(final_data$Facility)))
+only_n1 <- subset(only_positives, target == "N1")
+only_n2 <- subset(only_positives, target == "N2")
+
+
+only_n1 <- only_n1[!(only_n1$Facility == "WRF A" & only_n1$date == "2020-11-02"), ]
+only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02"), ]
+
+#n1
+smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(target = "N1")
+
+#n2
+smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
+  ungroup() %>%
+  mutate(target = "N2")
+
+#Copy code to recreate smoothing plots then rejoin and average to match methods on website
+rejoin <- full_join(smooth_n1, smooth_n2) %>%
+  select(c(date, sum_copy_num_L)) %>%
+  group_by(date) %>%
+  summarize_if(is.numeric, mean) %>%
+  ungroup() %>%
+  mutate(log_sum_copies_both = log10(sum_copy_num_L))
+
+```
+
+```{r}
+rejoin <- rejoin %>% 
+  mutate(new = 1) %>%
+  mutate(new2 = 2) %>%
+  rename(sum_copies_both = sum_copy_num_L)
+```
+
+```{r}
+saveRDS(rejoin, "./rejoin.rds")
+```
+
+
+```{r}
+#**************************************************************************************************************
+#***********************************Update point range with new x value****************************************
+lines <- rejoin %>% ggplot() +
+  geom_linerange(aes(x = log_sum_copies_both, ymin = new, ymax = new2)) + 
+  scale_y_continuous(breaks = seq(0.95, 2.05, 1), limits = c(0.95, 2.05)) +
+  annotate("pointrange", x = 13.67418, y = 1.5, ymin = 0.95, ymax = 2.05, color = "red", size =1) +
+  theme_classic() +
+  xlab("Log Viral Load")
+
+lines <- lines +   
+  theme(axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank(),
+        axis.line.y = element_blank()) +
+  annotate("text", x = 11.25, y = 0.95, label = "Lowest Observed") +
+  annotate("text", x = 14.3, y = 0.95, label = "Highest Observed") +
+  labs(caption = "This Week's Viral Load 4.72e+13 Copies")
+
+lines
+```
+
+```{r}
+view <- rejoin %>% ggplot() +
+  geom_boxplot(aes(x = log_sum_copies_both, y = new))
+view
+
+ggplot_build(view)$data
+```
+
+```{r}
+perc.rank <- function(x, xo)  length(x[x <= xo])/length(x)*100
+
+perc.rank(rejoin$log_sum_copies_both, 13.765)
+```
+

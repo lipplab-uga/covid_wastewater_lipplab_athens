@@ -6,7 +6,6 @@ output:
   html_document:
     toc_depth: 3
 ---
-
 Load all required libraries.
 ```{r}
 library(tidyverse)
@@ -47,9 +46,11 @@ marker_colors <- c("N1" = '#1B9E77',"N2" ='#D95F02')
     
 ```
 
-
 ```{r}
-#remove sample error date + plant
+#remove facilty C for now
+#only_n1 <- only_n1[!(only_n1$Facility == "WRF C"),]
+#only_n2 <- only_n2[!(only_n2$Facility == "WRF C"),]
+
 only_n1 <- only_n1[!(only_n1$Facility == "WRF A" & only_n1$date == "2020-11-02"), ]
 only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02"), ]
 
@@ -57,6 +58,7 @@ only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02")
 
 Build the main plot
 ```{r}
+#KEEP BOTH TARGETS HERE ON THE ALL DATA PLOT
 
       #first layer is the background epidemic curve
         p1 <- only_background %>%
@@ -160,14 +162,16 @@ p_combined <-
 p_combined
 ```
 
+
+
 Save the plot to pull into the index
 ```{r}
-save(p_combined, file = "./plotly_fig.rda")
+save(p_combined, file = "./all_data.rda")
 ```
 
-Save an htmlwidget for website embedding
+
 ```{r}
-htmlwidgets::saveWidget(p_combined, "plotly_fig.html")
+rejoin <- readRDS("./rejoin.rds")
 ```
 
 
@@ -196,53 +200,35 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 ```{r}
 #add trendlines 
 #extract data from geom_smooth
-#n1 extract
+#average targets extract
 # *********************************span 0.6***********************************
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
-extract_n1 <- ggplot(smooth_n1, aes(x = date, y = log_sum_copies_L)) + 
-  stat_smooth(aes(outfit=fit_n1<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 163)
-#n2 extract
-extract_n2 <- ggplot(smooth_n2, aes(x = date, y = log_sum_copies_L)) + 
-  stat_smooth(aes(outfit=fit_n2<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 163)
+extract <- ggplot(rejoin, aes(x = date, y = log_sum_copies_both)) + 
+  stat_smooth(aes(outfit=fit_both<<-..y..), method = "loess", color = '#1B9E77', 
+              span = 0.6, n = 168)
 
 #look at the fits to align dates and total observations
-#n1
-extract_n1
-fit_n1
-#n2
-extract_n2
-fit_n2
+#both
+extract
 
 #assign fits to a vector
-n1_trend <- fit_n1
-n2_trend <- fit_n2
+both_trend <- fit_both
 
 #extract y min and max for each
-limits_n1 <- ggplot_build(extract_n1)$data
-limits_n1 <- as.data.frame(limits_n1)
-n1_ymin <- limits_n1$ymin
-n1_ymax <- limits_n1$ymax
-
-limits_n2 <- ggplot_build(extract_n2)$data
-limits_n2 <- as.data.frame(limits_n2)
-n2_ymin <- limits_n2$ymin
-n2_ymax <- limits_n2$ymax
+limits_both <- ggplot_build(extract)$data
+limits_both <- as.data.frame(limits_both)
+both_ymin <- limits_both$ymin
+both_ymax <- limits_both$ymax
 
 #reassign dataframes (just to be safe)
-work_n1 <- smooth_n1
-work_n2 <- smooth_n2
+work_both <- rejoin
 
 #fill in missing dates to smooth fits
-work_n1 <- work_n1 %>% complete(date = seq(min(date), max(date), by = "1 day"))
-date_vec_n1 <- work_n1$date
-work_n2 <- work_n2 %>% complete(date = seq(min(date), max(date), by = "1 day"))
-date_vec_n2 <- work_n2$date
+work_both <- work_both %>% complete(date = seq(min(date), max(date), by = "1 day"))
+date_vec_both <- work_both$date
 
 #create a new smooth dataframe to layer
-smooth_frame_n1 <- data.frame(date_vec_n1, n1_trend, n1_ymin, n1_ymax)
-smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend, n2_ymin, n2_ymax)
+smooth_frame_both <- data.frame(date_vec_both, both_trend, both_ymin, both_ymax)
 
 ```
 
@@ -251,49 +237,30 @@ smooth_frame_n2 <- data.frame(date_vec_n2, n2_trend, n2_ymin, n2_ymax)
 
 #plot smooth frames
 p3 <- plotly::plot_ly() %>%
-  plotly::add_lines(x = ~date_vec_n1, y = ~n1_trend,
-                    data = smooth_frame_n1,
+  plotly::add_lines(x = ~date_vec_both, y = ~both_trend,
+                    data = smooth_frame_both,
                     hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n1,
-                                  '</br> Median Log Copies: ', round(n1_trend, digits = 2),
-                                  '</br> Target: N1'),
+                    text = ~paste('</br> Date: ', date_vec_both,
+                                  '</br> Median Log Copies: ', round(both_trend, digits = 2)),
                     line = list(color = '#1B9E77', size = 8, opacity = 0.65),
                     showlegend = FALSE) %>%
-plotly::add_lines(x = ~date_vec_n2, y = ~n2_trend,
-                  data = smooth_frame_n2,
-                    hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n2,
-                                  '</br> Median Log Copies: ', round(n2_trend, digits = 2),
-                                  '</br> Target: N2'),
-                    line = list(color = '#D95F02', size = 8, opacity = 0.65),
-                    showlegend = FALSE) %>%
-plotly::add_ribbons(x ~date_vec_n1, ymin = ~n1_ymin, ymax = ~n1_ymax,
+plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                     showlegend = FALSE,
                     opacity = 0.25,
                     hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n1, #leaving in case we want to change
-                                  '</br> Max Log Copies: ', round(n1_ymax, digits = 2),
-                                  '</br> Min Log Copies: ', round(n1_ymin, digits = 2),
-                                  '</br> Target: N1'),
+                    text = ~paste('</br> Date: ', date_vec_both, #leaving in case we want to change
+                                  '</br> Max Log Copies: ', round(both_ymax, digits = 2),
+                                  '</br> Min Log Copies: ', round(both_ymin, digits = 2)),
                     name = "",
+                    fillcolor = '#1B9E77',
                     line = list(color = '#1B9E77')) %>%
-plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
-                    showlegend = FALSE,
-                    opacity = 0.25,
-                    hoverinfo = "text",
-                    text = ~paste('</br> Date: ', date_vec_n2, #leaving in case we want to change
-                                  '</br> Max Log Copies: ', round(n2_ymax, digits = 2),
-                                  '</br> Min Log Copies: ', round(n2_ymin, digits = 2),
-                                  '</br> Target: N2'),
-                    name = "",
-                    line = list(color = '#D95F02')) %>%
                 layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
     plotly::add_segments(x = as.Date("2020-06-24"), 
                                           xend = as.Date("2020-06-24"), 
-                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          y = ~min(both_ymin), yend = ~max(both_ymax),
                                           opacity = 0.35,
                                           name = "Bars Repoen",
                                           hoverinfo = "text",
@@ -303,7 +270,7 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                           line = list(color = "black", dash = "dash")) %>%
     plotly::add_segments(x = as.Date("2020-07-09"), 
                                           xend = as.Date("2020-07-09"), 
-                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          y = ~min(both_ymin), yend = ~max(both_ymax),
                                           opacity = 0.35,
                                           name = "Mask Mandate",
                                           hoverinfo = "text",
@@ -313,7 +280,7 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                           line = list(color = "black", dash = "dash")) %>%
     plotly::add_segments(x = as.Date("2020-08-20"), 
                                           xend = as.Date("2020-08-20"), 
-                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          y = ~min(both_ymin), yend = ~max(both_ymax),
                                           opacity = 0.35,
                                           name = "</br> Classes Begin",
                                                  "</br> 2020-08-20",
@@ -321,9 +288,9 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                           text = "Classes Begin",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-10-03"), 
+      plotly::add_segments(x = as.Date("2020-10-03"), 
                                           xend = as.Date("2020-10-03"), 
-                                          y = ~min(n1_ymin), yend = ~max(n1_ymax),
+                                          y = ~min(both_ymin), yend = ~max(both_ymax),
                                           opacity = 0.35,
                                           name = "</br> First Home Football Game",
                                                  "</br> 2020-10-03",
@@ -331,20 +298,14 @@ plotly::add_ribbons(x ~date_vec_n2, ymin = ~n2_ymin, ymax = ~n2_ymax,
                                           text = "First Home Football Game",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
-  plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
-                      data = smooth_n1,
+  plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
+                      data = rejoin,
                        hoverinfo = "text",
                        showlegend = FALSE,
                        text = ~paste('</br> Date: ', date, 
-                                     '</br> Observed Log Copies: ', round(log_sum_copies_L, digits = 2)),
-                       marker = list(color = '#1B9E77', size = 6, opacity = 0.65)) %>%
-    plotly::add_markers(x = ~date, y = ~log_sum_copies_L,
-                      data = smooth_n2,
-                       hoverinfo = "text",
-                       showlegend = FALSE,
-                       text = ~paste('</br> Date: ', date, 
-                                     '</br> Observed Log Copies: ', round(log_sum_copies_L, digits = 2)),
-                       marker = list(color = '#D95F02', size = 6, opacity = 0.65))
+                                     '</br> Actual Log Copies: ', round(log_sum_copies_both, digits = 2)),
+                       marker = list(color = '#1B9E77', size = 6, opacity = 0.65))
+
 
 p3
 ```
@@ -374,7 +335,13 @@ smooth_extract <-
 smooth_extract
 ```
 
+
+
 ```{r}
-save(smooth_extract, file = "./smooth_extract.rda")
+save(smooth_extract, file = "./plotly_fig.rda")
 ```
 
+Save an htmlwidget for website embedding
+```{r}
+htmlwidgets::saveWidget(smooth_extract, "plotly_fig.html")
+```
