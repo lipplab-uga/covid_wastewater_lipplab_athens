@@ -59,6 +59,8 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Nov 30 & Dec 2
 
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral loads for the week of 11/30/2020 declined compared to the prior week; however, levels continue to indicate active transmission in the community.**   
+
 <span style="text-decoration:underline">Site update announcement</span>   
 Starting this week (Nov 30 & Dec 2 sampling) we will be reporting our SARS&#8209;CoV&#8209;2 wastewater viral load data as a single metric to improve comprehension. Viral load data will be reported as the average of the N1 and N2 gene targets detected using our assay. Concentration values for both targets will still be reported independently in the "All Data" tab. We feel that this is an easier to understand presentation of the data and is supported after considering 30 weeks of data collection.  
 
@@ -68,7 +70,9 @@ Total viral load for Sunday 11/29 through Monday 11/30 was similar to that noted
 As of Monday 11/30, the 7-day average of new cases in Athens Clarke County remained at 30. However, on Wednesday 12/2 the county reported 78 new cases, which is the largest single day report since 9/16 (80 cases).    
 
 <span style="text-decoration:underline">December 2</span>   
-_Data coming soon._
+Concentrations of SARS&#8209;CoV&#8209;2 viruses were similar between the 12/2 sample and that collected on 11/30. However, overall viral load declined slightly across the area, with the exception of WRF C, where viral load has been steady to increasing.  
+
+As of 12/03/2020, the 7-day running average of new cases in Athens Clarke County reached 39, which is higher than we have observed since September. As we have noted before, viral levels in wastewater general precede case reports in the community. The uptick in cases this week follows elevated viral loads in sewage that we noted last week.  
 
 <div style="margin-bottom:25px;">
 </div>

@@ -73,7 +73,7 @@ saveRDS(rejoin, "./rejoin.rds")
 lines <- rejoin %>% ggplot() +
   geom_linerange(aes(x = log_sum_copies_both, ymin = new, ymax = new2)) + 
   scale_y_continuous(breaks = seq(0.95, 2.05, 1), limits = c(0.95, 2.05)) +
-  annotate("pointrange", x = 13.67418, y = 1.5, ymin = 0.95, ymax = 2.05, color = "red", size =1) +
+  annotate("pointrange", x = 13.49029, y = 1.5, ymin = 0.95, ymax = 2.05, color = "red", size =1) +
   theme_classic() +
   xlab("Log Viral Load")
 
@@ -84,7 +84,7 @@ lines <- lines +
         axis.line.y = element_blank()) +
   annotate("text", x = 11.25, y = 0.95, label = "Lowest Observed") +
   annotate("text", x = 14.3, y = 0.95, label = "Highest Observed") +
-  labs(caption = "This Week's Viral Load 4.72e+13 Copies")
+  labs(caption = "This Week's Viral Load 3.37e+13 Copies")
 
 lines
 ```
@@ -100,6 +100,6 @@ ggplot_build(view)$data
 ```{r}
 perc.rank <- function(x, xo)  length(x[x <= xo])/length(x)*100
 
-perc.rank(rejoin$log_sum_copies_both, 13.765)
+perc.rank(rejoin$log_sum_copies_both, 13.49029)
 ```
 
