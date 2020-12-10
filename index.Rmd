@@ -57,6 +57,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Dec 7 & 9
+
+<span style="text-decoration:underline">December 7</span>   
+The total viral load has increased compared to estimates from the previous week. This increase corresponds with the overall increasing trend in viral load over the past several weeks. Coupled with an increase in newly reported COVID&#8209;19 cases (seven day running average of 56), these data suggest an increase in viral transmission within the community.  
+
+<span style="text-decoration:underline">December 9</span>   
+_Data coming soon._   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Nov 30 & Dec 2
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral loads for the week of 11/30/2020 declined compared to the prior week; however, levels continue to indicate active transmission in the community.**   
