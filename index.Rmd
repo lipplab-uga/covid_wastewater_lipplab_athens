@@ -59,11 +59,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Dec 7 & 9
 
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral loads for the week of 12/07/2020 have increased compared to the prior week; coupled with clinical data, increased viral levels indicate active transmission in the community.**   
+
 <span style="text-decoration:underline">December 7</span>   
 The total viral load has increased compared to estimates from the previous week. This increase corresponds with the overall increasing trend in viral load over the past several weeks. Coupled with an increase in newly reported COVID&#8209;19 cases (seven day running average of 56), these data suggest an increase in viral transmission within the community.  
 
 <span style="text-decoration:underline">December 9</span>   
-_Data coming soon._   
+Total viral load for Tuesday 12/8 through Wednesday 12/9 remains consistent with the increasing trend observed on 12/7. Coupled with an increase in newly reported COVID&#8209;19 cases, increasing levels of SARS&#8209;CoV&#8209;2 in wastewater suggest an increase in viral transmission within the community.    
 
 <div style="margin-bottom:25px;">
 </div>
