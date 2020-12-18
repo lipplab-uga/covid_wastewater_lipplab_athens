@@ -90,17 +90,4 @@ lines <- lines +
 lines
 ```
 
-```{r}
-view <- rejoin %>% ggplot() +
-  geom_boxplot(aes(x = log_sum_copies_both, y = new))
-view
-
-ggplot_build(view)$data
-```
-
-```{r}
-perc.rank <- function(x, xo)  length(x[x <= xo])/length(x)*100
-
-perc.rank(rejoin$log_sum_copies_both, 13.49029)
-```
 
