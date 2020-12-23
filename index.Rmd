@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Dec 21 & 23
+
+<span style="text-decoration:underline">December 21</span>     
+Total viral load was comparable to observations from the previous week. Viral load continues to increase at WRF C, continuing a 2+ week trend. These data suggest that there is consistent viral shedding, but stable transmission within the community.   
+
+As of 12/21 there was an average of 61 new daily cases (7-day running average).  
+
+<span style="text-decoration:underline">December 23</span>   
+_Due to the upcoming holidays, the December 23 update will be delayed until next week. We apologize for any inconvenience._  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Dec 14 & 16
  
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load detected from wastewater for the week of 12/14/2020 continued to increase compared to previous observations; 12/16/2020 marks the highest level observed since August.**   
