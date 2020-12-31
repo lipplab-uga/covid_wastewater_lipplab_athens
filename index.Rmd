@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Dec 28 & 30
+
+<span style="text-decoration:underline">December 28</span>   
+Total viral load for Sunday 12/27 through Monday 12/28 declined by ~10-fold. This decline was observed across all three treatment plants and ends the 3-week trend of rising viral load at WRF C.  
+
+The 7-day running average of reported cases was 54 as of 12/30, which has held steady for the past 10 days (declining from 61 on 12/21).  
+
+<span style="text-decoration:underline">December 30</span>     
+_Data coming soon._  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Dec 21 & 23
 
 <span style="text-decoration:underline">December 21</span>     
@@ -65,7 +78,7 @@ Total viral load was comparable to observations from the previous week. Viral lo
 As of 12/21 there was an average of 61 new daily cases (7-day running average).  
 
 <span style="text-decoration:underline">December 23</span>   
-_Due to the upcoming holidays, the December 23 update will be delayed until next week. We apologize for any inconvenience._  
+_Due to shipping and supply chain issues, processing for the 12/23 sample is delayed. We will update as soon as we are able._  
 
 <div style="margin-bottom:25px;">
 </div>
