@@ -38,7 +38,7 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate.; August 20, 2020 classes begin at the University of Georgia; October 3, 2020 the university hosted its first home football game for the fall season. 
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate; August 20, 2020 classes begin at the University of Georgia. 
 
 <div style="margin-bottom:25px;">
 </div>
@@ -59,7 +59,15 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Jan 4
 
-_Due to continuing shipping and supply chain issues, the January 4 data update will be delayed until supplies can be restocked. We apologize for the inconvenience and will update the data as soon as we are able._
+<span style="text-decoration:underline">Note from the team:</span>   
+We apologize for the delay in data updates over the last couple of weeks. Critical supplies for our analyses were back ordered and then delayed in shipping. We are now back up and running and working to process our backlog. We will aim to get back to timely updates by next week. One benefit of this short break was that we were able to take some much-needed time to look back critically at our last 30 weeks of work, which has been difficult to do while also in the crunch to get samples processed and analyzed. We reanalyzed the full data set and conducted an intense QA/QC. You will see some slight changes in the charts on the dashboard that reflect this new analysis. We thank you for sticking with us through what has become a much longer effort than any of us imagined.  
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 viral load decreased slightly for the second week in row, while case reports continue to climb. Levels in wastewater are a real time estimate of viral shedding, and therefore may be out of sync with the timing of case reports, which often lag because of bias toward symptomatic infections and the time between testing and reporting. This current trend could suggest stabilizing case levels, which may not yet be apparent in the clinical reports.  However, our total positivity rate for samples remains at 100%, which indicates that viral shedding (and likely transmission) remain high.**  
+
+<span style="text-decoration:underline">January 4</span>   
+Total viral load for Sunday 1/3 through Monday 1/4 decreased slightly compared to levels measured the week prior, although detection rate remains high (all samples from all plants for both the N1 and N2 gene have been positive since 12/14/2020).  
+
+Reported cases in Athens-Clarke County increased from a 7-day running average of 46 on 12/28/2020 to 84 on 1/4/2021. Although total viral load is currently steady or declining, the current rise in reported cases that began on 12/28 was preceded by 3 weeks of increasing viral load in wastewater (which peaked on 12/21/2020).    
 
 <div style="margin-bottom:25px;">
 </div>
@@ -85,7 +93,7 @@ Total viral load was comparable to observations from the previous week. Viral lo
 As of 12/21 there was an average of 61 new daily cases (7-day running average).  
 
 <span style="text-decoration:underline">December 23</span>   
-_Due to shipping and supply chain issues, processing for the 12/23 sample is delayed. We will update as soon as we are able._  
+_Data coming soon._   
 
 <div style="margin-bottom:25px;">
 </div>

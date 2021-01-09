@@ -205,7 +205,7 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract <- ggplot(rejoin, aes(x = date, y = log_sum_copies_both)) + 
   stat_smooth(aes(outfit=fit_both<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 196)
+              span = 0.6, n = 189)
 
 #look at the fits to align dates and total observations
 #both
@@ -286,16 +286,6 @@ plotly::add_ribbons(x ~date_vec_both, ymin = ~both_ymin, ymax = ~both_ymax,
                                                  "</br> 2020-08-20",
                                           hoverinfo = "text",
                                           text = "Classes Begin",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-      plotly::add_segments(x = as.Date("2020-10-03"), 
-                                          xend = as.Date("2020-10-03"), 
-                                          y = ~min(both_ymin), yend = ~max(both_ymax),
-                                          opacity = 0.35,
-                                          name = "</br> First Home Football Game",
-                                                 "</br> 2020-10-03",
-                                          hoverinfo = "text",
-                                          text = "First Home Football Game",
                                           showlegend = FALSE,
                                           line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_sum_copies_both,
