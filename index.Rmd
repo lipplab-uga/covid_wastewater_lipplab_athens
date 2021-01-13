@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 11 & 13
+
+<span style="text-decoration:underline">January 11</span>   
+Total viral load for Sunday 1/10 through Monday 1/11 increased by 5-fold compared to levels measured the week prior, reaching the highest recorded total viral load through the course of this study. Concentrations increased at all three plants, exceeding 4 million copies per liter. The rate of increase and total load are similar to the trends noted in early to mid-August around the start of the UGA fall semester. These results may reflect an acceleration of new infections,  the increase in population (and possible carriers) with the arrival of students for the start of the UGA spring term, or both.   
+
+The reported 7-day moving average of clinical cases in Athens-Clarke County increased to 107 on 1/11.  
+
+<span style="text-decoration:underline">January 13</span>     
+_Data coming soon._
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 4
 
 <span style="text-decoration:underline">Note from the team:</span>   
@@ -197,15 +210,15 @@ The 7-day running average of reported cases (PCR confirmed) in Athens-Clarke Cou
 <div style="margin-bottom:25px;">
 </div>
 
-##### Oct 27
+##### October 2020
 
+<span style="text-decoration:underline">October 27</span>    
 Concentrations of SARS&#8209;CoV&#8209;2 in Athens-Clarke County wastewater are comparable to those reported during the previous week (October 20, 2020). Concentrations are also similar between the two plants. These data suggest that there may be persistent viral shedding throughout the community. Reported cases in Athens-Clarke County have been stable over the past three weeks, with a 7-day running averages of 20-24 cases per day.  
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Oct 20
-
+<span style="text-decoration:underline">October 20</span>    
 SARS&#8209;CoV&#8209;2 concentrations in Athens-Clarke County wastewater showed a consistent upward trend this week. WRF A continued its increase from the prior week with concentrations reaching as high as 1 million copies per L. Concentrations at WRF B increased from the below the limit of detection to >300,000 copies per L. The continued upward trends may suggest changes in viral shedding within the community.  
 
 Reported cases in Athens-Clarke County have been stable over the week, with a 7-day running average of 20-30 cases per day.  
@@ -213,8 +226,7 @@ Reported cases in Athens-Clarke County have been stable over the week, with a 7-
 <div style="margin-bottom:25px;">
 </div>
 
-##### Oct 13  
-
+<span style="text-decoration:underline">October 13</span>    
 Trends in SARS&#8209;CoV&#8209;2 concentrations in Athens wastewater were split this week between the two sampled plants. During the collection period (Oct 12 – 13), viral RNA concentrations at WRF B declined to at or below the limit of detection. However, levels at WRF A increased to >500,000 copies per L, after declining to near the limit of detection the prior week. It is too early to know if the increased SARS&#8209;CoV&#8209;2 signal at WRF A is indicative of possible uptick in transmission or due to inherent variability in sample collection. If there is increased transmission, we would expect to see the trend in wastewater continue next week as well as an increase in reported cases.  
 
 Reported cases in Athens-Clarke County have remained stable for the last 2 weeks (7-day running average between 21 and 24 new cases per day.  
@@ -222,8 +234,7 @@ Reported cases in Athens-Clarke County have remained stable for the last 2 weeks
 <div style="margin-bottom:25px;">
 </div>
 
-##### Oct 6
-
+<span style="text-decoration:underline">October 6</span>    
 Levels of SARS&#8209;CoV&#8209;2 continue to decrease in wastewater samples collected from Athens-Clarke County. These results are consistent with the decrease in the number of newly-reported cases over the past two weeks.   
 
 It is important to note that the levels of SARS&#8209;CoV&#8209;2 virus have decreased to or at the limit of detection for our current method. Our theoretical limit of detection is approximately 3,570 copies/L. Below this concentration, viruses may be not be detected or quantified with accuracy.  
