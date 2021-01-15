@@ -59,13 +59,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 ##### Jan 11 & 13
 
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week was among the highest in our sample collection (exceeding the viral load for >94% of samples to date). This was driven by very high counts in Monday’s (1/11) sample. The 7-day average of newly reported cases ended the week (1/15) at 105. Viral load and transmission remain high in Athens-Clarke County.**
+
 <span style="text-decoration:underline">January 11</span>   
 Total viral load for Sunday 1/10 through Monday 1/11 increased by 5-fold compared to levels measured the week prior, reaching the highest recorded total viral load through the course of this study. Concentrations increased at all three plants, exceeding 4 million copies per liter. The rate of increase and total load are similar to the trends noted in early to mid-August around the start of the UGA fall semester. These results may reflect an acceleration of new infections,  the increase in population (and possible carriers) with the arrival of students for the start of the UGA spring term, or both.   
 
 The reported 7-day moving average of clinical cases in Athens-Clarke County increased to 107 on 1/11.  
 
 <span style="text-decoration:underline">January 13</span>     
-_Data coming soon._
+ Viral load for the period between Tuesday 1/12 and Wednesday 1/13 declined from the all-time high noted in Monday’s sample. The decline in load was noted in all treatment plants but sample positivity remains high (100%) and concentrations reached over 3 million copies per liter.   
+ 
+The 7-day moving average for reported cases was 108 for 1/13/2021.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -444,7 +448,7 @@ For more information about our team and other ongoing research please visit the 
 
 ## 
 **How to Cite**  
-Lott M, Norfolk W, Robertson M, & Lipp E. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases. <a href="https://www.covid19.uga.edu/wastewater-athens.html" target="_blank">https://www.covid19.uga.edu/wastewater-athens.html</a>.
+Lott M, Norfolk W, Robertson M, Foley A, & Lipp E. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases. <a href="https://www.covid19.uga.edu/wastewater-athens.html" target="_blank">https://www.covid19.uga.edu/wastewater-athens.html</a>.
 
 ##
 **Contact**  
