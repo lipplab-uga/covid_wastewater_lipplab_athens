@@ -57,6 +57,22 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 19 & 20
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, total viral load continues to be high (exceeding the load in 90% of samples analyzed to date). Much like the pattern noted last week, the two samples varied substantially with the 1/19 sample reaching extremely high levels and declining the following day. This week the variability between the two days appears to be driven primarily by large changes at particular plants (especially WRF A). Overall, the average total load this week is similar to last week, changing by only 5%. Case reports in Athens-Clarke County declined this week, which follows the declines in sewage levels noted in our 1/4 report. Wastewater observations from the last two weeks suggest that shedding of the virus has increased and may not yet be apparent in case reports.**
+
+<span style="text-decoration:underline">January 19</span>  
+Over the 24 h period of collection (6:30 am Monday 1/18 – 6:30 am 1/19), the total viral load at all three plants combined reached the second highest level in our data set (falling only slightly behind the load for 1/11, one week ago). The load increased to the highest level recorded at WRF A (including north Athens, downtown, and UGA), where average concentration exceeded 10 million copies per liter. Little change was observed at WRF B and WRF C compared to levels on 1/13.   
+
+The 7-day running average of reported cases in Athens Clarke County declined to 81 on 1/19.  
+
+<span style="text-decoration:underline">January 20</span>   
+Total viral load for the sample collected between 1/19 and 1/20 declined compared to the prior day sample. This is similar to the pattern noted last week as well; however, the decline was not consistent across all three plants. Viral load at WRF C (including East Athens) increased approximately 4-fold reaching a similar level noted the prior week (on 1/11). Levels at the other two plants declined or were stable.  
+
+The 7-day running average of reported cases in Athens Clarke County further declined to 73 by 1/20.  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 11 & 13
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week was among the highest in our sample collection (exceeding the viral load for >94% of samples to date). This was driven by very high counts in Monday’s (1/11) sample. The 7-day average of newly reported cases ended the week (1/15) at 105. Viral load and transmission remain high in Athens-Clarke County.**
