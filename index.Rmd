@@ -57,6 +57,22 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 25 & 27
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week decreased from the previous week but was still higher than 70% of all samples collected to date. Note that estimates for viral load may be underestimated, due to a significant amount of rainfall during this collection period (1/27). The 7-day average of newly reported cases ended the week (1/29) at 82. Viral load and transmission remain high in Athens-Clarke County.**      
+
+<span style="text-decoration:underline">January 25</span>    
+The total viral load for Sunday 1/24 through Monday 1/25 decreased compared to the previous week's observations. SARS&#8209;CoV&#8209;2 was detected from all wastewater samples (positivity rate of 100%).   
+
+The 7-day moving average for reported cases was 74 for 1/25/2021.   
+
+<span style="text-decoration:underline">January 27</span>    
+Viral load for the period between Tuesday 1/26 and Wednesday 1/27 was comparable to the viral load estimated from Monday’s collection. It is important to note that Wednesday’s sampling period coincided with a major rain event in the Athens area. Infiltration of stormwater into the sewer system may dilute viral concentrations of wastewater. Sample positivity remains high (100%) and concentrations reached over 1 million copies per liter.   
+
+The 7-day moving average for reported cases was 78 for 1/27/2021.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 19 & 20
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, total viral load continues to be high (exceeding the load in 90% of samples analyzed to date). Much like the pattern noted last week, the two samples varied substantially with the 1/19 sample reaching extremely high levels and declining the following day. This week the variability between the two days appears to be driven primarily by large changes at particular plants (especially WRF A). Overall, the average total load this week is similar to last week, changing by only 5%. Case reports in Athens-Clarke County declined this week, which follows the declines in sewage levels noted in our 1/4 report. Wastewater observations from the last two weeks suggest that shedding of the virus has increased and may not yet be apparent in case reports.**
 
