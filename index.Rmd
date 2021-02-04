@@ -57,6 +57,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Feb 1 & 3  
+<span style="text-decoration:underline">February 1</span>    
+_Due to a processing delay, the Feb 1 & 3 data update will be delayed until Friday Feb 5. We apologize for any inconvenience._  
+
+<span style="text-decoration:underline">February 3</span>    
+_Data coming soon._  
+
+<div style="margin-bottom:25px;">
+</div>
+
+
 ##### Jan 25 & 27
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week decreased from the previous week but was still higher than 70% of all samples collected to date. Note that estimates for viral load may be underestimated, due to a significant amount of rainfall during this collection period (1/27). The 7-day average of newly reported cases ended the week (1/29) at 82. Viral load and transmission remain high in Athens-Clarke County.**      
 
