@@ -190,17 +190,12 @@ Total viral load for Tuesday 12/8 through Wednesday 12/9 remains consistent with
 <div style="margin-bottom:25px;">
 </div>
 
-##### Nov 30 & Dec 2
+##### Dec 2
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral loads for the week of 11/30/2020 declined compared to the prior week; however, levels continue to indicate active transmission in the community.**   
 
 <span style="text-decoration:underline">Site update announcement</span>   
 Starting this week (Nov 30 & Dec 2 sampling) we will be reporting our SARS&#8209;CoV&#8209;2 wastewater viral load data as a single metric to improve comprehension. Viral load data will be reported as the average of the N1 and N2 gene targets detected using our assay. Concentration values for both targets will still be reported independently in the "All Data" tab. We feel that this is an easier to understand presentation of the data and is supported after considering 30 weeks of data collection.  
-
-<span style="text-decoration:underline">November 30</span>    
-Total viral load for Sunday 11/29 through Monday 11/30 was similar to that noted last week. Of note, this sample collection period included periods of heavy rain on Sunday, which resulted in infiltration of rainwater into sewer lines. This leads to higher than normal volumes entering the treatment plants and diluting of the sewage. Not surprisingly, we noted a decline in the concentration (number of viral copies per liter) because of this dilution (see ‘All Data’), but our estimation of total viral load (total viral copies present) accounts for this effect by correcting for the higher volume. Therefore, total viral load remains high despite the lower concentration.  
-
-As of Monday 11/30, the 7-day average of new cases in Athens Clarke County remained at 30. However, on Wednesday 12/2 the county reported 78 new cases, which is the largest single day report since 9/16 (80 cases).    
 
 <span style="text-decoration:underline">December 2</span>   
 Concentrations of SARS&#8209;CoV&#8209;2 viruses were similar between the 12/2 sample and that collected on 11/30. However, overall viral load declined slightly across the area, with the exception of WRF C, where viral load has been steady to increasing.  
@@ -210,12 +205,15 @@ As of 12/03/2020, the 7-day running average of new cases in Athens Clarke County
 <div style="margin-bottom:25px;">
 </div>
 
-##### Nov 23 & 25
+##### November 2020
 
-<span style="text-decoration:underline">November 23</span>   
-The levels of SARS&#8209;CoV&#8209;2 have increased approximately 10-fold from the previous sampling period (November 18, 2020). It is too to soon to predict if the increase in SARS&#8209;CoV&#8209;2 levels indicates in increase in transmission. If there is increased transmission, we would expect to see this same trend in our next sampling period (November 25, 2020).  
+<span style="text-decoration:underline">November 30</span>    
+Total viral load for Sunday 11/29 through Monday 11/30 was similar to that noted last week. Of note, this sample collection period included periods of heavy rain on Sunday, which resulted in infiltration of rainwater into sewer lines. This leads to higher than normal volumes entering the treatment plants and diluting of the sewage. Not surprisingly, we noted a decline in the concentration (number of viral copies per liter) because of this dilution (see ‘All Data’), but our estimation of total viral load (total viral copies present) accounts for this effect by correcting for the higher volume. Therefore, total viral load remains high despite the lower concentration.  
 
-The 7-day running average of newly reported cases has remained stable for the last 2 weeks (ranging between 27 and 32 new cases per day).  
+As of Monday 11/30, the 7-day average of new cases in Athens Clarke County remained at 30. However, on Wednesday 12/2 the county reported 78 new cases, which is the largest single day report since 9/16 (80 cases).  
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">November 25</span>   
 The increasing trend observed on 11/23 continued through 11/25 suggesting an increase in SARS&#8209;CoV&#8209;2 transmission compared to the prior weeks of sampling. This increase was not observed in the reported clinical cases which have remained steady at approximately 29 cases per day for the past two weeks.  
@@ -223,29 +221,37 @@ The increasing trend observed on 11/23 continued through 11/25 suggesting an inc
 <div style="margin-bottom:25px;">
 </div>
 
-##### Nov 16 & 18
+<span style="text-decoration:underline">November 23</span>   
+The levels of SARS&#8209;CoV&#8209;2 have increased approximately 10-fold from the previous sampling period (November 18, 2020). It is too to soon to predict if the increase in SARS&#8209;CoV&#8209;2 levels indicates in increase in transmission. If there is increased transmission, we would expect to see this same trend in our next sampling period (November 25, 2020).  
 
-<span style="text-decoration:underline">November 16</span>  
-For the Monday sample this week (collected between 6:30 am Sunday 11/15 and 6:30 am Monday 11/16). We observed increased concentrations of SARS&#8209;CoV&#8209;2 at all plants based on the N1 gene; concentrations (copies per L) increased by >80% since the November 11 sample. However, the N2 gene target was below the limit of detection for all plants. We observed a similar divergence on 11/04 and we are continuing to evaluate the performance of both assays. On balance, the data suggest a slight but consistent increasing trend.  
+The 7-day running average of newly reported cases has remained stable for the last 2 weeks (ranging between 27 and 32 new cases per day).  
 
-The 7-day running average of daily reported cases in Athens-Clarke County is 31 as of 11/17, similar to that reported last week, after several weeks of reported cases in the low 20s.  
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">November 18</span>  
 There was little change in the SARS&#8209;CoV&#8209;2 concentrations and total load for the sample collected on 11/18. Levels were comparable to those measured on 11/16 and in the previous week. Good agreement was observed in the estimation of both the N1 and N2 gene targets.  
 
 Daily reported cases remain at a seven-day average of 32.  
 
-##### Nov 9 & 11
+<div style="margin-bottom:25px;">
+</div>
 
+<span style="text-decoration:underline">November 16</span>  
+For the Monday sample this week (collected between 6:30 am Sunday 11/15 and 6:30 am Monday 11/16). We observed increased concentrations of SARS&#8209;CoV&#8209;2 at all plants based on the N1 gene; concentrations (copies per L) increased by >80% since the November 11 sample. However, the N2 gene target was below the limit of detection for all plants. We observed a similar divergence on 11/04 and we are continuing to evaluate the performance of both assays. On balance, the data suggest a slight but consistent increasing trend.  
+
+The 7-day running average of daily reported cases in Athens-Clarke County is 31 as of 11/17, similar to that reported last week, after several weeks of reported cases in the low 20s.
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">November 9 & 11</span>  
 This week, 24-hour composite samples were collected on Monday 11/9 and Wednesday 11/11. Total daily load estimates for the week show stable to increasing levels. WRF A loads increased modestly on 11/9 with little change by 11/11. At WRF B, estimated loads declined to the limit of detection on 11/9 but increased to >500,000 copies per liter for both gene targets by 11/11. WRF C loads increased through both sampling dates. Of note, both gene targets were detected this week, with notable increases in the N2 gene (which was largely below the limit of detection last week).  
 
 The 7-day running average of daily reported cases (PCR confirmed) in Athens-Clarke County has increased slightly in the last week to an average of 31 cases per day as of 11/12.   
 
 <div style="margin-bottom:25px;">
 </div>
-
-
-##### Nov 2 & 4
 
 <span style="text-decoration:underline">Site update announcement:</span>    
 Beginning November 2, 2020, data from all three plants is being reported on this site. Data summaries have been updated to include the third plant (WRF C) back to July 5, 2020. Therefore, charts for ‘data trends’ and ‘all data’ may vary slightly from previously posted reports because of this inclusion; although, in part because WRF C is small compared to the other two plants, trends changed little with this update.  
@@ -254,7 +260,6 @@ Going forward, we will begin sampling twice weekly at the three WRFs with suppor
 
 <span style="text-decoration:underline">November 2 & 4 data update:</span>
 This week, we are reporting concentrations of SARS&#8209;CoV&#8209;2 in wastewater collected from two sampling events (~6:30 am Sunday Nov 1 to ~ 6:30 am Monday Nov. 2 and ~6:30 am Tuesday Nov. 3 to ~6:30 am Wednesday Nov. 4, 2020). The increased sampling frequency is intended to improve the resolution of our data.    
-
 This week, there was a notable difference in the trends based on the two gene targets, with viral gene copies attributed to the N1 gene increasing slightly (especially at WRF B) or staying steady and viral gene copies attributed to the N2 gene declining (with most samples at or below the limit of our detection). Detection rates of the two genes can vary, especially in wastewater; therefore, it is important to consider results of these targets together. In combination, we think that these results suggest SARS&#8209;CoV&#8209;2 loads are stable or may be declining   
 
 The 7-day running average of reported cases (PCR confirmed) in Athens-Clarke County has remained steady at 22 - 24 new cases per day.   
