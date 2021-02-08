@@ -440,7 +440,7 @@ save(p_wrf_b, file = "./plotly_objs/p_wrf_b.rda")
 ```{r}
 extract_bothc <- ggplot(wrfc_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_bothc<<-..y..), method = "loess", color = '#E7298A', 
-              span = 0.6, n = 217)
+              span = 0.6, n = 219)
 
 #look at the fits to align dates and total observations
 #both
