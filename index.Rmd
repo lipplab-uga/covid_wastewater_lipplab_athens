@@ -50,9 +50,25 @@ The viral load estimated is based on the average concentration of the SARS&#8209
 div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 </style>
 <div class = "blue">
-<span style="text-decoration:underline">Updated every Thursday</span>    
-_Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Thursday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
+<span style="text-decoration:underline">Updated every Friday</span>    
+_Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Feb 8 & 10
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral load in Athens-Clarke County wastewater declined for the third week in row, reaching levels that we have not observed since early December. These declines are similar to those observed in new reported daily cases for the county, which have declined to a 7-day running average of 37 as of Friday 2/12.**   
+
+<span style="text-decoration:underline">February 8</span>    
+Total viral load (all plants combined) declined slightly relative to the prior sample (collected 2/3). The decline was primarily driven by lower loads at WRF C with relatively stable levels at WRFs A and B. Additionally, the N2 target was below the limit of detection at WRF C.   
+
+The 7-day running average of newly reported cases in Athens dropped to 44 per day on 2/8.  
+
+<span style="text-decoration:underline">February 10</span>    
+Viral load for all plants combined continued to decline from the Monday sample. Again, this decline was driven largely by a lower load at a single plant (WRF A), with WRF B and C levels similar to that noted on Monday. The N1 target was below the limit of detection in the WRF A sample.   
+
+7-day running average of newly reported cases reached 43 on 2/10.   
 
 <div style="margin-bottom:25px;">
 </div>
