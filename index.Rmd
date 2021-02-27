@@ -64,7 +64,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 Total viral load on Monday 2/22 was comparable to the viral load estimated for the previous collection, Wednesday 2/17. While there was an increase in viral load at WRF A, viral levels declined at WRF B and WRF C.   
 
 
-The 7-day running average of newly reported cases in Athens dropped to 21 per day on 2/17.  
+The 7-day running average of newly reported cases in Athens dropped to 21 per day on 2/22.  
 
 <span style="text-decoration:underline">February 24</span>    
 The total viral load estimated for Wednesday 2/24 declined sharply from previous observations. The positivity rate of our collection has declined; SARS-CoV-2 was only detectable in only two of our wastewater samples.  
