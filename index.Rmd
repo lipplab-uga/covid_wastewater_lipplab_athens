@@ -57,6 +57,23 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Feb 22 & 24
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Overall, the viral load in Athens-Clarke County wastewater averaged for the week was comparable to last week's average load. However, there continues to be wide variability of viral levels in our wastewater samples. The 7-day running average of reported cases was 22 as of 02/25/2021.**     
+
+<span style="text-decoration:underline">February 22</span>   
+Total viral load on Monday 2/22 was comparable to the viral load estimated for the previous collection, Wednesday 2/17. While there was an increase in viral load at WRF A, viral levels declined at WRF B and WRF C.   
+
+
+The 7-day running average of newly reported cases in Athens dropped to 21 per day on 2/17.  
+
+<span style="text-decoration:underline">February 24</span>    
+The total viral load estimated for Wednesday 2/24 declined sharply from previous observations. The positivity rate of our collection has declined; SARS-CoV-2 was only detectable in only two of our wastewater samples.  
+
+The 7-day running average of newly reported cases in Athens was 21 per day on 2/24. 
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Feb 15 & 17
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **On average for the week, viral load in Athens-Clarke County wastewater declined for the fourth week in row. However, there was a wide variability between the two collection dates with very low levels on Monday offset by substantially higher loads on Wednesday. Rainfall this week likely resulted in dilution of viruses in wastewater. Newly reported cases reached a 7-day running average of 28 as of 02/19/2021.**     
 
