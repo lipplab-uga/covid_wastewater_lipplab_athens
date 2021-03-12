@@ -57,6 +57,23 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Mar 8 & 10
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 in wastewater continues to remain stable. Average total loads for each week have been oscillating around 10^13 total copies, since the week beginning 2/14.**   
+
+<span style="text-decoration:underline">March 8</span>  
+The viral load estimated for WRF A and WRF C on Monday 3/8 was comparable to the estimates from the previous collection, on Wednesday 3/3. The total viral load at WRF B dropped 10-fold between the two collection periods. The total viral load for the county was comparable to the load observed in the previous weeks, dating back to 2/14.   
+
+The 7-day running average of newly-reported cases was 24.     
+
+<span style="text-decoration:underline">March 10</span>  
+Viral estimates for Wednesday 3/10 were highly variable between plants. Compared to Monday’s samples, the viral load increased considerably at WRF B. However, the viral load decreased at WRF A, and remained stable at WRF C. The variability between plants and sample dates is common, as the levels of virus drop close to or below the limit of detection for our method.   
+
+The 7-day running average of newly-reported cases was 15.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Mar 1 & 3
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral load in wastewater continues to remain stable. With average loads for each week changing little since the week of 2/14. Also similar to our observations for the past three weeks, there was considerable variability between plants and between sampling dates, which may be more common as concentrations of the SARS&#8209;CoV&#8209;2 RNA approach the limit of our detection capabilities. Wastewater results suggest persistent viral shedding in the community but at levels well below their peak in January.**   
 
