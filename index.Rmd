@@ -57,6 +57,9 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Mar 15 & 17
+_Due to processing issues, the data update for this week will be delayed. We apologize for any inconvenience and will post an update as soon as we are able._   
+
 ##### Mar 8 & 10
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 in wastewater continues to remain stable. Average total loads for each week have been oscillating around 10^13 total copies, since the week beginning 2/14.**   
