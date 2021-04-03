@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Mar 29 & 31
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS‑CoV‑2 viral RNA levels increased for the second week in a row across the Athens-Clarke County wastewater treatment plants. Average levels increased at all three plants, with moderate increases for the week at WRFs A and B and a substantial increase at WRF C. Although total viral load in wastewater across the area remains relatively low (in the bottom third fraction compared to all samples collected to date), the shift toward increasing levels over the last two weeks (after several weeks of stable to declining levels) is concerning. As of April 2, reported cases remained low in Athens-Clarke County, at 8 new cases per day (7-day running average), but the number of tests administered has declined and the percentage of positive tests has increased slightly (from 3% positive on 3/24 to 4% positive on 4/2** <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">7-day running average</a>**)**. **This illustrates the need for continued preventative measures as vaccine distribution increases within the county.**   
+
+<span style="text-decoration:underline">March 29</span>  
+SARS&#8209;CoV&#8209;2 RNA levels declined below the limit of detection at WRF A, but increased at both WRF B and WRF C compared to the prior sample date. The uptick at WRF C is notable because this plant had been below the limit of detection for the two prior weeks and reached a total load that we have not observed since late February.     
+
+<span style="text-decoration:underline">March 31</span>  
+Levels declined (WRF B) or remained stable (WRF C), compared to the Monday sample, but increased substantially at WRF A.     
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Mar 22 & 24
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA levels remain low (very near the limit of detection) across the Athens-Clarke County area. Levels remained below current detection limits at WRF C (both collection days) and WRF A (Monday collection) but were detectable at WRF B. Daily case reports continue to be low across the county (7-day running average of 10 new cases per day or 8/100,000 people). As testing declines, the importance of wastewater based testing may become important to catch potential upticks in infection, but as of now, wastewater levels continue to be reduced.**    
 
