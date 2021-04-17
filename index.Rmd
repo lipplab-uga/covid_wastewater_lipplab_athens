@@ -57,6 +57,22 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 12 & 14
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week and across all plants, viral loads were slightly higher but comparable to the prior week’s average. However, there was considerable variability between sampling days this week, with levels below the limit of detection at two plants (A and C) on Monday before reaching high levels on Wednesday (Monday’s samples were in the 3rd percentile for load while those on Wednesday reached the 77th percentile for load). The 7-day running average of new cases per day ended the week at 10 (4/16). The 7-day running average of positive PCR tests in Athens-Clarke county (reported to DPH) was 4%, a decline from the prior week.**    
+
+<span style="text-decoration:underline">April 12</span>  
+SARS&#8209;CoV&#8209;2 levels were below the limit of detection at WRFs A and C but remained stable at WRF B. Rainfall throughout the day Sunday may have contributed to some loss of signal in the wastewater samples, but we have observed over the last month that the detection of virus in the sample collected on Monday is often low for WRF A in particular which may suggest some variability in the wastewater flow over the weekend. This is something that we will be working to investigate.   
+
+The 7-day running average of newly reported cases was 9 as of 4/12 and the 7-day running average of positive PCR tests was 3.7% for Athens-Clarke county (per DPH).     
+
+<span style="text-decoration:underline">April 14</span>  
+Viral levels increased substantially on 4/14, reaching over 1 million genome copies per liter at each plant and the highest daily load (all plants combined) since late January.    
+
+The 7-day running average of newly reported cases was 10 as of 4/14 and the 7-day running average of positive PCR tests increased to 4.1% for the county.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 5 & 7
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA levels were comparable to those reported last week. While the total viral load remains relatively low (in the lower third of all concentrations reported) for Athens-Clarke County, a general upward trend has been observed over a period of three weeks. The 7-day running average of reported cases has increased to 12 cases per day as of 4/9 and the rate of positive tests increased to 5% (compared to 4% positivity on 4/2). These trends suggest that there is a continued need for preventative measures as vaccine distribution increases within the county.**   
 
