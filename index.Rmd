@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral load results this week look very similar to those noted last week. We observed a large difference between low loads for the Monday sample (4th %-ile), with levels below the limit of detection at WRFs A and C, followed by high loads on Wednesday (80th %-ile). Averaged for the week, levels for all plants combined were similar to last week’s average. This continued trend suggests that significant levels of SARS&#8209;CoV&#8209;2 continue to circulate in Athens-Clarke County, while reported cases have been relatively stable. This may be related to lower rates of testing across the area and potentially more asymptomatic infections (although without surveillance testing to confirm, this is only an assumption). GA DPH reports showed that daily cases ended the week at 12 (7-day running average) in Athens-Clarke County with a 7-day running average positive test rate of 4.8%, a slight increase from last week.**   
+
+<span style="text-decoration:underline">April 19</span>  
+SARS&#8209;CoV&#8209;2 loads and concentrations declined at all three plants for the sample collected Monday 4/19. Levels were below the limit of detect for WRFs A and C and were detectable, but low, at WRF B. This pattern of low levels on the Monday sample has been common in recent weeks; we are still evaluating additional to data to explain this trend. On 4/19, DPH reported 13 new cases per day using the 7-day running average. The reported test positivity rate reached 10.5% (5.3% based on the 7-day running average).      
+
+<span style="text-decoration:underline">April 21</span>  
+Viral loads increased at all plants, with the load at WRF B reaching its highest level since mid-January. Loads at WRFs A and C were similar (or lower) than that observed in last week’s Wednesday sample. On 4/21, GA DPH reported 10 new daily cases based on the 7-day running average and a PCR-test positivity of 4.2% (7-day running average).        
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 12 & 14
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week and across all plants, viral loads were slightly higher but comparable to the prior week’s average. However, there was considerable variability between sampling days this week, with levels below the limit of detection at two plants (A and C) on Monday before reaching high levels on Wednesday (Monday’s samples were in the 3rd percentile for load while those on Wednesday reached the 77th percentile for load). The 7-day running average of new cases per day ended the week at 10 (4/16). The 7-day running average of positive PCR tests in Athens-Clarke county (reported to DPH) was 4%, a decline from the prior week.**    
 
