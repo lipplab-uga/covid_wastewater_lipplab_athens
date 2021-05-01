@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 26 & 28
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Average viral load declined slightly for the first time in 5 weeks. Average daily load was down at both WRF B and C but increased slightly at WRF A. Daily reported cases in Athens-Clarke County ended the week at 8 (7-day running average), after reaching recent high of 13 new cases per day (7-day average) on 4/19.**   
+
+<span style="text-decoration:underline">April 26</span>  
+SARS&#8209;CoV&#8209;2 levels at all plants declined compared to the prior sample date (Wednesday, 4/22) but were not as low as had been noted in the prior few weeks’ Monday samples. Viral RNA was detected at all plants with concentrations > 50,000 genome copies per liter. On 4/26, GA DPH reported a 7-day running average of 9 new cases per day and a positive test rate of 3.7% (7-day running average).        
+
+<span style="text-decoration:underline">April 28</span>  
+Viral loads for the Wednesday sample increased at all plants, compared to 4/26 (concentration >100,000 copies per liter), but to a lesser extent than has been observed in recent weeks. The 7-day running average of new cases in Athens-Clarke county was 10 on 4/28 with a positive test rate of 3.3% (7-day running average).    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 19 & 21
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral load results this week look very similar to those noted last week. We observed a large difference between low loads for the Monday sample (4th %-ile), with levels below the limit of detection at WRFs A and C, followed by high loads on Wednesday (80th %-ile). Averaged for the week, levels for all plants combined were similar to last week’s average. This continued trend suggests that significant levels of SARS&#8209;CoV&#8209;2 continue to circulate in Athens-Clarke County, while reported cases have been relatively stable. This may be related to lower rates of testing across the area and potentially more asymptomatic infections (although without surveillance testing to confirm, this is only an assumption). GA DPH reports showed that daily cases ended the week at 12 (7-day running average) in Athens-Clarke County with a 7-day running average positive test rate of 4.8%, a slight increase from last week.**   
 
