@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 3 & 5
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels for the county declined for the second week in a row. For the week, the decline in daily load was noted at all three WRFs. Reported cases in Athens-Clarke county ended the week at 9 new cases per day (7-day running average) and a 7-day positive test rate of 3.4%, similar to reports for the prior week. As of 5/7/2021, 28% of Athens-Clarke county was considered to be fully vaccinated.**   
+
+<span style="text-decoration:underline">May 3</span>  
+SARS&#8209;CoV&#8209;2 RNA was detected at all three plants but at lower levels than noted for the prior sample date (4/28/2021). Viral concentrations ranged from ~23,000 genome copies per liter at WRF C to ~69,000 copies per liter at WRF A.     
+
+<span style="text-decoration:underline">May 5</span>  
+Viral loads were below the limit of detection at both WRF A and C, and increased slightly at WRF B. Averaged for all plants, the load declined compared to the Monday (5/2) sample. It is worth noting that wastewater flows were elevated at all plants after the heavy rainfall on Monday and Tuesday. This could have led to some dilution of the incoming sewage that, in turn, could dilute the viral signal.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 26 & 28
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average viral load declined slightly for the first time in 5 weeks. Average daily load was down at both WRF B and C but increased slightly at WRF A. Daily reported cases in Athens-Clarke County ended the week at 8 (7-day running average), after reaching recent high of 13 new cases per day (7-day average) on 4/19.**   
 

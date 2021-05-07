@@ -33,14 +33,14 @@ only_n2 <- only_n2[!(only_n2$Facility == "WRF A" & only_n2$date == "2020-11-02")
 
 #n1
 smooth_n1 <- only_n1 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(target = "N1")
 
 #n2
 smooth_n2 <- only_n2 %>% select(-c(Facility)) %>% 
-  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke, cases_per_100000_clarke) %>%
+  group_by(date, cases_cum_clarke, new_cases_clarke, X7_day_ave_clarke) %>%
   summarize(sum_copy_num_L = sum(mean_total_copies)) %>%
   ungroup() %>%
   mutate(target = "N2")
