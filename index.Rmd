@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 10 & 12
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across the two samples collected, SARS&#8209;CoV&#8209;2 levels reported this week are comparable to average levels reported for the past two weeks. Stability in viral levels reflect the stability in reported cases over the past two weeks. As of 5/13/2021, reported cases in Athens-Clarke county averaged 7 new cases (7-day running average), with a 7-day positive test rate of 4% (up slightly from last week); 29% of Athens-Clarke county was considered to be fully vaccinated.**    
+
+<span style="text-decoration:underline">May 10</span>  
+The total viral load on Monday (5/10) was slightly elevated compared to the viral load from the previous sample collected Wednesday, 5/5. SARS&#8209;CoV&#8209;2 viral RNA was detectable at WRF A and WRF B but fell below the limit of detection at WRF C.   
+
+<span style="text-decoration:underline">May 12</span>  
+SARS&#8209;CoV&#8209;2 viral RNA was detectable at all three facilities on Wednesday 5/12. Viral concentrations at each plant increased compared to samples collected 5/10, and ranged from ~23,000 copies per liter at WRF B to ~49,000 copies per liter at WRF C.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 3 & 5
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels for the county declined for the second week in a row. For the week, the decline in daily load was noted at all three WRFs. Reported cases in Athens-Clarke county ended the week at 9 new cases per day (7-day running average) and a 7-day positive test rate of 3.4%, similar to reports for the prior week. As of 5/7/2021, 28% of Athens-Clarke county was considered to be fully vaccinated.**   
 
@@ -121,11 +133,8 @@ SARS&#8209;CoV&#8209;2 viral RNA levels fell below the limit of detection at WRF
 <div style="margin-bottom:25px;">
 </div>
 
-##### Mar 29 & 31
+##### March 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS‑CoV‑2 viral RNA levels increased for the second week in a row across the Athens-Clarke County wastewater treatment plants. Average levels increased at all three plants, with moderate increases for the week at WRFs A and B and a substantial increase at WRF C. Although total viral load in wastewater across the area remains relatively low (in the bottom third fraction compared to all samples collected to date), the shift toward increasing levels over the last two weeks (after several weeks of stable to declining levels) is concerning. As of April 2, reported cases remained low in Athens-Clarke County, at 8 new cases per day (7-day running average), but the number of tests administered has declined and the percentage of positive tests has increased slightly (from 3% positive on 3/24 to 4% positive on 4/2** <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">7-day running average</a>**)**. **This illustrates the need for continued preventative measures as vaccine distribution increases within the county.**   
-
-<span style="text-decoration:underline">March 29</span>  
-SARS&#8209;CoV&#8209;2 RNA levels declined below the limit of detection at WRF A, but increased at both WRF B and WRF C compared to the prior sample date. The uptick at WRF C is notable because this plant had been below the limit of detection for the two prior weeks and reached a total load that we have not observed since late February.     
 
 <span style="text-decoration:underline">March 31</span>  
 Levels declined (WRF B) or remained stable (WRF C), compared to the Monday sample, but increased substantially at WRF A.     
@@ -133,18 +142,26 @@ Levels declined (WRF B) or remained stable (WRF C), compared to the Monday sampl
 <div style="margin-bottom:25px;">
 </div>
 
-##### Mar 22 & 24
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA levels remain low (very near the limit of detection) across the Athens-Clarke County area. Levels remained below current detection limits at WRF C (both collection days) and WRF A (Monday collection) but were detectable at WRF B. Daily case reports continue to be low across the county (7-day running average of 10 new cases per day or 8/100,000 people). As testing declines, the importance of wastewater based testing may become important to catch potential upticks in infection, but as of now, wastewater levels continue to be reduced.**    
+<span style="text-decoration:underline">March 29</span>  
+SARS&#8209;CoV&#8209;2 RNA levels declined below the limit of detection at WRF A, but increased at both WRF B and WRF C compared to the prior sample date. The uptick at WRF C is notable because this plant had been below the limit of detection for the two prior weeks and reached a total load that we have not observed since late February.    
 
-<span style="text-decoration:underline">March 22</span>  
-SARS&#8209;CoV&#8209;2 RNA remained below the limit of detection at WRFs A and C but increased to an average concentration of 134,180 genome copies per liter at WRF B.   
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA levels remain low (very near the limit of detection) across the Athens-Clarke County area. Levels remained below current detection limits at WRF C (both collection days) and WRF A (Monday collection) but were detectable at WRF B. Daily case reports continue to be low across the county (7-day running average of 10 new cases per day or 8/100,000 people). As testing declines, the importance of wastewater based testing may become important to catch potential upticks in infection, but as of now, wastewater levels continue to be reduced.**    
 
 <span style="text-decoration:underline">March 24</span>  
 Viral RNA was again below the limit of detection at WRF C but was found at both WRF A and B. The concentration at WRF A was 133,507 genome copies per liter and at WRF B was 42,707 genome copies per liter.    
 <div style="margin-bottom:25px;">
 </div>
 
-##### Mar 15 & 17
+<span style="text-decoration:underline">March 22</span>  
+SARS&#8209;CoV&#8209;2 RNA remained below the limit of detection at WRFs A and C but increased to an average concentration of 134,180 genome copies per liter at WRF B.
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">March 15 & 17</span>  
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the first time in our reporting, SARS&#8209;CoV&#8209;2 levels dropped below our current detection limit at all three plants, for both gene targets, on both 3/15 and 3/17.**    
 
 <span style="text-decoration:underline">What this means</span>  
@@ -155,14 +172,7 @@ We are working on methods to increase our limit of detection as we enter a phase
 <div style="margin-bottom:25px;">
 </div>
 
-##### Mar 8 & 10
-
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 in wastewater continues to remain stable. Average total loads for each week have been oscillating around 10^13 total copies, since the week beginning 2/14.**   
-
-<span style="text-decoration:underline">March 8</span>  
-The viral load estimated for WRF A and WRF C on Monday 3/8 was comparable to the estimates from the previous collection, on Wednesday 3/3. The total viral load at WRF B dropped 10-fold between the two collection periods. The total viral load for the county was comparable to the load observed in the previous weeks, dating back to 2/14.   
-
-The 7-day running average of newly-reported cases was 24.     
 
 <span style="text-decoration:underline">March 10</span>  
 Viral estimates for Wednesday 3/10 were highly variable between plants. Compared to Monday’s samples, the viral load increased considerably at WRF B. However, the viral load decreased at WRF A, and remained stable at WRF C. The variability between plants and sample dates is common, as the levels of virus drop close to or below the limit of detection for our method.   
@@ -172,18 +182,28 @@ The 7-day running average of newly-reported cases was 15.
 <div style="margin-bottom:25px;">
 </div>
 
-##### Mar 1 & 3
+<span style="text-decoration:underline">March 8</span>  
+The viral load estimated for WRF A and WRF C on Monday 3/8 was comparable to the estimates from the previous collection, on Wednesday 3/3. The total viral load at WRF B dropped 10-fold between the two collection periods. The total viral load for the county was comparable to the load observed in the previous weeks, dating back to 2/14.   
+
+The 7-day running average of newly-reported cases was 24.  
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Total viral load in wastewater continues to remain stable. With average loads for each week changing little since the week of 2/14. Also similar to our observations for the past three weeks, there was considerable variability between plants and between sampling dates, which may be more common as concentrations of the SARS&#8209;CoV&#8209;2 RNA approach the limit of our detection capabilities. Wastewater results suggest persistent viral shedding in the community but at levels well below their peak in January.**   
-
-<span style="text-decoration:underline">March 1</span>  
-Samples for Monday 3/1 were highly variable between plants. After falling below our limit of detection the prior week (Wednesday 2/24), levels at WRF A reached >300,000 copies per liter. However, levels at both WRF B and C fell below the limit of detection (for both targets) for the first time since early November.    
-
-The 7-day running average of newly reported cases was 21.    
 
 <span style="text-decoration:underline">March 3</span>   
 Viral levels increased overall in samples collected on Wednesday 3/3, with SARS&#8209;CoV&#8209;2 detected at all three plants, bringing total load in line with what we have observed since early to mid February.   
 
 The 7-day running average of newly reported cases increased to 28 (following a single day report of 64 new cases on 3/3).      
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">March 1</span>  
+Samples for Monday 3/1 were highly variable between plants. After falling below our limit of detection the prior week (Wednesday 2/24), levels at WRF A reached >300,000 copies per liter. However, levels at both WRF B and C fell below the limit of detection (for both targets) for the first time since early November.    
+
+The 7-day running average of newly reported cases was 21.  
 
 <div style="margin-bottom:25px;">
 </div>
