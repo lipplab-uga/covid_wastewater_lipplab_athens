@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 17 & 19
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Average weekly viral loads have remained relatively stable in Athens-Clarke County over the past four weeks. As of 5/21/2021, reported cases in Clarke County averaged 5 new cases per day, based on the 7-day running average. Although testing volume is low, the 7-day positive test rate was 2.7%; 30% of Athens-Clarke county was considered to be fully vaccinated.**   
+
+<span style="text-decoration:underline">May 17</span>   
+On Monday 5/17/2021, viral levels fell below the limit of detection for both WRF A and WRF B. Total viral load at WRF C was comparable to the load estimated for the previous collection on 5/12/2021, but concentrations reached >100,000 copies per liter.
+   
+
+<span style="text-decoration:underline">May 19</span>  
+On Wednesday 5/19/2021, viral levels fell below the limit of detection for WRF C and continued below detection limits at WRF A. WRF A includes the entire UGA campus and this might reflect changes in residential population in that catchment. After falling below detection limits at WRF B on Monday, there was a notable increase in viral detection on Wednesday with the highest load noted since mid-April and a concentration >500,000 copies per liter.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 10 & 12
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across the two samples collected, SARS&#8209;CoV&#8209;2 levels reported this week are comparable to average levels reported for the past two weeks. Stability in viral levels reflect the stability in reported cases over the past two weeks. As of 5/13/2021, reported cases in Athens-Clarke county averaged 7 new cases (7-day running average), with a 7-day positive test rate of 4% (up slightly from last week); 29% of Athens-Clarke county was considered to be fully vaccinated.**    
 
