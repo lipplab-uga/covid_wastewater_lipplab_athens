@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 24 & 26
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County wastewater remain low with average loads for the week stable or slightly declining. This is consistent with declining reported cases in the county (3 new cases per day [7-day running average] as of 5/28, with a test positivity rate of 1.8%).  31% of Athens-Clarke County was considered to be fully vaccinated as of 5/28.**    
+
+<span style="text-decoration:underline">May 24</span>   
+SARS&#8209;CoV&#8209;2 virus was detectable at all three WRFs on Monday with loads increasing at both WRF A and C but declining at WRF B compared to the prior sample. For all plants combined, the total viral load remained below the 20th percentile of all samples.   
+
+<span style="text-decoration:underline">May 26</span>   
+Loads at all plants declined from that observed on Monday (5/24). Levels fell below the limit of detection at both WRF A and WRF C, and at WRF B declined from 66,500 copies/L on 5/24 to 32,500 copies/L on 5/26.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 17 & 19
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average weekly viral loads have remained relatively stable in Athens-Clarke County over the past four weeks. As of 5/21/2021, reported cases in Clarke County averaged 5 new cases per day, based on the 7-day running average. Although testing volume is low, the 7-day positive test rate was 2.7%; 30% of Athens-Clarke county was considered to be fully vaccinated.**   
 
