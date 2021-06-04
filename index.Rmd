@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 1 & 2
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After stable to declining SARS&#8209;CoV&#8209;2 levels in local wastewater for the past month, concentrations fell below the limit of detection at all three plants on both sample dates this week. While we cannot rule out presence of virus at levels below the detection capacity of our tests, these results do show that levels across the county are historically low. This is consistent with declining reported cases in Athens-Clarke County, which reached a 7-day average of 1.7 new cases per day as of Friday 6/4.**   
+
+<span style="text-decoration:underline">June 1</span>   
+Due to the Memorial Day holiday, samples were collected on Tuesday 6/1 (representing a composite sample between 6:30 am Monday 5/31 and 6:30 am Tuesday 6/1). Wastewater flows were low, especially at WRF A, suggesting a lower wastewater load over this holiday period. SARS&#8209;CoV&#8209;2 levels were below the limit of detection at all plants.    
+
+<span style="text-decoration:underline">June 2</span>   
+Samples collected Wednesday, 6/2, continued to show levels of SARS&#8209;CoV&#8209;2 RNA below our limit of detection.  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 24 & 26
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County wastewater remain low with average loads for the week stable or slightly declining. This is consistent with declining reported cases in the county (3 new cases per day [7-day running average] as of 5/28, with a test positivity rate of 1.8%).  31% of Athens-Clarke County was considered to be fully vaccinated as of 5/28.**    
 
