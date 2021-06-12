@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 7 & 9
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **On average for the week, SARS&#8209;CoV&#8209;2 concentrations remained low but were detected in samples from at least one plant on both sample days. Reported cases for Athens Clarke County were similar to last week and averaged 2.4 new cases per day (7-day average) as of 6/11. 33% of residents of Clarke County are considered to be fully vaccinated.**   
+
+<span style="text-decoration:underline">June 7</span>   
+Viral RNA was detected at WRF B (N1 gene target only) at an average concentration of ~135,000 copies per liter; no virus was detected at WRF A or C.     
+
+<span style="text-decoration:underline">June 9</span>   
+SARS&#8209;CoV&#8209;2 levels continued below the limit of detection for WRF C, marking the second week with no detection at this plant. Levels fell below the limit of detection at WRF B. At WRF A, concentrations increased to >640,000 copies per liter (both N1 and N2 genes).   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 1 & 2
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **After stable to declining SARS&#8209;CoV&#8209;2 levels in local wastewater for the past month, concentrations fell below the limit of detection at all three plants on both sample dates this week. While we cannot rule out presence of virus at levels below the detection capacity of our tests, these results do show that levels across the county are historically low. This is consistent with declining reported cases in Athens-Clarke County, which reached a 7-day average of 1.7 new cases per day as of Friday 6/4.**   
 
@@ -118,54 +130,63 @@ Viral loads were below the limit of detection at both WRF A and C, and increased
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 26 & 28
+##### April 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average viral load declined slightly for the first time in 5 weeks. Average daily load was down at both WRF B and C but increased slightly at WRF A. Daily reported cases in Athens-Clarke County ended the week at 8 (7-day running average), after reaching recent high of 13 new cases per day (7-day average) on 4/19.**   
+
+<span style="text-decoration:underline">April 28</span>  
+Viral loads for the Wednesday sample increased at all plants, compared to 4/26 (concentration >100,000 copies per liter), but to a lesser extent than has been observed in recent weeks. The 7-day running average of new cases in Athens-Clarke county was 10 on 4/28 with a positive test rate of 3.3% (7-day running average).   
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">April 26</span>  
 SARS&#8209;CoV&#8209;2 levels at all plants declined compared to the prior sample date (Wednesday, 4/22) but were not as low as had been noted in the prior few weeks’ Monday samples. Viral RNA was detected at all plants with concentrations > 50,000 genome copies per liter. On 4/26, GA DPH reported a 7-day running average of 9 new cases per day and a positive test rate of 3.7% (7-day running average).        
 
-<span style="text-decoration:underline">April 28</span>  
-Viral loads for the Wednesday sample increased at all plants, compared to 4/26 (concentration >100,000 copies per liter), but to a lesser extent than has been observed in recent weeks. The 7-day running average of new cases in Athens-Clarke county was 10 on 4/28 with a positive test rate of 3.3% (7-day running average).    
-
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 19 & 21
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral load results this week look very similar to those noted last week. We observed a large difference between low loads for the Monday sample (4th %-ile), with levels below the limit of detection at WRFs A and C, followed by high loads on Wednesday (80th %-ile). Averaged for the week, levels for all plants combined were similar to last week’s average. This continued trend suggests that significant levels of SARS&#8209;CoV&#8209;2 continue to circulate in Athens-Clarke County, while reported cases have been relatively stable. This may be related to lower rates of testing across the area and potentially more asymptomatic infections (although without surveillance testing to confirm, this is only an assumption). GA DPH reports showed that daily cases ended the week at 12 (7-day running average) in Athens-Clarke County with a 7-day running average positive test rate of 4.8%, a slight increase from last week.**   
+
+<span style="text-decoration:underline">April 21</span>  
+Viral loads increased at all plants, with the load at WRF B reaching its highest level since mid-January. Loads at WRFs A and C were similar (or lower) than that observed in last week’s Wednesday sample. On 4/21, GA DPH reported 10 new daily cases based on the 7-day running average and a PCR-test positivity of 4.2% (7-day running average).   
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">April 19</span>  
 SARS&#8209;CoV&#8209;2 loads and concentrations declined at all three plants for the sample collected Monday 4/19. Levels were below the limit of detect for WRFs A and C and were detectable, but low, at WRF B. This pattern of low levels on the Monday sample has been common in recent weeks; we are still evaluating additional to data to explain this trend. On 4/19, DPH reported 13 new cases per day using the 7-day running average. The reported test positivity rate reached 10.5% (5.3% based on the 7-day running average).      
 
-<span style="text-decoration:underline">April 21</span>  
-Viral loads increased at all plants, with the load at WRF B reaching its highest level since mid-January. Loads at WRFs A and C were similar (or lower) than that observed in last week’s Wednesday sample. On 4/21, GA DPH reported 10 new daily cases based on the 7-day running average and a PCR-test positivity of 4.2% (7-day running average).        
-
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 12 & 14
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week and across all plants, viral loads were slightly higher but comparable to the prior week’s average. However, there was considerable variability between sampling days this week, with levels below the limit of detection at two plants (A and C) on Monday before reaching high levels on Wednesday (Monday’s samples were in the 3rd percentile for load while those on Wednesday reached the 77th percentile for load). The 7-day running average of new cases per day ended the week at 10 (4/16). The 7-day running average of positive PCR tests in Athens-Clarke county (reported to DPH) was 4%, a decline from the prior week.**    
+
+<span style="text-decoration:underline">April 14</span>  
+Viral levels increased substantially on 4/14, reaching over 1 million genome copies per liter at each plant and the highest daily load (all plants combined) since late January.    
+
+The 7-day running average of newly reported cases was 10 as of 4/14 and the 7-day running average of positive PCR tests increased to 4.1% for the county.   
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">April 12</span>  
 SARS&#8209;CoV&#8209;2 levels were below the limit of detection at WRFs A and C but remained stable at WRF B. Rainfall throughout the day Sunday may have contributed to some loss of signal in the wastewater samples, but we have observed over the last month that the detection of virus in the sample collected on Monday is often low for WRF A in particular which may suggest some variability in the wastewater flow over the weekend. This is something that we will be working to investigate.   
 
 The 7-day running average of newly reported cases was 9 as of 4/12 and the 7-day running average of positive PCR tests was 3.7% for Athens-Clarke county (per DPH).     
 
-<span style="text-decoration:underline">April 14</span>  
-Viral levels increased substantially on 4/14, reaching over 1 million genome copies per liter at each plant and the highest daily load (all plants combined) since late January.    
+<div style="margin-bottom:25px;">
+</div>
 
-The 7-day running average of newly reported cases was 10 as of 4/14 and the 7-day running average of positive PCR tests increased to 4.1% for the county.      
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA levels were comparable to those reported last week. While the total viral load remains relatively low (in the lower third of all concentrations reported) for Athens-Clarke County, a general upward trend has been observed over a period of three weeks. The 7-day running average of reported cases has increased to 12 cases per day as of 4/9 and the rate of positive tests increased to 5% (compared to 4% positivity on 4/2). These trends suggest that there is a continued need for preventative measures as vaccine distribution increases within the county.**   
+
+<span style="text-decoration:underline">April 7</span>  
+SARS&#8209;CoV&#8209;2 viral RNA levels fell below the limit of detection at WRF A, but viral loads at WRF B and WRF C were comparable to observations on Monday (4/5). The running average number of new cases on 4/7 increased to 11.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 5 & 7
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA levels were comparable to those reported last week. While the total viral load remains relatively low (in the lower third of all concentrations reported) for Athens-Clarke County, a general upward trend has been observed over a period of three weeks. The 7-day running average of reported cases has increased to 12 cases per day as of 4/9 and the rate of positive tests increased to 5% (compared to 4% positivity on 4/2). These trends suggest that there is a continued need for preventative measures as vaccine distribution increases within the county.**   
-
 <span style="text-decoration:underline">April 5</span>  
 Levels of SARS&#8209;CoV&#8209;2 viral RNA were detectable at all three WRFs. The viral load at WRF A increased slightly compared to the previous observation on 3/31. The viral loads at WRF B and WRF C were comparable to those observed in the previous week. The 7-day running average of new cases on 4/5 was 9.
-
-<span style="text-decoration:underline">April 7</span>  
-SARS&#8209;CoV&#8209;2 viral RNA levels fell below the limit of detection at WRF A, but viral loads at WRF B and WRF C were comparable to observations on Monday (4/5). The running average number of new cases on 4/7 increased to 11.
 
 <div style="margin-bottom:25px;">
 </div>
