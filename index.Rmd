@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 21 & 23
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke County increased this week, largely attributable to new detections of viral RNA at WRF B (area roughly west of Milledge Ave.) and continued detection at WRF C (east side) on both sampling days (levels at WRF A were below the limit of detection). Concentrations exceeded 500,000 copies per liter at WRF B on both sampling days after being below the limit of detection for 2 of the past 3 weeks (and 5 of the last 6 samples). Reported cases in Athens ended the week at 3 new cases per day (7-day running average), a slight increase compared to the prior week; however, testing rates are very low (~109 PCR tests per day).  **    
+
+<span style="text-decoration:underline">June 21</span>   
+SARS&#8209;CoV&#8209;2 RNA was detected at both WRF B (both N1 and N2 genes) and WRF C (N1 gene only). Concentrations exceeded 840,000 copies per L at WRF B and 140,000 copies per liter at WRF C. This was the first detection at WRF B since June 7.   
+
+<span style="text-decoration:underline">June 23</span>   
+Detection rates and levels were similar to the Monday sample, with >600,000 copies per liter (and both gene targets detected) at WRF B and >60,000 copies per liter (N1 gene only) at WRF C.   
+
+<div style="margin-bottom:25px;">
+</div>
+
+
 ##### June 14 & 16
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for both sampling days this week and all plants, SARS&#8209;CoV&#8209;2 load was similar to the prior week; however after two weeks of samples below the limit of detection, viral RNA was detected at WRF C (covering Athens east side) on both sampling days. No viral RNA was detected at WRF B and was only detected on Monday at WRF A. Reported cases in Athens declined to a 7-day running average of 1.7 new cases per day (as of 6/18). 37% of residents of Athens-Clarke County are considered to be fully vaccinated.**   
 
