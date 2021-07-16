@@ -57,6 +57,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 12 & 14
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, SARS&#8209;CoV&#8209;2 viral RNA was readily detected in all wastewater samples. The average total viral load was comparable to the viral load recorded last week, on July 12, 2021. The 7-day running average has increased to 8 new cases per day (reported on 7/15/2021). Case positivity is 3.4%, while testing has dropped to 65 tests conducted per day (based on a 7-day average).**   
+
+<span style="text-decoration:underline">July 12</span>  
+SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples collected across WRF A, WRF B, and WRF C on Monday, July 12, 2021. Viral concentrations were highest at WRF A, at 165,000 copies per Liter. Concentrations were comparable at WRF B and WRF C, at ~45,000 copies per Liter.
+
+<span style="text-decoration:underline">July 14</span>  
+SARS&#8209;CoV&#8209;2 Viral RNA was detected across all samples, again, on Wednesday July 14, 2021. Viral concentrations were comparable between samples and ranged from 20,000 copies per Liter to 50,000 copies per liter. The total viral load, averaged between all samples, was comparable to the viral load reported last week.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 7
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in wastewater have increased, compared to last week’s samples. This increase in viral load corresponds with a marked increase in the number of reported cases this week. The 7-day running average in reported cases as risen to 7 new cases per day (reported on 7/8/2021). Case positivity has increased to 6.7%, while testing still remains low with a 7-day average of 84 tests conducted per day.** 
 
