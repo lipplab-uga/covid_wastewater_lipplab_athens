@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Update coming soon!**   
+
+<span style="text-decoration:underline">July 19</span>  
+SARS&#8209;CoV&#8209;2 RNA was detected at all plants for the Monday collection. Levels at WRF B were similar to last week but virus loads increased substantially at both WRF A (UGA, downtown, and north Athens) and WRF C (eastside). Concentrations at WRF C reached >280,000 viral copies per liter and >125,000 copies per liter at WRF A.      
+
+<span style="text-decoration:underline">July 21</span>  
+_Update coming soon!_      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 12 & 14
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, SARS&#8209;CoV&#8209;2 viral RNA was readily detected in all wastewater samples. The average total viral load was comparable to the viral load recorded last week, on July 12, 2021. The 7-day running average has increased to 8 new cases per day (reported on 7/15/2021). Case positivity is 3.4%, while testing has dropped to 65 tests conducted per day (based on a 7-day average).**   
@@ -79,22 +91,21 @@ Wastewater this week was sampled on Tuesday July 6th, 2021. SARS&#8209;CoV&#8209
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 28 & 30
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, levels of SARS&#8209;CoV&#8209;2 decreased below the limit of detection in all but one sample collected. Levels at WRF A were detectable on 6/30/2021, but were below the limit of detection in all samples on 6/28/2021. Reported cases in Athens ended the week at 2 new cases per day, based upon the 7-day running average. Testing rates still remain low, with approximately 109 tests per day and a 1.5% test positively rate.**    
-<span style="text-decoration:underline">June 28</span>  
-After last week’s spike in viral load, SARS&#8209;CoV&#8209;2 RNA fell below the limit of detection in wastewater collected from all three WRF in Athens-Clarke County.    
-
+##### June 2021
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, levels of SARS&#8209;CoV&#8209;2 decreased below the limit of detection in all but one sample collected. Levels at WRF A were detectable on 6/30/2021, but were below the limit of detection in all samples on 6/28/2021. Reported cases in Athens ended the week at 2 new cases per day, based upon the 7-day running average. Testing rates still remain low, with approximately 109 tests per day and a 1.5% test positively rate.**  
 <span style="text-decoration:underline">June 30</span>   
 Viral levels were below the limit of detection at WRF B and WRF C. SARS&#8209;CoV&#8209;2 viral RNA was detected at WRF A at a concentration of approximately 24,000 copies/L.    
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 21 & 23
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke County increased this week, largely attributable to new detections of viral RNA at WRF B (area roughly west of Milledge Ave.) and continued detection at WRF C (east side) on both sampling days (levels at WRF A were below the limit of detection). Concentrations exceeded 500,000 copies per liter at WRF B on both sampling days after being below the limit of detection for 2 of the past 3 weeks (and 5 of the last 6 samples). Reported cases in Athens ended the week at 3 new cases per day (7-day running average), a slight increase compared to the prior week; however, testing rates are very low (~109 PCR tests per day).  **    
+<span style="text-decoration:underline">June 28</span>  
+After last week’s spike in viral load, SARS&#8209;CoV&#8209;2 RNA fell below the limit of detection in wastewater collected from all three WRF in Athens-Clarke County.    
 
-<span style="text-decoration:underline">June 21</span>   
-SARS&#8209;CoV&#8209;2 RNA was detected at both WRF B (both N1 and N2 genes) and WRF C (N1 gene only). Concentrations exceeded 840,000 copies per L at WRF B and 140,000 copies per liter at WRF C. This was the first detection at WRF B since June 7.   
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke County increased this week, largely attributable to new detections of viral RNA at WRF B (area roughly west of Milledge Ave.) and continued detection at WRF C (east side) on both sampling days (levels at WRF A were below the limit of detection). Concentrations exceeded 500,000 copies per liter at WRF B on both sampling days after being below the limit of detection for 2 of the past 3 weeks (and 5 of the last 6 samples). Reported cases in Athens ended the week at 3 new cases per day (7-day running average), a slight increase compared to the prior week; however, testing rates are very low (~109 PCR tests per day).  **    
 
 <span style="text-decoration:underline">June 23</span>   
 Detection rates and levels were similar to the Monday sample, with >600,000 copies per liter (and both gene targets detected) at WRF B and >60,000 copies per liter (N1 gene only) at WRF C.   
@@ -102,39 +113,50 @@ Detection rates and levels were similar to the Monday sample, with >600,000 copi
 <div style="margin-bottom:25px;">
 </div>
 
+<span style="text-decoration:underline">June 21</span>   
+SARS&#8209;CoV&#8209;2 RNA was detected at both WRF B (both N1 and N2 genes) and WRF C (N1 gene only). Concentrations exceeded 840,000 copies per L at WRF B and 140,000 copies per liter at WRF C. This was the first detection at WRF B since June 7.   
 
-##### June 14 & 16
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for both sampling days this week and all plants, SARS&#8209;CoV&#8209;2 load was similar to the prior week; however after two weeks of samples below the limit of detection, viral RNA was detected at WRF C (covering Athens east side) on both sampling days. No viral RNA was detected at WRF B and was only detected on Monday at WRF A. Reported cases in Athens declined to a 7-day running average of 1.7 new cases per day (as of 6/18). 37% of residents of Athens-Clarke County are considered to be fully vaccinated.**   
+
+<span style="text-decoration:underline">June 16</span>   
+Levels were below the limit of detection at both WRF A and WRF B but continued at detectable levels at WRF C. Concentrations exceeded 90,000 copies per L and both N1 and N2 gene targets were detected. 
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">June 14</span>   
 SARS&#8209;CoV&#8209;2 RNA was detected at both WRF A (N2 gene only) and WRF C (N1 gene only). Concentrations exceeded 23,000 copies per L at WRF A and 348,000 copies per L at WRF C. This was the first sample since May 24 in which viral RNA was detected at WRF C.       
 
-<span style="text-decoration:underline">June 16</span>   
-Levels were below the limit of detection at both WRF A and WRF B but continued at detectable levels at WRF C. Concentrations exceeded 90,000 copies per L and both N1 and N2 gene targets were detected.   
-
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 7 & 9
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **On average for the week, SARS&#8209;CoV&#8209;2 concentrations remained low but were detected in samples from at least one plant on both sample days. Reported cases for Athens Clarke County were similar to last week and averaged 2.4 new cases per day (7-day average) as of 6/11. 33% of residents of Clarke County are considered to be fully vaccinated.**   
+
+<span style="text-decoration:underline">June 9</span>   
+SARS&#8209;CoV&#8209;2 levels continued below the limit of detection for WRF C, marking the second week with no detection at this plant. Levels fell below the limit of detection at WRF B. At WRF A, concentrations increased to >640,000 copies per liter (both N1 and N2 genes).  
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">June 7</span>   
 Viral RNA was detected at WRF B (N1 gene target only) at an average concentration of ~135,000 copies per liter; no virus was detected at WRF A or C.     
 
-<span style="text-decoration:underline">June 9</span>   
-SARS&#8209;CoV&#8209;2 levels continued below the limit of detection for WRF C, marking the second week with no detection at this plant. Levels fell below the limit of detection at WRF B. At WRF A, concentrations increased to >640,000 copies per liter (both N1 and N2 genes).   
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After stable to declining SARS&#8209;CoV&#8209;2 levels in local wastewater for the past month, concentrations fell below the limit of detection at all three plants on both sample dates this week. While we cannot rule out presence of virus at levels below the detection capacity of our tests, these results do show that levels across the county are historically low. This is consistent with declining reported cases in Athens-Clarke County, which reached a 7-day average of 1.7 new cases per day as of Friday 6/4.**   
+
+<span style="text-decoration:underline">June 2</span>   
+Samples collected Wednesday, 6/2, continued to show levels of SARS&#8209;CoV&#8209;2 RNA below our limit of detection.  
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 1 & 2
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **After stable to declining SARS&#8209;CoV&#8209;2 levels in local wastewater for the past month, concentrations fell below the limit of detection at all three plants on both sample dates this week. While we cannot rule out presence of virus at levels below the detection capacity of our tests, these results do show that levels across the county are historically low. This is consistent with declining reported cases in Athens-Clarke County, which reached a 7-day average of 1.7 new cases per day as of Friday 6/4.**   
-
 <span style="text-decoration:underline">June 1</span>   
 Due to the Memorial Day holiday, samples were collected on Tuesday 6/1 (representing a composite sample between 6:30 am Monday 5/31 and 6:30 am Tuesday 6/1). Wastewater flows were low, especially at WRF A, suggesting a lower wastewater load over this holiday period. SARS&#8209;CoV&#8209;2 levels were below the limit of detection at all plants.    
-
-<span style="text-decoration:underline">June 2</span>   
-Samples collected Wednesday, 6/2, continued to show levels of SARS&#8209;CoV&#8209;2 RNA below our limit of detection.  
 
 <div style="margin-bottom:25px;">
 </div>
