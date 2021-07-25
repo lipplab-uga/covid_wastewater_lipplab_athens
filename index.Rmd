@@ -58,13 +58,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### July 19 & 21
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Update coming soon!**   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA increased for the third week in a row at all plants Total viral load for Athens-Clarke county is still in the lower one third of all samples collected to date (beginning June 2020) but load has increased from the 5th percentile for samples collected during the last week of June to the 31st percentile for samples collected this week. This indicates a persistent increase in viral load and circulation of SARS&#8209;CoV&#8209;2 in the community, which is consistent with increasing case reports (7-day running average of 10 new cases per day as of Friday 7/23/2021). Rates of positive PCR tests reached 8.1% (7-day running average as of 7/23) but testing numbers continue to be low (~134 tests per day for the week).**   
 
 <span style="text-decoration:underline">July 19</span>  
-SARS&#8209;CoV&#8209;2 RNA was detected at all plants for the Monday collection. Levels at WRF B were similar to last week but virus loads increased substantially at both WRF A (UGA, downtown, and north Athens) and WRF C (eastside). Concentrations at WRF C reached >280,000 viral copies per liter and >125,000 copies per liter at WRF A.      
+SARS&#8209;CoV&#8209;2 RNA was detected at all plants for the Monday collection. Levels at WRF B were similar to last week but virus loads increased substantially at both WRF A (UGA, downtown, and north Athens) and WRF C (eastside). Concentrations at WRF C reached >280,000 viral copies per liter and >125,000 copies per liter at WRF A.   
 
 <span style="text-decoration:underline">July 21</span>  
-_Update coming soon!_      
+Viral load was steady for WRF A and C on Wednesday July 21, compared to the Monday sample. However, concentration increased by 4-fold at WRF B (west of Milledge Ave.) from ~50,000 copies per liter on 7/19 to >200,000 copies per liter on 7/21.       
 
 <div style="margin-bottom:25px;">
 </div>
