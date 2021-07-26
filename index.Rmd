@@ -38,7 +38,7 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. Vertical dashed lines indicate significant events that may affect local public health: June 24, 2020 Georgia continues broad reopening, including bars and restaurants; July 9, 2020 Athens-Clarke County implements mask mandate; August 20, 2020 classes begin at the University of Georgia. 
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area.  
 
 <div style="margin-bottom:25px;">
 </div>
