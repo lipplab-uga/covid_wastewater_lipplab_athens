@@ -57,6 +57,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 2 & 4
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **For the fifth week in a row, SARS&#8209;CoV&#8209;2 viral load increased across Athens-Clarke county. Levels for the week reached the 58th percentile for all samples collected to date; we are now in the upper half of viral load estimates and at levels we have not observed since April. This corresponds with rising reported cases which reached a 7-day running average of 36 cases per day as of Friday, 8/6 (up from 20 last Friday, 7/30). Last year, wastewater viral load began increasing in the second week of August, coinciding with the arrival of students to Athens before the UGA fall term. This year viral load and cases are rising earlier, but with imminent increase in population we anticipate a continued increase in viral transmission within the county. Considering this, we strongly encourage any residents/students who have not been vaccinated to do so in the near future.**   
+
+<span style="text-decoration:underline">August 2</span>  
+SARS&#8209;CoV&#8209;2 viral RNA increased at all three area plants. Average concentrations (for the N1 and N2 gene targets) were >200,000 copies per liter at all plants, and reached >830,000 copies per liter at WRF B (west of Milledge Ave.).    
+
+<span style="text-decoration:underline">August 4</span>  
+SARS&#8209;CoV&#8209;2 detection from Wednesday’s samples were similar to those found on Monday, with concentrations all exceeding 200,000 copies per liter.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 28 & 28
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral loads have increased steadily in the county’s wastewater over the past four weeks. Viral RNA was readily detectable in all wastewater samples collected on Monday 7/26 and Wednesday 7/28. For the week, viral load reached the 42nd percentile for all samples collected to date, climbing from the 31st percentile last week. These observations indicate increased viral shedding and circulation of SARS&#8209;CoV&#8209;2 in the community. Likewise, case reports have increased to a 7-day running average of 20 new cases per day (as of 7/29). This is the highest running average reported since March 2021. Rates of positive PCR tests were consistently above 10% for the week. Clarke county vaccination rates have remained near 39% for the past several weeks.**     
 
