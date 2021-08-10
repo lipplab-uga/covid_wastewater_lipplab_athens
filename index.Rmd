@@ -11,6 +11,7 @@ This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that
 
 <span style="text-decoration:underline">Navigating this site:</span>   
 •	**Data Trends**: Total viral load and trend analysis for the combined ACC area   
+•	**Prior Six Weeks**: Total viral load measures for the most recent six weeks of sampling  
 •	**Individual Plants**: Viral load and trend analysis for each plant and associated service area   
 •	**All Data**: Concentration of SARS&#8209;CoV&#8209;2 gene targets by date and treatment plant  
 •	**Research Overview**: Details on methods and approach  
@@ -748,6 +749,18 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 
 <div style="margin-bottom:25px;">
 </div>
+
+### Prior Six Weeks
+
+```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
+load(file = "./smooth_extract_filter.rda")
+smooth_extract_filter
+```
+
+
+```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./good_legend.png")
+```
 
 ### Individual Plants {.tabset}
 
