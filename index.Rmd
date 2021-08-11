@@ -752,14 +752,22 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 
 ### Prior Six Weeks
 
+<style>
+div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
+</style>
+<div class = "red">
+
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+</div>
+
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./smooth_extract_filter.rda")
 smooth_extract_filter
 ```
 
 
-```{r fig.hold='hold', out.height = "75%", out.width = "75%", fig.align='center', echo=FALSE}
-knitr::include_graphics("./good_legend.png")
+```{r fig.hold='hold', out.height = "50%", out.width = "50%", fig.align='center', echo=FALSE}
+knitr::include_graphics("./6_week_legend.png")
 ```
 
 ### Individual Plants {.tabset}
