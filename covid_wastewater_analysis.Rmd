@@ -207,7 +207,7 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract <- ggplot(rejoin, aes(x = date, y = log_sum_copies_both)) + 
   stat_smooth(aes(outfit=fit_both<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 415)
+              span = 0.6, n = 420)
 
 #look at the fits to align dates and total observations
 #both
@@ -438,17 +438,17 @@ filter_combined
 ```
 ```{r}
 p3_filter <- plotly::plot_ly() %>%
-  plotly::add_trace(x = ~date, y = ~log_sum_copies_both,
+  plotly::add_trace(x = ~date, y = ~sum_copies_both,
                        type = 'scatter',
                        mode = 'lines+markers',
                        data = filter_rejoin,
                        hoverinfo = "text",
                        showlegend = FALSE,
                        text = ~paste('</br> Date: ', date, 
-                                     '</br> Actual Log Copies: ', round(log_sum_copies_both, digits = 2)),
+                                     '</br> Actual Log Copies: ', round(sum_copies_both, digits = 2)),
                        line = list(color = '#1B9E77', size = 6, opacity = 0.65),
                        marker = list(color = '#1B9E77', size = 8, opacity = 0.65)) %>%
-  layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
+  layout(yaxis = list(title = "Total SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
 
@@ -460,10 +460,11 @@ p3_filter <- plotly::plot_ly() %>%
                                           hoverinfo = "text",
                                           text = "Below Limit of Detection",
                                           showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-      plotly::add_annotations(x = as.Date(last_6 + 7),
-                          y = 11.5,
-                          text = "Limit of Detection")
+                                          line = list(color = "black", dash = "dash")) 
+#%>%
+#      plotly::add_annotations(x = as.Date(last_6 + 7),
+#                          y = 11.5,
+#                          text = "Limit of Detection")
 
   
 

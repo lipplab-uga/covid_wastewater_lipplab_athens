@@ -58,11 +58,23 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 23 & 25
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Update coming soon!**  
+
+<span style="text-decoration:underline">August 23</span>  
+Total SARS&#8209;CoV&#8209;2 RNA levels in Athens-Clarke County continued to increase with concentrations exceeding 600,000 copies per liter at all three water reclamation facilities. The total load for Monday was reached the 79th percentile (for all samples collected to date). This is in line with increasing clinical case reports, which reached a 7-day running average of 62 new cases per day as of 8/23.   
+
+<span style="text-decoration:underline">August 25</span>  
+ _Data coming soon!_   
+ 
+<div style="margin-bottom:25px;">
+</div>
+
 ##### August 16 & 18
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 remains high in Athens-Clarke County. The average viral load is comparable to the viral load observed last week (ending on 8/13), but trends in overall viral load have been increasing since late July. The total viral load remains in the top 63% of all observations reported since May 2020. The number of newly reported cases has risen from 37 new cases per day (8/12/21) to 56 new cases per day (8/20/21). Of the reported PCR tests, 13.7% are reported positive.**    
 
 <span style="text-decoration:underline">August 16</span>  
-SARS&#8209;CoV&#8209;2 viral RNA was readily detected from all wastewater samples across the three WRFs. Viral concentrations were comparable to those observed from the previous collection on 8/11/21.  Viral concentrations on 8/16/21 were comparable between the three WRFs, at 200,000 and 580,000 copies/L.    
+SARS&#8209;CoV&#8209;2 viral RNA was readily detected from all wastewater samples across the three WRFs. Viral concentrations were comparable to those observed from the previous collection on 8/11/21.  Viral concentrations on 8/16/21 were comparable between the three WRFs, at 200,000 and 580,000 copies/L.     
 
 <span style="text-decoration:underline">August 18</span>  
 Despite heavy rainfall during this collection period, SARS&#8209;CoV&#8209;2 viral RNA was detected in all wastewater samples. Viral concentrations were consistent with those observed on 8/16/21, and comparable between all three plants, ranging from 350,000 to 475,000 copies/L.   
@@ -786,6 +798,12 @@ smooth_extract_filter
 ```{r fig.hold='hold', out.height = "50%", out.width = "50%", fig.align='center', echo=FALSE}
 knitr::include_graphics("./6_week_legend.png")
 ```
+
+<div style="margin-bottom:25px;">
+</div>
+
+**Please Note**.    
+In effort to better visualize the SARS&#8209;CoV&#8209;2 data trends more clearly, the y-axis of this figure uses a linear scale instead of a logarithmic scale. This differes from the y-axis scale on the _data trends_ tab of this website. 
 
 ### Individual Plants {.tabset}
 
