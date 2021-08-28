@@ -250,7 +250,7 @@ plotly::add_ribbons(x ~date_vec_botha, ymin = ~both_ymina, ymax = ~both_ymaxa,
                     name = "",
                     fillcolor = '#1B9E77',
                     line = list(color = '#1B9E77')) %>%
-                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
+                layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
@@ -368,7 +368,7 @@ plotly::add_ribbons(x ~date_vec_bothb, ymin = ~both_yminb, ymax = ~both_ymaxb,
                     name = "",
                     fillcolor = '#D95F02',
                     line = list(color = '#D95F02')) %>%
-                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
+                layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
@@ -491,7 +491,7 @@ plotly::add_ribbons(x ~date_vec_bothc, ymin = ~both_yminc, ymax = ~both_ymaxc,
                     name = "",
                     fillcolor = '#E7298A',
                     line = list(color = '#E7298A')) %>%
-                layout(yaxis = list(title = "Total Log SARS CoV-2 Copies", 
+                layout(yaxis = list(title = "Total Log10 SARS CoV-2 Copies", 
                                  showline = TRUE,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
