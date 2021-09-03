@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Aug 30 & Sept 1
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Wastewater load of SARS&#8209;CoV&#8209;2 this week (averaged over the two sampling days) was steady compared to the prior week. Levels had declined slightly on Monday (8/30) but increased to very high levels on Wednesday (9/1). Some of the variability over the last two weeks may be related to rainfall in the Athens area, which can impact estimates of total load. However, viral loads and reported cases continue to be high. Last Friday (8/27), the 7-day running average cases was 92 new cases per day and reached as high as 101 (8/28 and 8/31). This Friday (9/3), 7-day running average is 96 new cases per day (as reported by DPH on 9/3).  **   
+
+<span style="text-decoration:underline">August 30</span>    
+Total load of SARS&#8209;CoV&#8209;2 RNA fell slightly compared to the prior sample (collected 8/25). Levels declined at both WRF B (west of Milledge Ave) and WRF C (east side) but rose at WRF A (UGA, downtown, and north Athens). Concentrations at all plants exceeded 500,000 copies per liter.     
+
+<span style="text-decoration:underline">September 1</span>     
+Viral loads increased to the second highest level in the last 6 weeks (only falling behind the sample collected for 8/23). Levels at WRF C were unchanged from Monday’s sample, but increased at both WRF A and B. Concentrations at all plants exceeded 700,000 viral copies per liter.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### August 23 & 25
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 viral RNA continues to climb. Levels this week reached the 78th percentile of all samples collected to date. The average load for the week (~4.3 x 10^13 viral copies per day) exceeds the load noted one year ago (3.05 x 10^13 copies per day on 8/25/2020), as Athens entered a period of very high transmission. Reported cases continue to climb as well. As of Thursday 8/26, the 7-day running average of newly reported cases reached 77 per day, compared to 56 new cases per day reported at the end of last week.**    
 
@@ -786,7 +798,7 @@ div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
