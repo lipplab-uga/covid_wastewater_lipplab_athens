@@ -823,7 +823,7 @@ Weekly analyses of SARS&#8209;CoV&#8209;2 in sewage began June 16, 2020, at whic
 Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased for both the N1 and N2 gene targets. This suggests that sewage concentrations may be a leading indicator for new cases in the community, but more data collection and  monitoring of delays in testing reports will be needed to confirm this trend.
 
 <div style="margin-bottom:25px;">
-</div>
+</div>  
 
 ### Prior Six Weeks
 
@@ -832,7 +832,7 @@ div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining but elevated**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
