@@ -920,7 +920,7 @@ knitr::include_graphics("./updated_fig_legend.png")
 <div style="margin-bottom:25px;">
 </div>
 
-This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. ymbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
+This chart provides the concentration for SARS&#8209;CoV&#8209;2 at each of three plants in Athens-Clarke County for each sampling period. Symbols represent the mean concentration for the two viral gene targets at each of the three plants. Therefore, each sampling date includes six data points (2 gene targets x 3 plants).   
 
 Samples are collected once weekly as a 24-hour composite sample at each plant. We measure the virus by detecting two genes specific to SARS&#8209;CoV&#8209;2, the N1 and N2 nucleocapsid genes, using RT-qPCR. The N1 and N2 gene targets are measured and reported as a concentration, in number of gene copies per liter of wastewater for each plant. The theoretical Limit of Detection (LOD) is noted with a dashed line.    
 

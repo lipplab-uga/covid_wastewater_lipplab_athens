@@ -475,7 +475,7 @@ p3_filter
 smooth_extract_filter <-
     plotly::subplot(p3_filter,p1_filter, # plots to combine, top to bottom
       nrows = 2,
-      heights = c(.7,.3),  # relative heights of the two plots
+      heights = c(.6,.4),  # relative heights of the two plots
       shareX = TRUE,  # plots will share an X axis
       titleY = TRUE
     ) %>%
