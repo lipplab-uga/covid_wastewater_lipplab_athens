@@ -201,7 +201,7 @@ Build loess smoothing figures figures
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_botha <- ggplot(wrfa_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_botha<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.6, n = 457)
+              span = 0.3, n = 457)
 
 #look at the fits to align dates and total observations
 #both
@@ -255,46 +255,6 @@ plotly::add_ribbons(x ~date_vec_botha, ymin = ~both_ymina, ymax = ~both_ymaxa,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
                 layout(title = "WRF A") %>%
-    plotly::add_segments(x = as.Date("2020-06-24"), 
-                                          xend = as.Date("2020-06-24"), 
-                                          y = ~min(both_ymina), yend = ~max(both_ymaxa),
-                                          opacity = 0.35,
-                                          name = "Bars Repoen",
-                                          hoverinfo = "text",
-                                          text = "</br> Bars Reopen",
-                                                 "</br> 2020-06-24",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-07-09"), 
-                                          xend = as.Date("2020-07-09"), 
-                                          y = ~min(both_ymina), yend = ~max(both_ymaxa),
-                                          opacity = 0.35,
-                                          name = "Mask Mandate",
-                                          hoverinfo = "text",
-                                          text = "</br> Mask Mandate",
-                                                 "</br> 2020-07-09",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-08-20"), 
-                                          xend = as.Date("2020-08-20"), 
-                                          y = ~min(both_ymina), yend = ~max(both_ymaxa),
-                                          opacity = 0.35,
-                                          name = "</br> Classes Begin",
-                                                 "</br> 2020-08-20",
-                                          hoverinfo = "text",
-                                          text = "Classes Begin",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-        plotly::add_segments(x = as.Date("2020-10-03"), 
-                                          xend = as.Date("2020-10-03"), 
-                                          y = ~min(both_ymina), yend = ~max(both_ymaxa),
-                                          opacity = 0.35,
-                                          name = "</br> First Home Football Game",
-                                                 "</br> 2020-10-03",
-                                          hoverinfo = "text",
-                                          text = "First Home Football Game",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_total_copies_both,
                       data = wrfa_both,
                        hoverinfo = "text",
@@ -319,7 +279,7 @@ save(p_wrf_a, file = "./plotly_objs/p_wrf_a.rda")
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_bothb <- ggplot(wrfb_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_bothb<<-..y..), method = "loess", color = '#D95F02', 
-              span = 0.6, n = 457)
+              span = 0.3, n = 457)
 
 #look at the fits to align dates and total observations
 #both
@@ -373,46 +333,6 @@ plotly::add_ribbons(x ~date_vec_bothb, ymin = ~both_yminb, ymax = ~both_ymaxb,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
                 layout(title = "WRF B") %>%
-    plotly::add_segments(x = as.Date("2020-06-24"), 
-                                          xend = as.Date("2020-06-24"), 
-                                          y = ~min(both_yminb), yend = ~max(both_ymaxb),
-                                          opacity = 0.35,
-                                          name = "Bars Repoen",
-                                          hoverinfo = "text",
-                                          text = "</br> Bars Reopen",
-                                                 "</br> 2020-06-24",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-07-09"), 
-                                          xend = as.Date("2020-07-09"), 
-                                          y = ~min(both_yminb), yend = ~max(both_ymaxb),
-                                          opacity = 0.35,
-                                          name = "Mask Mandate",
-                                          hoverinfo = "text",
-                                          text = "</br> Mask Mandate",
-                                                 "</br> 2020-07-09",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-08-20"), 
-                                          xend = as.Date("2020-08-20"), 
-                                          y = ~min(both_yminb), yend = ~max(both_ymaxb),
-                                          opacity = 0.35,
-                                          name = "</br> Classes Begin",
-                                                 "</br> 2020-08-20",
-                                          hoverinfo = "text",
-                                          text = "Classes Begin",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-        plotly::add_segments(x = as.Date("2020-10-03"), 
-                                          xend = as.Date("2020-10-03"), 
-                                          y = ~min(both_yminb), yend = ~max(both_ymaxb),
-                                          opacity = 0.35,
-                                          name = "</br> First Home Football Game",
-                                                 "</br> 2020-10-03",
-                                          hoverinfo = "text",
-                                          text = "First Home Football Game",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_total_copies_both,
                       data = wrfb_both,
                        hoverinfo = "text",
@@ -440,7 +360,7 @@ save(p_wrf_b, file = "./plotly_objs/p_wrf_b.rda")
 ```{r}
 extract_bothc <- ggplot(wrfc_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_bothc<<-..y..), method = "loess", color = '#E7298A', 
-              span = 0.6, n = 457)
+              span = 0.3, n = 457)
 
 #look at the fits to align dates and total observations
 #both
@@ -496,46 +416,6 @@ plotly::add_ribbons(x ~date_vec_bothc, ymin = ~both_yminc, ymax = ~both_ymaxc,
                                  automargin = TRUE)) %>%
                 layout(xaxis = list(title = "Date")) %>%
                 layout(title = "WRF C") %>%
-    plotly::add_segments(x = as.Date("2020-06-24"), 
-                                          xend = as.Date("2020-06-24"), 
-                                          y = ~min(both_yminc), yend = ~max(both_ymaxc),
-                                          opacity = 0.35,
-                                          name = "Bars Repoen",
-                                          hoverinfo = "text",
-                                          text = "</br> Bars Reopen",
-                                                 "</br> 2020-06-24",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-07-09"), 
-                                          xend = as.Date("2020-07-09"), 
-                                          y = ~min(both_yminc), yend = ~max(both_ymaxc),
-                                          opacity = 0.35,
-                                          name = "Mask Mandate",
-                                          hoverinfo = "text",
-                                          text = "</br> Mask Mandate",
-                                                 "</br> 2020-07-09",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-    plotly::add_segments(x = as.Date("2020-08-20"), 
-                                          xend = as.Date("2020-08-20"), 
-                                          y = ~min(both_yminc), yend = ~max(both_ymaxc),
-                                          opacity = 0.35,
-                                          name = "</br> Classes Begin",
-                                                 "</br> 2020-08-20",
-                                          hoverinfo = "text",
-                                          text = "Classes Begin",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
-        plotly::add_segments(x = as.Date("2020-10-03"), 
-                                          xend = as.Date("2020-10-03"), 
-                                          y = ~min(both_yminc), yend = ~max(both_ymaxc),
-                                          opacity = 0.35,
-                                          name = "</br> First Home Football Game",
-                                                 "</br> 2020-10-03",
-                                          hoverinfo = "text",
-                                          text = "First Home Football Game",
-                                          showlegend = FALSE,
-                                          line = list(color = "black", dash = "dash")) %>%
   plotly::add_markers(x = ~date, y = ~log_total_copies_both,
                       data = wrfc_both,
                        hoverinfo = "text",

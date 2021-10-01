@@ -39,7 +39,7 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.6). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area.  
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.3). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area.  
 
 <div style="margin-bottom:25px;">
 </div>
@@ -59,6 +59,11 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### Sept 27 & 29
+<span style="text-decoration:underline">**Methods Update:**</span> Beginning the week of September 27th, 2021 we have revised our data analysis methods to account for improvements in our sample processing hardware and the increased number of total observations. This change is represented as a modification in our LOESS smoothing calculation (used in all "trends" plots) which changes the span from 0.6 to 0.3. This modification was made to better capture the week-to-week fluctuations in wastewater viral load. It should be noted, this modification will retroactively be applied to all previous observations therefore, any "trend" plots may vary slightly from previous data releases. We thank everyone for their continued utilization of these data and welcome any feedback!
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **After steady levels last week, SARS&#8209;CoV&#8209;2 loads declined this week to ~40th percentile of all samples collected to date. It is important to note, these levels still suggest a relatively high amount of transmission within the community however, they are clearly trending downward. This is also consistent with reported cases in the area, with a 7-day running average of 30 new cases per day (as of 9/30), down from 49 on 9/23.**   
 
 <span style="text-decoration:underline">Sept 27</span>    
