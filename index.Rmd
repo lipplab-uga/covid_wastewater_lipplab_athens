@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Sept 27 & 29
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After steady levels last week, SARS&#8209;CoV&#8209;2 loads declined this week to ~40th percentile of all samples collected to date. It is important to note, these levels still suggest a relatively high amount of transmission within the community however, they are clearly trending downward. This is also consistent with reported cases in the area, with a 7-day running average of 30 new cases per day (as of 9/30), down from 49 on 9/23.**   
+
+<span style="text-decoration:underline">Sept 27</span>    
+Viral levels were nearly unchanged at WRF A (UGA campus, downtown, and north Athens) and C (east side) relative to the prior sample collected on 9/22, with concentrations ~110,000 copies per liter at WRF A and ~379,000 copies per liter at WRF C. Levels declined at WRF B (west of Milledge Ave.) to ~440,000 copies per liter but remained high compared to the other plants.         
+
+<span style="text-decoration:underline">Sept 29</span>    
+Levels declined at both WRF A and C (reaching ~68,000 and ~282,000 copies per liter, respectively) but increased at WRF B (~555,000 copies per liter). Over the past ~3 weeks levels have declined notably at WRF A, followed by WRF C, but remain relatively stable at WRF B.         
+
+<div style="margin-bottom:25px;">
+</div>    
+
 ##### Sept 20 & 22
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke county wastewater this week were virtually unchanged from the prior week, consistent with trends in reported cases (7-day running average of 49 reported 9/23 as well last Friday [9/17]). Viral loads remain elevated and continue to be in the upper 50% of samples collected to date. There was some variability between the WRFs, with samples at WRF B (west of Milledge) at higher levels than the prior week and those from WRF A (UGA, downtown, and north Athens) and WRF C (eastside) declining slightly.**   
 
