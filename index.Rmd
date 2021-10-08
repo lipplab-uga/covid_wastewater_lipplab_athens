@@ -58,7 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 27 & 29
+##### Oct 4 & 6
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads at all plants continued to decline this week, reaching the lower third of levels recorded to date. Reported cases in Athens-Clarke County also continued to decline to a 7-day running average of 21 new cases per day as of 10/7/2021.**    
+
+<span style="text-decoration:underline">Oct 4</span>    
+Viral RNA levels declined at WRF B but load doubled at WRF A (UGA campus, downtown, and north Athens). Levels were relatively stable at WRF C. Over all plants combined, levels showed a slight decline.              
+
+<span style="text-decoration:underline">Oct 6</span>    
+Levels declined at both WRF A and WRF B, and increased slightly at WRF C. Overall, loads were clearly lower compared to the average load from 10/4. It should be noted that heavy rainfall in the prior two days resulted in elevated flow to the treatment plants which indicates inflow of rainwater that could cause some dilution in the samples.           
+
+<div style="margin-bottom:25px;">
+</div> 
+
+##### September 2021
 <span style="text-decoration:underline">**Methods Update:**</span> Beginning the week of September 27th, 2021 we have revised our data analysis methods to account for improvements in our sample processing hardware and the increased number of total observations. This change is represented as a modification in our LOESS smoothing calculation (used in all "trends" plots) which changes the span from 0.6 to 0.3. This modification was made to better capture the week-to-week fluctuations in wastewater viral load. It should be noted, this modification will retroactively be applied to all previous observations therefore, any "trend" plots may vary slightly from previous data releases. We thank everyone for their continued utilization of these data and welcome any feedback!
 
 <div style="margin-bottom:25px;">
@@ -66,53 +78,60 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **After steady levels last week, SARS&#8209;CoV&#8209;2 loads declined this week to ~40th percentile of all samples collected to date. It is important to note, these levels still suggest a relatively high amount of transmission within the community however, they are clearly trending downward. This is also consistent with reported cases in the area, with a 7-day running average of 30 new cases per day (as of 9/30), down from 49 on 9/23.**   
 
+<span style="text-decoration:underline">Sept 29</span>    
+Levels declined at both WRF A and C (reaching ~68,000 and ~282,000 copies per liter, respectively) but increased at WRF B (~555,000 copies per liter). Over the past ~3 weeks levels have declined notably at WRF A, followed by WRF C, but remain relatively stable at WRF B.  
+
+<div style="margin-bottom:25px;">
+</div>   
+
 <span style="text-decoration:underline">Sept 27</span>    
 Viral levels were nearly unchanged at WRF A (UGA campus, downtown, and north Athens) and C (east side) relative to the prior sample collected on 9/22, with concentrations ~110,000 copies per liter at WRF A and ~379,000 copies per liter at WRF C. Levels declined at WRF B (west of Milledge Ave.) to ~440,000 copies per liter but remained high compared to the other plants.         
-
-<span style="text-decoration:underline">Sept 29</span>    
-Levels declined at both WRF A and C (reaching ~68,000 and ~282,000 copies per liter, respectively) but increased at WRF B (~555,000 copies per liter). Over the past ~3 weeks levels have declined notably at WRF A, followed by WRF C, but remain relatively stable at WRF B.         
 
 <div style="margin-bottom:25px;">
 </div>    
 
-##### Sept 20 & 22
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads in Athens-Clarke county wastewater this week were virtually unchanged from the prior week, consistent with trends in reported cases (7-day running average of 49 reported 9/23 as well last Friday [9/17]). Viral loads remain elevated and continue to be in the upper 50% of samples collected to date. There was some variability between the WRFs, with samples at WRF B (west of Milledge) at higher levels than the prior week and those from WRF A (UGA, downtown, and north Athens) and WRF C (eastside) declining slightly.**   
+
+<span style="text-decoration:underline">Sept 22</span>    
+Viral load was steady at WRF B compared to Monday’s sample, while increasing slightly at WRF C and continuing to decline at WRF A. Concentrations continued to exceed 800,000 copies per liter at WRF B and reached >300,000 at WRF C. Levels dropped to ~87,000 copies per liter at WRF A (but Wednesday's sample may reflect some dilution due to rainfall earlier in the week).  
+
+<div style="margin-bottom:25px;">
+</div>   
 
 <span style="text-decoration:underline">Sept 20</span>    
 Viral load increased at WRF B compared to the last sample collected (9/15) but declined at both WRF A and C. Averaged across all plants, viral load increased slightly relative to the 9/15 sample. Concentration were >250,000 copies per liter at WRF A and C and >800,000 at WRF B.         
 
-<span style="text-decoration:underline">Sept 22</span>    
-Viral load was steady at WRF B compared to Monday’s sample, while increasing slightly at WRF C and continuing to decline at WRF A. Concentrations continued to exceed 800,000 copies per liter at WRF B and reached >300,000 at WRF C. Levels dropped to ~87,000 copies per liter at WRF A (but Wednesday's sample may reflect some dilution due to rainfall earlier in the week).     
-
 <div style="margin-bottom:25px;">
 </div>   
 
-##### Sept 13 & 15
-
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral loads in Athens-Clarke County wastewater showed a clear decline this week. Averaged for the week, loads were lower at all WRFs compared to the week prior; however, there was some variability between the sampling dates as noted below. These data are consistent with declining case reports to the GA DPH, which reached a 7-day running average of 55 new cases per day as of 9/16 (compared to 92 on 9/9). While total loads in wastewater are still in the upper 50% of all samples collected to date and concentrations remain >250,000 copies per liter at all plants, these downwards trends are encouraging. Please continue to keep good ventilation and filtration indoors, wear masks, and get vaccinated if you have not already.**   
+
+<span style="text-decoration:underline">Sept 15</span>    
+Viral loads increased relative to the Monday sample at both WRF A and WRF C (to ~378,000 and ~641,000 copies per liter, respectively) but declined at WRF B (to ~372,000 copies per liter).   
+
+<div style="margin-bottom:25px;">
+</div> 
 
 <span style="text-decoration:underline">Sept 13</span>    
 Viral load declined at all three WRFs, especially at WRF A (UGA campus, downtown, and north Athens; concentration ~278,000 copies per liter) and WRF C (east side; ~367,000 copies per liter). Viral load at WRF B (west of Milledge) was nearly steady but declined slightly from the 9/8 sample (reaching ~477,000 copies per liter).          
 
-<span style="text-decoration:underline">Sept 15</span>    
-Viral loads increased relative to the Monday sample at both WRF A and WRF C (to ~378,000 and ~641,000 copies per liter, respectively) but declined at WRF B (to ~372,000 copies per liter).     
-
 <div style="margin-bottom:25px;">
 </div>   
 
-##### Sept 7 & 8
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the second week in a row total SARS&#8209;CoV&#8209;2 viral load was steady in Athens-Clarke County wastewater. Levels were consistent with the prior week average at all plants, with slight increases at WRF C and slight declines at WRFs A and B. As of Thursday (9/9), there were 91 newly reported cases per day based on the 7-day running average, which has also held steady in the mid-90s for the past two weeks. This is encouraging news, but please note that these data do not yet reflect any potential new infections that may emerge following the holiday weekend.**   
 
-<span style="text-decoration:underline">Sept 7</span>    
-Due to the Labor Day holiday, samples were collected on Tuesday rather than Monday. Therefore, sampling included the holiday (6:30 am Monday 9/6 through 6:30 am Tuesday 9/7). Total load for all plants combined fell slightly compared to the Wednesday 9/1 collection, with higher loads at WRF C (east side) and lower loads at WRF B (west of Milledge) and WRF A (UGA and downtown). Concentrations ranged from ~461,000 (WRF A) to ~833,000 (WRF C) viral copies per liter.    
-
 <span style="text-decoration:underline">Sept 8</span>    
-Total SARS CoV 2 viral was nearly unchanged from the 9/7 sample. Loads increased slightly at both WRF A and WRF C and declined slightly at WRF B. Concentrations ranged from ~525,000 (WRF B) to ~886,000 (WRF C) viral copies per liter.     
+Total SARS CoV 2 viral was nearly unchanged from the 9/7 sample. Loads increased slightly at both WRF A and WRF C and declined slightly at WRF B. Concentrations ranged from ~525,000 (WRF B) to ~886,000 (WRF C) viral copies per liter.    
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Sept 1
+<span style="text-decoration:underline">Sept 7</span>    
+Due to the Labor Day holiday, samples were collected on Tuesday rather than Monday. Therefore, sampling included the holiday (6:30 am Monday 9/6 through 6:30 am Tuesday 9/7). Total load for all plants combined fell slightly compared to the Wednesday 9/1 collection, with higher loads at WRF C (east side) and lower loads at WRF B (west of Milledge) and WRF A (UGA and downtown). Concentrations ranged from ~461,000 (WRF A) to ~833,000 (WRF C) viral copies per liter.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Wastewater load of SARS&#8209;CoV&#8209;2 this week (averaged over the two sampling days) was steady compared to the prior week. Levels had declined slightly on Monday (8/30) but increased to very high levels on Wednesday (9/1). Some of the variability over the last two weeks may be related to rainfall in the Athens area, which can impact estimates of total load. However, viral loads and reported cases continue to be high. Last Friday (8/27), the 7-day running average cases was 92 new cases per day and reached as high as 101 (8/28 and 8/31). This Friday (9/3), 7-day running average is 96 new cases per day (as reported by DPH on 9/3).  **  
 
 <span style="text-decoration:underline">September 1</span>     
@@ -857,11 +876,11 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 ### Prior Six Weeks
 
 <style>
-div.red { background-color:#FFCCCC; border-radius: 5px; padding: 10px;}
+div.yellow { background-color:#FFFFCC; border-radius: 5px; padding: 10px;}
 </style>
-<div class = "red">
+<div class = "yellow">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
