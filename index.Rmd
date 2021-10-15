@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Oct 11 & 13
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third consecutive week, SARS&#8209;CoV&#8209;2 loads continued to decline averaged across all wastewater treatment plants. Average weekly load reached its lowest point since mid-July (when transmission was beginning to increase across the region). This trend is in line with declining reported cases, which reached a 7-day running average of 13 new cases per day as of 10/14/2021. This latest surge and decline follows similar patterns noted in August/September 2020.**     
+
+<span style="text-decoration:underline">Oct 11</span>    
+SARS&#8209;CoV&#8209;2 viral loads across all plants were lower than the prior sample date (10/6). At individual plants, levels at WRF A (UGA campus, downtown, and north Athens) showed a slight increase, whereas WRF C (east side) showed a substantial decline, and WRF B (west of Milledge Ave) was steady. Concentrations continued to exceed 100,000 viral genome copies per liter at WRF B, but were below 90,000 copies per liter at the other plants.      
+
+<span style="text-decoration:underline">Oct 13</span>    
+Total viral loads continued to decline on Wednesday, driven primarily by reductions at WRF A and C (where concentrations were <30,000 genome copies per liter).  Levels at WRF B remained steady (still exceeding 100,000 copies per liter).              
+
+<div style="margin-bottom:25px;">
+</div>  
+
 ##### Oct 4 & 6
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 loads at all plants continued to decline this week, reaching the lower third of levels recorded to date. Reported cases in Athens-Clarke County also continued to decline to a 7-day running average of 21 new cases per day as of 10/7/2021.**    
 
