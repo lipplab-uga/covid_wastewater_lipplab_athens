@@ -58,6 +58,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Oct 18 & 20
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates. The weekly trend is in line with reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
+
+<span style="text-decoration:underline">Oct 18</span>    
+SARS&#8209;CoV&#8209;2 viral loads for the day increased substantially compared to the prior week. This was largely due to an increase in concentrations at both WRF A (UGA campus, downtown, and northern Athens) and WRF C (east side), which increased by 10-fold at both plants. However, the concentrations at WRF B (west of Milledge) remained stable at >100,000 copies per liter.      
+
+<span style="text-decoration:underline">Oct 20</span>    
+Total viral loads declined across all plants combined compared to Monday’s samples. These values were more consistent with the total viral load observed from the previous week. The viral concentration at WRF A declined from 360,000 copies per liter on Monday to 70,000 copies per liter and from 228,000 per liter at WRF C to 146,000 per liter. The total viral load at WRF B remained steady at >150,000 copies per liter.                   
+<div style="margin-bottom:25px;">
+</div>     
+
 ##### Oct 11 & 13
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third consecutive week, SARS&#8209;CoV&#8209;2 loads continued to decline, averaged across all wastewater treatment plants. Average weekly load reached its lowest point since mid-July (when transmission was beginning to increase across the region). This trend is in line with declining reported cases, which reached a 7-day running average of 13 new cases per day as of 10/14/2021. This latest surge and decline follows similar patterns noted in August/September 2020.**     
 
