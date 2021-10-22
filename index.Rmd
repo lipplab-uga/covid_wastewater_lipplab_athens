@@ -903,7 +903,7 @@ div.yellow { background-color:#FFFFCC; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "yellow">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
