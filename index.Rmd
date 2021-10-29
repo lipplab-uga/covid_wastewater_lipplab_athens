@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Oct 25 & 27
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Average SARS&#8209;CoV&#8209;2 viral load for the region again remained stable compared to the prior week. There was a slight decline at WRF A (UGA campus, downtown, and north Athens) and slight increase in loads at WRF B (west of Milledge) and WRF C (east side) when averaged for the week. The 7-day running average of new daily cases in Athens-Clarke County declined slightly to 9 as of 10/28/2021.**     
+
+<span style="text-decoration:underline">Oct 25</span>    
+Viral RNA loads increased slightly in Monday’s sample compared to the prior collection (10/20), driven primarily by an increase at WRF C and a smaller increase at WRF B, with concentrations exceeding 200,000 copies per liter at both plants. The concentration at WRF A declined to ~50,000 copies per liter.         
+
+<span style="text-decoration:underline">Oct 27</span>    
+Concentrations and loads declined modestly across all plants. Levels were stable at WRF C (~198,000 copies per liter) but declined to 103,000 copies per liter at WRF B, and 37,000 copies per liter at WRF A.  
+
+<div style="margin-bottom:25px;">
+</div> 
+
 ##### Oct 18 & 20
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS&#8209;CoV&#8209;2 loads were steady compared to the prior week; however, there was a large difference in loads between the two sample dates. The weekly trend is in line with reported cases, which have remained at a 7-day running average of 12-14 new cases per day since 10/14/2021.**     
 
