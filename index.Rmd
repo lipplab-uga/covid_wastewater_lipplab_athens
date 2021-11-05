@@ -39,7 +39,7 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.3). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area.  
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.3). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. To further optimize workflow, on 7/19/2021 we have moved our analysis to a new qPCR machine which has resulted in improved precision from this date onward.
 
 <div style="margin-bottom:25px;">
 </div>
