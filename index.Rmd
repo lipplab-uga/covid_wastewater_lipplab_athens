@@ -1052,7 +1052,7 @@ Samples are processed by the Lipp Laboratory at the University of Georgia (Depar
 
 Viral RNA, the genetic material of the SARS&#8209;CoV&#8209;2 virus, is extracted from each sample using the <a href="https://www.qiagen.com/us/products/diagnostics-and-clinical-research/sample-processing/qiaamp-viral-rna-mini-kit/#orderinginformation" target="_blank">QIAmp Viral RNA Mini Kit.</a>
 
-The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a href="https://www.cdc.gov/sars/guidance/f-lab/assays.html" target="_blank">CDC's test protocol </a> for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. 
+The viral RNA is then measured using Real-Time RT-PCR Assays, following the <a href="https://www.cdc.gov/sars/guidance/f-lab/assays.html" target="_blank">CDC's test protocol </a> for the N1 and N2 SARS&#8209;CoV&#8209;2 nucleocapsid genes. Note, on 7/19/2021 we moved our analyses to a new qPCR machine which has resulted in improved sample precision from this date onward.
 
 The N1 and N2 gene targets are measured and reported as a concentration per liter of wastewater (shown in ‘All Data’). N1 and N2 concentrations are then averaged and multiplied by the incoming flow at each plant to determine a total viral load per sampling day.  
 
