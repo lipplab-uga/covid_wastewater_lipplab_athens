@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Nov 15 & 17
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in wastewater have been steady for the past several weeks, consistent with reported case trends in Athens-Clarke County. However, this week has mixed results, with levels on Monday continuing their steady trend from the prior week but increasing at all plants by the Wednesday sample. It will not be clear if this is the beginning of a change in trends until we process samples next week, but it is worth noting. Wastewater load precedes changes in reported cases by 3-5 days, based on our analyses in Athens-Clarke County throughout the pandemic.**       
+
+<span style="text-decoration:underline">Nov 8</span>    
+Samples collected on Monday 11/15 showed viral loads similar to those observed on the prior collection date (11/10), with slight declines at WRF A (UGA campus, downtown, and north Athens) and WRF C (east side) and slight increase at WRF B (west of Milledge). Concentrations were ~92,000 copies per liter at WRF A, ~70,000 copies per liter at WRF B, and ~53,000 copies per liter at WRF C.  
+
+<span style="text-decoration:underline">Nov 10</span>    
+Viral load increased at all plants on Wednesday 11/17, with the greatest change in load at WRF C and A. Concentrations were ~207,000 copies per liter at WRF A, ~115,000 copies per liter at WRF B, and ~170,000 copies per liter at WRF C.   
+
+<div style="margin-bottom:25px;">
+</div>  
+
 ##### Nov 8 & 10
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 RNA levels in Athens-Clarke County wastewater continue to remain stable. Compared to the prior week, average levels for the week increased at WRF B (west of Milledge Ave.) but declined slightly at both WRF A (UGA campus, downtown, and north Athens) and WRF C (east side). Reported cases in the county declined slightly to ~9 cases per day (7-day running average) as of 11/10/2021.**       
 
