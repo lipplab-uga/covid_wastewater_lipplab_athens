@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Nov 29 & Dec 1
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral load this week continued an upward trend, with average viral loads increasing at WRF A (UGA campus, downtown, and north Athens) and WRF C (east side). The highest load, averaged for the week, was at WRF C, followed by WRF A, and WRF B (west of Milledge Ave.) which showed a decrease compared to the large spike noted the week prior (11/22). As of Thursday 12/2, the 7-day running average of new cases in Athens-Clarke County was 7 per day, unchanged from last week; but the continued increase in wastewater loads suggests that transmission is likely increasing in our area.**       
+
+<span style="text-decoration:underline">Nov 29</span>    
+Total load declined in the Monday sample collection compared to the prior collection (11/21). This decline was attributed to a lower viral load at WRF B (which had reached extremely high levels the prior week). Levels at both WRF A and WRF C increased relative to the prior sample. Concentrations at all plants were between ~140,000 and 160,000 copies per liter. It is worth noting that this sample collection began at 6:30 am on Sunday 11/28 and may reflect a lower population due to out of town travel for the Thanksgiving break.       
+
+<span style="text-decoration:underline">Dec 1</span>    
+Total load increased substantially across the area by Wednesday, with load and concentrations increasing at all three plants. Concentrations were especially high at WRF C (reaching >2 million copies per liter), followed by WRF B (>300,000 copies per liter), and WRF A (>215,000 copies per liter).         
+
+<div style="margin-bottom:25px;">
+</div> 
+
 ##### Nov 22
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Samples were only collected on Monday 11/22 this week (no Wednesday sample), allowing our lab crew to take a much needed Thanksgiving break. Last week we noted that levels had trended up as of the Wednesday 11/17 collection, indicating a possible shift from the stable levels noted for the past several weeks. This week, SARS&#8209;CoV&#8209;2 RNA continued to rise as of 11/22, reaching the 80th percentile of viral load to date (viral load is the concentration across all plants normalized to their flow rate).**     
 
