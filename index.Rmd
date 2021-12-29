@@ -61,7 +61,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 ##### Dec 27
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to increase this week. This sample was collected between 6:30 am on Sunday 12/26 and 6:30 am 12/27, when wastewater flows coming into each plant were much lower than average, indicating a lower population density in Athens-Clarke county over the holiday weekend. Despite reduced wastewater flow, total load for all plants doubled compared to last week (sampled on 12/20) and reached a weekly level not observed since the end of August. Load is calculated as the flow into the plant x concentration; therefore, it is important to note that this load reflects an extremely high concentration of viral RNA (all three WRFs had >900,000 copies per liter, and WRF B reached almost 2 million copies per liter). We have not observed concentrations at this level, over all three plants, since last winter/spring.**    
 
-**Reported case rates also continue to climb in Athens-Clarke County, with the 7-day running average of 89 new cases per day as of 12/28. We do not yet know how the increased use of at-home rapid tests may affect reliability of official case reports (and another reason to watch wastewater trends as we moving into this next surge).**    
+**Reported case rates also continue to climb in Athens-Clarke County, with the 7-day running average of 89 new cases per day as of 12/28. We do not yet know how the increased use of at-home rapid tests may affect reliability of official case reports (and another reason to watch wastewater trends as we move into this next surge).**    
 
 <div style="margin-bottom:25px;">
 </div> 
