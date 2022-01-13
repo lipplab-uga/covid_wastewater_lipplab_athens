@@ -58,6 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 10 & 12
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After several weeks of steadily increasing, SARS&#8209;CoV&#8209;2 viral loads have appeared to level off at approximately 10^13 total copies. The total viral load still remains in the top ~84th percentile of all observations to date. According to DPH, the 7-day running average of newly reported cases is 244 (1/13/2022).**    
+
+<span style="text-decoration:underline">Jan 10</span>    
+SARS&#8209;CoV&#8209;2 viral loads have leveled off at all three plants. Concentrations at WRF A remain around 850,000 copies per liter. At WRF B, concentrations declined from 1.14 million copies per liter to 840,000 copies per liter, but when adjusting for influent flow, the total viral load remained consistent with last week’s sample. The concentration and total viral load at WRF C was consistent with observations from last weeks sample, ~1.5 million copies per liter and 10^13 total copies.   
+
+<span style="text-decoration:underline">Jan 12</span>    
+SARS&#8209;CoV&#8209;2 viral loads remain leveled-off. There is strong agreement between the total viral load estimated for the Monday (1/10) and Wednesday (1/12) samples collected this week. Concentrations at WRF A decreased slightly to 693,000 copies per liter, while concentrations at WRF B increased slightly to 1.41 million copies per liter. Concentrations at WRF C remain right at ~1.5 million copies per liter. The flow-adjusted total viral load remains at approximately 10^13 total copies across the county’s sewer shed.
+
+<div style="margin-bottom:25px;">
+</div>
+
+
 ##### Jan 3 & 5
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA load averaged for the week (two sample days this week) reached levels not observed since January 2021 and was higher than 93% of all samples collected to date (since June 2020). Despite heavy rains, and likely dilution effects resulting from that, concentrations averaged over 1 million copies per liter from all plants. These observations reflect a very high rate of transmission within our community. Case report data from DPH shows a 7-day running average of 191 new cases per day as of 1/5/2022 (these numbers may be updated as there have been reported issues and delays with the DPH reports).**    
 
