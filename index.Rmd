@@ -58,6 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 18 & 19
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across all plants for the week, SARS&#8209;CoV&#8209;2 viral loads remained stable compared to the prior week. This is the second week of stable loads, but levels remain very high, indicating that active transmission is on-going. DPH reported a 7-day running average of 223 new cases per day as of 1/20/2022.**    
+
+<span style="text-decoration:underline">Jan 18</span>    
+Due to the MLK holiday, samples were collected on Tuesday this week rather than Monday (sample was collected between 6:30 am Monday 1/17 and 6:30 am Tuesday 1/18). For all plants, levels remained consistent compared with the prior sample. Concentrations at WRF A (UGA campus, downtown, and northern areas) were >600,000 copies per liter, at WRF C (east side) concentrations were >700,000 copies per liter, and at WRF B (west of Milledge Ave) concentrations continued to exceed 1 million copies per liter.
+   
+
+<span style="text-decoration:underline">Jan 19</span>    
+For the Wednesday samples, levels were similar to the prior day at both WRF A (>600,00 copies per liter) and WRF B (>1 million copies per liter), but increased to >1 million copies per liter at WRF C.
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 10 & 12
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **After several weeks of steadily increasing, SARS&#8209;CoV&#8209;2 viral loads have appeared to level off at approximately 10^13 total copies. The total viral load still remains in the top ~84th percentile of all observations to date. According to DPH, the 7-day running average of newly reported cases is 244 (1/13/2022).**    
 
@@ -1065,7 +1078,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
