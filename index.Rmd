@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 24 & 26
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third week in a row, the SARS&#8209;CoV&#8209;2 RNA load in Athens wastewater has remained steady when averaged for the week and across all three WRFs. Levels are still very high, indicating continued transmission, but we are seeing some variability between plants this week. Levels at WRF C (east side) increased substantially for the week (mostly due to high load on Monday) and were stable at WRF B (west of Milledge Ave.). However, loads at WRF A (UGA, downtown, northern areas of Athens),  clearly declined compared to last week. We should know by next week if this is the start of a declining trend. As of January 27, there was a 7-day running average of 168 new cases reported in Athens Clarke-County, down from 223 reported one week ago.**    
+
+<span style="text-decoration:underline">Jan 24</span>    
+Viral load, for all plants combined, increased on Monday 1/24 relative to the prior week and reached the 85th%ile for all samples collected to date. While the overall load increased, there were distinct differences between the individual plants. Levels at WRF C increased to >3.8 million viral genome copies per liter (from over 1 million copies per liter on Wed Jan 20). The increase at this plant was largely responsible for the increased load overall. Levels at WRF B declined to ~950,000 copies per liter (from 1.1 million last week). Levels at WRF C declined substantially to 110,000 copies per liter (from ~635,000 last week).      
+
+<span style="text-decoration:underline">Jan 26</span>    
+Total viral load for  Wednesday January 26  declined from the Monday sample, with differences between the individual plants. At WRF A, levels declined slightly to 85,000 copies per liter. Levels at WRF C declined to ~800,000 copies per liter. At WRF B, levels increased slightly to ~1 million copies per liter.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 18 & 19
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across all plants for the week, SARS&#8209;CoV&#8209;2 viral loads remained stable compared to the prior week. This is the second week of stable loads, but levels remain very high, indicating that active transmission is on-going. DPH reported a 7-day running average of 223 new cases per day as of 1/20/2022.**    
 
