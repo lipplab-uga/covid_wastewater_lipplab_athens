@@ -58,6 +58,21 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Jan 31 & Feb 2
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **While SARS&#8209;CoV&#8209;2 RNA levels remain high in wastewater, loads for the week showed a consistent decline. Averaged for the week and across all plants, viral load declined to the ~50th%ile for all samples collected to date, reaching levels not observed since last December. Levels declined at both WRF B (west of Milledge Ave.) and C (eastside) for the week, and were stable at WRF A (UGA, downtown, and northern parts of Athens) compared to last week. Reported case counts also fell to a 7-day running average of 79 new cases per day as of 2/3/2022.**   
+
+<span style="text-decoration:underline">Omicron Variant Update</span>    
+Although we have not been reporting on specific variants, we have been tracking the BA1 omicron subvariant through this winter surge. We began to consistently observe this variant in Athens wastewater beginning the week of December 6, 2021, which coincided with the sharper uptick of SARS&#8209;CoV&#8209;2 load in general and preceded the sharp rise in cases which began around 12/15/2021.
+
+<span style="text-decoration:underline">Jan 31</span>    
+SARS&#8209;CoV&#8209;2 viral load for all three plants combined was nearly identical to the load recorded for the prior sample (Wednesday Jan 26). This reflected a modest decline in levels at both WRF B (to ~890,000 viral copies per liter) and WRF C (to ~455,000 viral copies per liter) and an increase at WRF A (to ~309,000 viral copies per liter).        
+
+<span style="text-decoration:underline">Feb 2</span>    
+Viral levels declined across all plants. Concentrations reached ~88,000 copies per liter at WRF A, ~278,000 copies per liter at WRF B, and ~417,000 copies per liter at WRF C.
+     
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Jan 24 & 26
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third week in a row, the SARS&#8209;CoV&#8209;2 RNA load in Athens wastewater has remained steady when averaged for the week and across all three WRFs. Levels are still very high, indicating continued transmission, but we are seeing some variability between plants this week. Levels at WRF C (east side) increased substantially for the week (mostly due to high load on Monday) and were stable at WRF B (west of Milledge Ave.). However, loads at WRF A (UGA, downtown, northern areas of Athens),  clearly declined compared to last week. We should know by next week if this is the start of a declining trend. As of January 27, there was a 7-day running average of 168 new cases reported in Athens Clarke-County, down from 223 reported one week ago.**    
 
@@ -1090,7 +1105,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining but elevated**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
