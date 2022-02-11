@@ -58,26 +58,39 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Jan 31 & Feb 2
+##### Feb 7 & 9
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to decline across all plants this week. The largest decline was observed at WRF C (east side). While levels are trending down, the highest loads were noted for WRF B (west of Milledge Ave.), which has been the case for most of this surge. Reported case counts for Athens-Clarke County also continued to fall, reaching a 7-day running average of 39 new cases per day as of 2/10/2022.**   
+
+<span style="text-decoration:underline">Feb 7</span>    
+SARS&#8209;CoV&#8209;2 levels declined substantially at all plants. The steepest decline was at WRF C (to ~110,000 copies per liter, from >400,000 copies per liter in the prior sample), followed by WRF A (to only ~40,000 copies per liter, from ~88,000 copies per liter), and finally WRF B (~167,000 copies per liter, from ~278,000 copies per liter).          
+
+<span style="text-decoration:underline">Feb 9</span>    
+Viral levels were stable compared to the Monday (2/7) sample, with a very slight decline at WRF C and slight increases at WRF A and B.
+     
+<div style="margin-bottom:25px;">
+</div>
+
+
+##### Feb 2
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **While SARS&#8209;CoV&#8209;2 RNA levels remain high in wastewater, loads for the week showed a consistent decline. Averaged for the week and across all plants, viral load declined to the ~50th%ile for all samples collected to date, reaching levels not observed since last December. Levels declined at both WRF B (west of Milledge Ave.) and C (eastside) for the week, and were stable at WRF A (UGA, downtown, and northern parts of Athens) compared to last week. Reported case counts also fell to a 7-day running average of 79 new cases per day as of 2/3/2022.**   
 
 <span style="text-decoration:underline">Omicron Variant Update</span>    
 Although we have not been reporting on specific variants, we have been tracking the BA1 omicron subvariant through this winter surge. We began to consistently observe this variant in Athens wastewater beginning the week of December 6, 2021, which coincided with the sharper uptick of SARS&#8209;CoV&#8209;2 load in general and preceded the sharp rise in cases which began around 12/15/2021.
 
-<span style="text-decoration:underline">Jan 31</span>    
-SARS&#8209;CoV&#8209;2 viral load for all three plants combined was nearly identical to the load recorded for the prior sample (Wednesday Jan 26). This reflected a modest decline in levels at both WRF B (to ~890,000 viral copies per liter) and WRF C (to ~455,000 viral copies per liter) and an increase at WRF A (to ~309,000 viral copies per liter).        
-
 <span style="text-decoration:underline">Feb 2</span>    
 Viral levels declined across all plants. Concentrations reached ~88,000 copies per liter at WRF A, ~278,000 copies per liter at WRF B, and ~417,000 copies per liter at WRF C.
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### January 2022
+<span style="text-decoration:underline">Jan 31</span>    
+SARS&#8209;CoV&#8209;2 viral load for all three plants combined was nearly identical to the load recorded for the prior sample (Wednesday Jan 26). This reflected a modest decline in levels at both WRF B (to ~890,000 viral copies per liter) and WRF C (to ~455,000 viral copies per liter) and an increase at WRF A (to ~309,000 viral copies per liter).        
      
 <div style="margin-bottom:25px;">
 </div>
 
-##### Jan 24 & 26
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third week in a row, the SARS&#8209;CoV&#8209;2 RNA load in Athens wastewater has remained steady when averaged for the week and across all three WRFs. Levels are still very high, indicating continued transmission, but we are seeing some variability between plants this week. Levels at WRF C (east side) increased substantially for the week (mostly due to high load on Monday) and were stable at WRF B (west of Milledge Ave.). However, loads at WRF A (UGA, downtown, northern areas of Athens),  clearly declined compared to last week. We should know by next week if this is the start of a declining trend. As of January 27, there was a 7-day running average of 168 new cases reported in Athens Clarke-County, down from 223 reported one week ago.**    
-
-<span style="text-decoration:underline">Jan 24</span>    
-Viral load, for all plants combined, increased on Monday 1/24 relative to the prior week and reached the 85th%ile for all samples collected to date. While the overall load increased, there were distinct differences between the individual plants. Levels at WRF C increased to >3.8 million viral genome copies per liter (from over 1 million copies per liter on Wed Jan 20). The increase at this plant was largely responsible for the increased load overall. Levels at WRF B declined to ~950,000 copies per liter (from 1.1 million last week). Levels at WRF C declined substantially to 110,000 copies per liter (from ~635,000 last week).      
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **For the third week in a row, the SARS&#8209;CoV&#8209;2 RNA load in Athens wastewater has remained steady when averaged for the week and across all three WRFs. Levels are still very high, indicating continued transmission, but we are seeing some variability between plants this week. Levels at WRF C (east side) increased substantially for the week (mostly due to high load on Monday) and were stable at WRF B (west of Milledge Ave.). However, loads at WRF A (UGA, downtown, northern areas of Athens),  clearly declined compared to last week. We should know by next week if this is the start of a declining trend. As of January 27, there was a 7-day running average of 168 new cases reported in Athens Clarke-County, down from 223 reported one week ago.**   
 
 <span style="text-decoration:underline">Jan 26</span>    
 Total viral load for  Wednesday January 26  declined from the Monday sample, with differences between the individual plants. At WRF A, levels declined slightly to 85,000 copies per liter. Levels at WRF C declined to ~800,000 copies per liter. At WRF B, levels increased slightly to ~1 million copies per liter.      
@@ -85,12 +98,13 @@ Total viral load for  Wednesday January 26  declined from the Monday sample, wit
 <div style="margin-bottom:25px;">
 </div>
 
-##### Jan 18 & 19
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across all plants for the week, SARS&#8209;CoV&#8209;2 viral loads remained stable compared to the prior week. This is the second week of stable loads, but levels remain very high, indicating that active transmission is on-going. DPH reported a 7-day running average of 223 new cases per day as of 1/20/2022.**    
+<span style="text-decoration:underline">Jan 24</span>    
+Viral load, for all plants combined, increased on Monday 1/24 relative to the prior week and reached the 85th%ile for all samples collected to date. While the overall load increased, there were distinct differences between the individual plants. Levels at WRF C increased to >3.8 million viral genome copies per liter (from over 1 million copies per liter on Wed Jan 20). The increase at this plant was largely responsible for the increased load overall. Levels at WRF B declined to ~950,000 copies per liter (from 1.1 million last week). Levels at WRF C declined substantially to 110,000 copies per liter (from ~635,000 last week).      
 
-<span style="text-decoration:underline">Jan 18</span>    
-Due to the MLK holiday, samples were collected on Tuesday this week rather than Monday (sample was collected between 6:30 am Monday 1/17 and 6:30 am Tuesday 1/18). For all plants, levels remained consistent compared with the prior sample. Concentrations at WRF A (UGA campus, downtown, and northern areas) were >600,000 copies per liter, at WRF C (east side) concentrations were >700,000 copies per liter, and at WRF B (west of Milledge Ave) concentrations continued to exceed 1 million copies per liter.
-   
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged across all plants for the week, SARS&#8209;CoV&#8209;2 viral loads remained stable compared to the prior week. This is the second week of stable loads, but levels remain very high, indicating that active transmission is on-going. DPH reported a 7-day running average of 223 new cases per day as of 1/20/2022.**    
 
 <span style="text-decoration:underline">Jan 19</span>    
 For the Wednesday samples, levels were similar to the prior day at both WRF A (>600,00 copies per liter) and WRF B (>1 million copies per liter), but increased to >1 million copies per liter at WRF C.
@@ -98,11 +112,13 @@ For the Wednesday samples, levels were similar to the prior day at both WRF A (>
 <div style="margin-bottom:25px;">
 </div>
 
-##### Jan 10 & 12
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **After several weeks of steadily increasing, SARS&#8209;CoV&#8209;2 viral loads have appeared to level off at approximately 10^13 total copies. The total viral load still remains in the top ~84th percentile of all observations to date. According to DPH, the 7-day running average of newly reported cases is 244 (1/13/2022).**    
+<span style="text-decoration:underline">Jan 18</span>    
+Due to the MLK holiday, samples were collected on Tuesday this week rather than Monday (sample was collected between 6:30 am Monday 1/17 and 6:30 am Tuesday 1/18). For all plants, levels remained consistent compared with the prior sample. Concentrations at WRF A (UGA campus, downtown, and northern areas) were >600,000 copies per liter, at WRF C (east side) concentrations were >700,000 copies per liter, and at WRF B (west of Milledge Ave) concentrations continued to exceed 1 million copies per liter.
+   
+<div style="margin-bottom:25px;">
+</div>
 
-<span style="text-decoration:underline">Jan 10</span>    
-SARS&#8209;CoV&#8209;2 viral loads have leveled off at all three plants. Concentrations at WRF A remain around 850,000 copies per liter. At WRF B, concentrations declined from 1.14 million copies per liter to 840,000 copies per liter, but when adjusting for influent flow, the total viral load remained consistent with last week’s sample. The concentration and total viral load at WRF C was consistent with observations from last weeks sample, ~1.5 million copies per liter and 10^13 total copies.   
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **After several weeks of steadily increasing, SARS&#8209;CoV&#8209;2 viral loads have appeared to level off at approximately 10^13 total copies. The total viral load still remains in the top ~84th percentile of all observations to date. According to DPH, the 7-day running average of newly reported cases is 244 (1/13/2022).**    
 
 <span style="text-decoration:underline">Jan 12</span>    
 SARS&#8209;CoV&#8209;2 viral loads remain leveled-off. There is strong agreement between the total viral load estimated for the Monday (1/10) and Wednesday (1/12) samples collected this week. Concentrations at WRF A decreased slightly to 693,000 copies per liter, while concentrations at WRF B increased slightly to 1.41 million copies per liter. Concentrations at WRF C remain right at ~1.5 million copies per liter. The flow-adjusted total viral load remains at approximately 10^13 total copies across the county’s sewer shed.
@@ -110,18 +126,25 @@ SARS&#8209;CoV&#8209;2 viral loads remain leveled-off. There is strong agreement
 <div style="margin-bottom:25px;">
 </div>
 
+<span style="text-decoration:underline">Jan 10</span>    
+SARS&#8209;CoV&#8209;2 viral loads have leveled off at all three plants. Concentrations at WRF A remain around 850,000 copies per liter. At WRF B, concentrations declined from 1.14 million copies per liter to 840,000 copies per liter, but when adjusting for influent flow, the total viral load remained consistent with last week’s sample. The concentration and total viral load at WRF C was consistent with observations from last weeks sample, ~1.5 million copies per liter and 10^13 total copies.   
 
-##### Jan 3 & 5
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral RNA load averaged for the week (two sample days this week) reached levels not observed since January 2021 and was higher than 93% of all samples collected to date (since June 2020). Despite heavy rains, and likely dilution effects resulting from that, concentrations averaged over 1 million copies per liter from all plants. These observations reflect a very high rate of transmission within our community. Case report data from DPH shows a 7-day running average of 191 new cases per day as of 1/5/2022 (these numbers may be updated as there have been reported issues and delays with the DPH reports).**    
-
-<span style="text-decoration:underline">Jan 3</span>    
-SARS&#8209;CoV&#8209;2 viral load increased substantially at all three plants, despite high wastewater flows due to heavy rains over the weekend. Typically, the infiltration of rainwater into the sewer lines dilutes the wastewater as it arrives at plant. Despite this dilution effect, concentrations were over 1 million copies per liter at all plants (ranging from 1.13 million copies per liter at WRF C (east side) to 1.79 million copies per liter at WRF B (west of Milledge Ave). The overall load for Monday’s sample exceeded that of >97% of samples collected to date.   
 
 <span style="text-decoration:underline">Jan 5</span>    
 Viral load for Wednesday declined slightly at all plants compared to the Monday sample, but remained high compared to recent samples (i.e., loads exceeded those of the past two weeks and exceeded the 86th %ile of samples collected to date). Wastewater flows also remained elevated from recent rains and dilution effects are likely still an issue. However, concentrations remain high with >826,000 copies per liter at WRF A (UGA, downtown, and north Athens), 1.14 million copies per liter at WRF B, and 1.27 million copies per liter at WRF C.
 
 <div style="margin-bottom:25px;">
-</div> 
+</div>
+
+<span style="text-decoration:underline">Jan 3</span>    
+SARS&#8209;CoV&#8209;2 viral load increased substantially at all three plants, despite high wastewater flows due to heavy rains over the weekend. Typically, the infiltration of rainwater into the sewer lines dilutes the wastewater as it arrives at plant. Despite this dilution effect, concentrations were over 1 million copies per liter at all plants (ranging from 1.13 million copies per liter at WRF C (east side) to 1.79 million copies per liter at WRF B (west of Milledge Ave). The overall load for Monday’s sample exceeded that of >97% of samples collected to date.   
+
+<div style="margin-bottom:25px;">
+</div>
 
 ##### December 2021
 <span style="text-decoration:underline">**Key Weekly Update Dec 27:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to increase this week. This sample was collected between 6:30 am on Sunday 12/26 and 6:30 am 12/27, when wastewater flows coming into each plant were much lower than average, indicating a lower population density in Athens-Clarke county over the holiday weekend. Despite reduced wastewater flow, total load for all plants doubled compared to last week (sampled on 12/20) and reached a weekly level not observed since the end of August. Load is calculated as the flow into the plant x concentration; therefore, it is important to note that this load reflects an extremely high concentration of viral RNA (all three WRFs had >900,000 copies per liter, and WRF B reached almost 2 million copies per liter). We have not observed concentrations at this level, over all three plants, since last winter/spring.**    
@@ -1101,11 +1124,11 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 ### Prior Six Weeks
 
 <style>
-div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
+div.yellow { background-color:#FFFDD0; border-radius: 5px; padding: 10px;}
 </style>
-<div class = "red">
+<div class = "yellow">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **declining**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
