@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Feb 12 & 14
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 RNA levels averaged across all plants continued to decline this week. Loads at WRF A (UGA campus, downtown, and north Athens) reached levels not observed since last summer. Declines in load were more modest at WRF B (west of Milledge Ave.) and WRF C (east side), but reached levels similar to those noted in late November. WRF B also continued to have the highest load of all three plants. Reported case counts for Athens-Clarke County fell to a 7-day running average of 19 new cases per day as of 2/17/2022.**      
+
+<span style="text-decoration:underline">Feb 12</span>    
+Viral RNA loads for Monday 2/14 were similar to the previous sample collected on 2/9. The total at WRF C increased substantially but was offset by declines at both WRF A and B. The concentration at WRF C was >425,000 copies per liter (compared to the previous sample of >120,000 copies per liter). Levels were ~88,000 copies per liter at WRF B and ~26,000 copies per liter at WRF C.            
+
+<span style="text-decoration:underline">Feb 14</span>    
+Loads declined substantially in the Wednesday 2/16 sample across all plants. Among the plants, loads declined at both WRF A and C but were stable at WRF B. Concentrations declined to ~17,000 copies per liter at WRF A and ~69,000 copies per liter at WRF A; levels at WRF B were ~100,000 copies per liter.  
+     
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Feb 7 & 9
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to decline across all plants this week. The largest decline was observed at WRF C (east side). While levels are trending down, the highest loads were noted for WRF B (west of Milledge Ave.), which has been the case for most of this surge. Reported case counts for Athens-Clarke County also continued to fall, reaching a 7-day running average of 39 new cases per day as of 2/10/2022.**   
 
