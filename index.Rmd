@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Feb 28 & Mar 1
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **The SARS&#8209;CoV&#8209;2 viral RNA load continued to decline this week, with levels approaching the limit of detection at WRF B (west of Milledge Ave.). We are currently at levels not observed since June 2021. As of 3/2/2022, the 7-day running average of new cases in Athens-Clarke County was 6 new cases per day.**
+
+<span style="text-decoration:underline">Feb 28</span>    
+On average, samples collected on Monday 2/28 showed declining levels from the prior week, with concentrations and loads declining at both WRF A and WRF B. Concentrations at WRF C (east side) increased from the prior sample (2/23) from ~12,000 copies per liter to ~36,000 copies per liter (but still relatively low in comparison to earlier this year).  
+
+<span style="text-decoration:underline">Mar 1</span>    
+Levels were relatively stable on the Wednesday 3/1 sample compared to the Monday (2/28) sample. Concentrations and load remained steady at WRF A, declined at WRF B (to below the limit of detection), and increased at WRF C (to ~76,000 copies per liter).    
+     
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Feb 21 & 23
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The total viral load of SARS&#8209;CoV&#8209;2 RNA continues to decline across Athens, GA. Averaged across all samples collected this week, the total viral load is in the bottom 10% of estimates to date. Reported case counts for Athens-Clarke County fell to a 7-day running average of 12 new cases per day as of 2/21/2022.**      
 
