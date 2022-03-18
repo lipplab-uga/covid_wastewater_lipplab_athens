@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Mar 14 & 16
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Following the increase in SARS&#8209;CoV&#8209;2 load in last week’s wastewater samples, this week’s data are quite variable. Viral levels declined to below the limit of detection on Monday. Levels increased again on Wednesday, but were slightly lower than last week. We have seen this type of variability in viral load when case rates are low. At this point, there is no clear trend in viral load. There is no clear inflection point to indicate that viral loads are increasing nor decreasing. Thus, for now, the viral load appears to be steady.This is also consistent with reported case rates that have remained at ~3 new cases per day (7-day running average) for the last week.**
+
+<span style="text-decoration:underline">Mar 14</span>    
+Levels at all plants were below the limit of detection for the Monday samples (collection period 6:30 am 3/13 to 6:30 am 3/14). This was the last day of UGA’s spring break but flows into WRFs were at normal levels.  
+
+<span style="text-decoration:underline">Mar 16</span>    
+SARS&#8209;CoV&#8209;2 RNA was detected at all plants, despite dilution from rainfall during the sample collection. Concentrations were highest at WRF C (east side, where levels have been increasing consistently over the last few weeks) at ~99,000 copies per liter (but down from the 3/9 levels of ~360,000 copies per liter). At WRF A (UGA campus, downtown, and northern areas of Athens), levels increased to >29,000 copies per liter (from ~14,000 copies per liter on 3/9). Levels at WRF B (west of Milledge Ave.) were ~9,000 copies per liter (declining from the >37,000 copies per liter on 3/9).  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Mar 7 & 9
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **For the first time in 8 weeks, SARS&#8209;CoV&#8209;2 RNA loads increased on average for the week. Total loads across the county are still relatively low (27th %ile for the week) but this represents a distinct break from the recent trends (last week we were at the 6th %ile for load). As we have noted before, we will not know if this is a trend until additional samples are collected. We have previously noted that during low case counts, levels in wastewater tend to be more variable. But these data are certainly worth taking seriously as it could suggest that our infection rates are plateauing or potentially rising. As of 3/10/2022, the 7-day running average of newly reported cases (which generally lag wastewater loads) in Athens-Clarke County was 3 new cases per day.**
 
