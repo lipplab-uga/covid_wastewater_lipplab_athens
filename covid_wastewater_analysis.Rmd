@@ -207,7 +207,7 @@ smooth_n2 <- only_n2 %>% select(-c(Facility)) %>%
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract <- ggplot(rejoin, aes(x = date, y = log_sum_copies_both)) + 
   stat_smooth(aes(outfit=fit_both<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.3, n = 632)
+              span = 0.3, n = 639)
 
 #look at the fits to align dates and total observations
 #both

@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Mar 28 & 30
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 load in wastewater remained similar to last week. However, unlike last week, when load was driven largely by high levels at WRF C (east side), levels at WRF C declined slightly, while those at WRF A (UGA, downtown, and northern parts of Athens) and WRF B (west of Milledge Ave.) increased. Although reported cases remain low, there was a slight increase this week with a 7-day running average of 4 new cases per day as of (3/31) after reaching as low as one new case per day late last week.**
+
+<span style="text-decoration:underline">Mar 28</span>    
+Total load across all three plants combined declined slightly in the Monday sample. Among the plants, levels declined at WRF C (to ~39,000 copies per liter) from >288,000 in the prior sample. Levels increased at WRF A to >10,000 copies per liter (from below the limit of detection in the prior sample) and to >50,000 copies per liter at WRF B.       
+
+<span style="text-decoration:underline">Mar 30</span>    
+Across all plants combined, total load increased compared to the Monday sample. Once again, levels declined at WRF C but increased at WRF A and B. Levels at WRF C were ~31,000 copies per liter, ~63,000 copies per liter at WRF B, and reached a high of ~107,000 copies per liter at WRF A (the highest level at this plant since early February).    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Mar 21 & 23
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week and across all plants, the SARS&#8209;CoV&#8209;2 load increased slightly compared to last week, but this seems to continue the stable but noisy pattern that we have seen over the last three weeks. However, it is worth noting that the load this week is largely due to consistent and high detection rates at WRF C (services the east side of Athens). Levels at both WRF A (UGA, down town, and northern parts of Athens) and WRF B (west of Milledge Ave) have been relatively low. We have noted in our updates over the last three weeks that levels on the eastside have been high or trending up. This may indicate 1) increased transmission levels within this part of Athens, 2) possible contribution from outside of Athens (WRF C receives septic pump outs from other counties but the contribution is a very small fraction of the total amount of waste at the plant), and/or 3) characteristics of the waste itself (WRF C is primarily residential whereas WRF A and B have more industrial and non-residential input that can sometime dilute the residential signal). Case rates for the county have remained stable and low with a 7-day running average of 2 new cases per day as of 3/23/2022.**
 
