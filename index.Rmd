@@ -39,7 +39,7 @@ knitr::include_graphics("./good_legend.png")
 </div>
 
 **Note about chart and methods**.    
-The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.3). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. To further optimize workflow, on 7/19/2021 we have moved our analysis to a new qPCR machine which has resulted in improved precision from this date onward.
+The viral load estimated is based on the average concentration of the SARS&#8209;CoV&#8209;2 gene copies per liter of wastewater (as determined by the N1 and N2 viral nucleocapsid genes) x the total flow of wastewater over the sampling day. Both genes target the SARS&#8209;CoV&#8209;2 genome but have slight differences in how they perform in our tests; therefore, we are averaging them to simplify the interpretation of the viral load. The trend lines were calculated using locally estimated scatterplot smoothing (LOESS, span = 0.25). The error associated with these estimates (the 95% confidence interval) is displayed as the shaded area. To further optimize workflow, on 7/19/2021 we have moved our analysis to a new qPCR machine which has resulted in improved precision from this date onward.
 
 <div style="margin-bottom:25px;">
 </div>
@@ -54,6 +54,20 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <span style="text-decoration:underline">Updated every Friday</span>    
 _Please Note: We strive to get results for each week's sampling updated by 5:00 pm on Friday however, to ensure quality of data occasional delays in the update may occur. We will post updated data as soon as we are able._
 </div>
+
+<div style="margin-bottom:25px;">
+</div>
+
+##### Apr 11 & 13
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 load for the week across all plants increased this week compared to last. This was consistent for both sampling days, and was largely due to increase load at WRF B (receives wastewater from areas west of Milledge Ave.) and a single day increase at WRF A (wastewater from UGA, downtown, and northern areas of Athens). Unlike the prior week, both SARS&#8209;CoV&#8209;2 gene targets (N1 and N2) were detected in all samples. We are still considering levels to be steady but are keeping watch to determine whether we may be seeing the start of an inflection point. As of 4/15, the 7-day running average of new cases reported in Athens-Clarke County increased slightly to 5 per day.**    
+
+<span style="text-decoration:underline">Apr 11</span>    
+Total SARS&#8209;CoV&#8209;2 load was virtually unchanged from the prior sample (collected 4/6); however, there was notable variability in concentrations between facilities. In particular, the concentration (and load) increased substantially at WRF B from ~8,400 copies per liter on 4/6 to ~63,000 copies per liter on 4/11. Levels and loads changed slightly at WRF A and C. Overall load reached the 20th %-ile of all samples collected to date.            
+<span style="text-decoration:underline">Apr 13</span>    
+Total load increased substantially in the Wednesday sample. This was due to increases in concentration at both WRF B (to ~238,000 copies per liter) and WRF A (to ~375,000 copies per liter). There was little change at WRF C. Overall load reached the 44th %-ile. Although this was a large jump, it is not yet clear if this is the start of a trend or a single high observation.     
+
+<span style="text-decoration:underline">Note for the week</span>    
+In effort to better visualize the data as our total samples increase, beginning this week we have decreased the span value of our LOESS smoothing from 0.3 to 0.25. This change will be retroactively applied to all figures in the website.
 
 <div style="margin-bottom:25px;">
 </div>
