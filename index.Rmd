@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 18 & 20
+<span style="text-decoration:underline">**Key Weekly Update:**</span>**SARS&#8209;CoV&#8209;2 viral load remains stable. This week, there was consistent agreement between the Monday and Wednesday estimates. Averaged across the week, loads were comparable to the previous week’s average. These observations are consistent with reported cases. As of 4/20, the 7-day running average of new cases reported in Athens-Clarke County appear to remain stable at 6 cases per day.**    
+
+<span style="text-decoration:underline">Apr 18</span>    
+Total SARS&#8209;CoV&#8209;2 load decreased from the previous collection date (4/13), driven primarily by a decrease in viral concentrations at WRF A. Even though viral concentrations at WRF A spiked to ~375,000 copies per Liter on 4/13, they declined to ~40,000 copies per Liter on 4/18. Viral loads at WRF B and WRF C remained virtually unchanged from the previous sample (~200,000 copies per Liter and ~70,000 copies per Liter, respectively).  
+
+<span style="text-decoration:underline">Apr 20</span>    
+Total viral load on Wednesday was comparable to the load from Monday’s collection on 4/18. There were slight fluctuations in viral concentration at each WRF. Viral concentrations were stable at WRF A (~50,000 copies per Liter) but decreased slightly at WRF B, down ~200,000 to ~50,000 copies per Liter. Viral levels notably increased at WRF C, from ~70,000 copies per Liter to ~300,000 copies per Liter.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 11 & 13
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 load for the week across all plants increased this week compared to last. This was consistent for both sampling days, and was largely due to increase load at WRF B (receives wastewater from areas west of Milledge Ave.) and a single day increase at WRF A (wastewater from UGA, downtown, and northern areas of Athens). Unlike the prior week, both SARS&#8209;CoV&#8209;2 gene targets (N1 and N2) were detected in all samples. We are still considering levels to be steady but are keeping watch to determine whether we may be seeing the start of an inflection point. As of 4/15, the 7-day running average of new cases reported in Athens-Clarke County increased slightly to 5 per day.**    
 
