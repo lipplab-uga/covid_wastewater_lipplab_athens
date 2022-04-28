@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### Apr 25 & 27
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**In looking over the past 3-4 weeks in Athens-Clarke County, SARS&#8209;CoV&#8209;2 levels have slowly increased. This small but steady climb has not been easy to tease out week-to-week and we have reported that levels remained stable. We are not seeing the rapid rise in viral load that we have noted in prior surges but over time it is evident that levels have risen when compared to the recent lows noted in mid-March. This week we continue to see levels that we interpret as ‘stable’ based on the average load for this week compared to the average load for last week, but this is in the context of what appears to be slowly increasing levels overall. As of 4/27/2022, the 7-day running average of newly reported cases in Athens-Clarke County was 5 cases per day.**  
+
+<span style="text-decoration:underline">Apr 18</span>    
+Total SARS&#8209;CoV&#8209;2 viral load increased slightly from the prior sample (4/20). Levels increased at WRF A (UGA, downtown, northern Athens) and B (west of Milledge Ave) reaching ~136,000 copies per liter and >85,000 copies per liter, respectively. Levels remained elevated at WRF C (east side) at ~263,000 copies per liter but were lower than levels observed on 4/20.     
+
+<span style="text-decoration:underline">Apr 20</span>    
+SARS&#8209;CoV&#8209;2 loads for all plants combined declined slightly compared to the Monday sample. Levels declined at both WRF A and B (and were below the limit of detection at WRF A). Levels increased at WRF C to ~497,000 copies per liter, the highest concentration since February.
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### Apr 18 & 20
 <span style="text-decoration:underline">**Key Weekly Update:**</span>**SARS&#8209;CoV&#8209;2 viral load remains stable. This week, there was consistent agreement between the Monday and Wednesday estimates. Averaged across the week, loads were comparable to the previous week’s average. These observations are consistent with reported cases. As of 4/20, the 7-day running average of new cases reported in Athens-Clarke County appear to remain stable at 6 cases per day.**    
 
