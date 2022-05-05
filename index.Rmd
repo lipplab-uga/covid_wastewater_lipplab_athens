@@ -58,11 +58,14 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 25 & 27
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**In looking over the past 3-4 weeks in Athens-Clarke County, SARS&#8209;CoV&#8209;2 levels have slowly increased. This small but steady climb has not been easy to tease out week-to-week and we have reported that levels remained stable. We are not seeing the rapid rise in viral load that we have noted in prior surges but over time it is evident that levels have risen when compared to the recent lows noted in mid-March. This week we continue to see levels that we interpret as ‘stable’ based on the average load for this week compared to the average load for last week, but this is in the context of what appears to be slowly increasing levels overall. As of 4/27/2022, the 7-day running average of newly reported cases in Athens-Clarke County was 5 cases per day.**  
+##### May 2
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Note this week we are only reporting data for Monday May 2 (data from Wednesday 5/4 did not pass quality control; if we are able to re-run these samples, we will update the dashboard later). Based on the single collection this week, wastewater loads for all plants combined continue their very slow increase. Levels at WRF C (east side) declined from the prior sample (4/27) to ~275,000 copies per liter, which remains at the highest concentration among all three plants. Levels increased at both WRF A (UGA, downtown, and north Athens) and WRF B (west of Milledge Ave.). Concentrations at WRF A reached >111,000 copies per liter (from below the limit of detection on 4/27) and reached ~124,000 copies per liter at WRF B (from ~45,000 copies per liter on 4/27). Daily reported cases (using the 7-day running average) increased slightly from last week to 6 new cases per day as of 5/4/2022.**  
 
-<span style="text-decoration:underline">Apr 18</span>    
-Total SARS&#8209;CoV&#8209;2 viral load increased slightly from the prior sample (4/20). Levels increased at WRF A (UGA, downtown, northern Athens) and B (west of Milledge Ave) reaching ~136,000 copies per liter and >85,000 copies per liter, respectively. Levels remained elevated at WRF C (east side) at ~263,000 copies per liter but were lower than levels observed on 4/20.     
+<div style="margin-bottom:25px;">
+</div>
+
+##### April 2022
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**In looking over the past 3-4 weeks in Athens-Clarke County, SARS&#8209;CoV&#8209;2 levels have slowly increased. This small but steady climb has not been easy to tease out week-to-week and we have reported that levels remained stable. We are not seeing the rapid rise in viral load that we have noted in prior surges but over time it is evident that levels have risen when compared to the recent lows noted in mid-March. This week we continue to see levels that we interpret as ‘stable’ based on the average load for this week compared to the average load for last week, but this is in the context of what appears to be slowly increasing levels overall. As of 4/27/2022, the 7-day running average of newly reported cases in Athens-Clarke County was 5 cases per day.**  
 
 <span style="text-decoration:underline">Apr 20</span>    
 SARS&#8209;CoV&#8209;2 loads for all plants combined declined slightly compared to the Monday sample. Levels declined at both WRF A and B (and were below the limit of detection at WRF A). Levels increased at WRF C to ~497,000 copies per liter, the highest concentration since February.
@@ -70,11 +73,13 @@ SARS&#8209;CoV&#8209;2 loads for all plants combined declined slightly compared 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 18 & 20
-<span style="text-decoration:underline">**Key Weekly Update:**</span>**SARS&#8209;CoV&#8209;2 viral load remains stable. This week, there was consistent agreement between the Monday and Wednesday estimates. Averaged across the week, loads were comparable to the previous week’s average. These observations are consistent with reported cases. As of 4/20, the 7-day running average of new cases reported in Athens-Clarke County appear to remain stable at 6 cases per day.**    
-
 <span style="text-decoration:underline">Apr 18</span>    
-Total SARS&#8209;CoV&#8209;2 load decreased from the previous collection date (4/13), driven primarily by a decrease in viral concentrations at WRF A. Even though viral concentrations at WRF A spiked to ~375,000 copies per Liter on 4/13, they declined to ~40,000 copies per Liter on 4/18. Viral loads at WRF B and WRF C remained virtually unchanged from the previous sample (~200,000 copies per Liter and ~70,000 copies per Liter, respectively).  
+Total SARS&#8209;CoV&#8209;2 viral load increased slightly from the prior sample (4/20). Levels increased at WRF A (UGA, downtown, northern Athens) and B (west of Milledge Ave) reaching ~136,000 copies per liter and >85,000 copies per liter, respectively. Levels remained elevated at WRF C (east side) at ~263,000 copies per liter but were lower than levels observed on 4/20.     
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update:**</span>**SARS&#8209;CoV&#8209;2 viral load remains stable. This week, there was consistent agreement between the Monday and Wednesday estimates. Averaged across the week, loads were comparable to the previous week’s average. These observations are consistent with reported cases. As of 4/20, the 7-day running average of new cases reported in Athens-Clarke County appear to remain stable at 6 cases per day.**    
 
 <span style="text-decoration:underline">Apr 20</span>    
 Total viral load on Wednesday was comparable to the load from Monday’s collection on 4/18. There were slight fluctuations in viral concentration at each WRF. Viral concentrations were stable at WRF A (~50,000 copies per Liter) but decreased slightly at WRF B, down ~200,000 to ~50,000 copies per Liter. Viral levels notably increased at WRF C, from ~70,000 copies per Liter to ~300,000 copies per Liter.   
@@ -82,28 +87,37 @@ Total viral load on Wednesday was comparable to the load from Monday’s collect
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 11 & 13
+<span style="text-decoration:underline">Apr 18</span>    
+Total SARS&#8209;CoV&#8209;2 load decreased from the previous collection date (4/13), driven primarily by a decrease in viral concentrations at WRF A. Even though viral concentrations at WRF A spiked to ~375,000 copies per Liter on 4/13, they declined to ~40,000 copies per Liter on 4/18. Viral loads at WRF B and WRF C remained virtually unchanged from the previous sample (~200,000 copies per Liter and ~70,000 copies per Liter, respectively).  
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 load for the week across all plants increased this week compared to last. This was consistent for both sampling days, and was largely due to increase load at WRF B (receives wastewater from areas west of Milledge Ave.) and a single day increase at WRF A (wastewater from UGA, downtown, and northern areas of Athens). Unlike the prior week, both SARS&#8209;CoV&#8209;2 gene targets (N1 and N2) were detected in all samples. We are still considering levels to be steady but are keeping watch to determine whether we may be seeing the start of an inflection point. As of 4/15, the 7-day running average of new cases reported in Athens-Clarke County increased slightly to 5 per day.**    
+<span style="text-decoration:underline">Apr 13</span>    
+Total load increased substantially in the Wednesday sample. This was due to increases in concentration at both WRF B (to ~238,000 copies per liter) and WRF A (to ~375,000 copies per liter). There was little change at WRF C. Overall load reached the 44th %-ile. Although this was a large jump, it is not yet clear if this is the start of a trend or a single high observation.    
+
+<div style="margin-bottom:25px;">
+</div>
 
 <span style="text-decoration:underline">Apr 11</span>    
 Total SARS&#8209;CoV&#8209;2 load was virtually unchanged from the prior sample (collected 4/6); however, there was notable variability in concentrations between facilities. In particular, the concentration (and load) increased substantially at WRF B from ~8,400 copies per liter on 4/6 to ~63,000 copies per liter on 4/11. Levels and loads changed slightly at WRF A and C. Overall load reached the 20th %-ile of all samples collected to date.            
-<span style="text-decoration:underline">Apr 13</span>    
-Total load increased substantially in the Wednesday sample. This was due to increases in concentration at both WRF B (to ~238,000 copies per liter) and WRF A (to ~375,000 copies per liter). There was little change at WRF C. Overall load reached the 44th %-ile. Although this was a large jump, it is not yet clear if this is the start of a trend or a single high observation.     
-
 <span style="text-decoration:underline">Note for the week</span>    
 In effort to better visualize the data as our total samples increase, beginning this week we have decreased the span value of our LOESS smoothing from 0.3 to 0.25. This change will be retroactively applied to all figures in the website.
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### Apr 4 & 6
-<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 loads in wastewater remain stable and low, at the bottom 13th percentile of all samples analyzed to date. Reported cases also remain low. As of 4/7/2022, the 7-day running average was 3 reported cases.**    
-
-<span style="text-decoration:underline">Apr 4</span>    
-The total viral load declined slightly compared to samples collected on 3/31. Viral concentrations declined at each plant. Viral loads at WRF A declined from ~100,000 to ~43,000 copies per liter. Viral concentrations at WRF B declined from ~62,800 copies per liter to ~8,000 copies per liter. At WRF C, concentrations declined from 30,000 to ~7,840 copies per liter. Notably, viral concentrations fell below the limit of detection for one of our targets (N2) across all plants.       
+<span style="text-decoration:underline">**Key Weekly Update:**</span> **Total SARS&#8209;CoV&#8209;2 loads in wastewater remain stable and low, at the bottom 13th percentile of all samples analyzed to date. Reported cases also remain low. As of 4/7/2022, the 7-day running average was 3 reported cases.**   
 
 <span style="text-decoration:underline">Apr 6</span>    
 Compared to Monday’s samples, the total load increased slightly. Viral levels declined again at WRF A to ~33,800 copies per Liter. Viral levels at WRF B remained consistent at ~8,400 copies per liter and increased significantly at WRF C to ~86,400 copies per liter. It is important to note that while there is intra-day and intra-sample variability, total viral loads remain low and stable across all plants. The weekly average total viral load for the county is comparable to observations from the previous week.  
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">Apr 4</span>    
+The total viral load declined slightly compared to samples collected on 3/31. Viral concentrations declined at each plant. Viral loads at WRF A declined from ~100,000 to ~43,000 copies per liter. Viral concentrations at WRF B declined from ~62,800 copies per liter to ~8,000 copies per liter. At WRF C, concentrations declined from 30,000 to ~7,840 copies per liter. Notably, viral concentrations fell below the limit of detection for one of our targets (N2) across all plants.       
 
 <div style="margin-bottom:25px;">
 </div>
@@ -1279,7 +1293,7 @@ div.yellow { background-color:#FFFDD0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "yellow">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **slowly increasing**.
 </div>
 
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
