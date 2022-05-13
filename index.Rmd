@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 9 & 11
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 wastewater levels are continuing to increase. Total load (all plants combined) averaged for the week reached the 50th%-ile of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County also increased to 14 new cases per day (as of 5/11), more than double that reported last week.** 
+
+<span style="text-decoration:underline">May 9</span>    
+Total SARS&#8209;CoV&#8209;2 viral load increased substantially at WRF B and C (west of Milledge Ave. and eastside Athens). Concentrations reached and over 220,000 copies per liter at WRF B and over 600,000 copies per liter at WRF C. Concentrations at WRF A (UGA, downtown, and north Athens) declined slightly to ~86,000 copies per liter    
+
+<span style="text-decoration:underline">May 11</span>    
+Levels were variable for the Wednesday collection, with concentrations declining at WRF B and C (to ~207,000 and ~87,000 copies per liter, respectively). Concentrations increased at WRF A to ~147,000 copies per liter   
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 2
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Note this week we are only reporting data for Monday May 2 (data from Wednesday 5/4 did not pass quality control; if we are able to re-run these samples, we will update the dashboard later). Based on the single collection this week, wastewater loads for all plants combined continue their very slow increase. Levels at WRF C (east side) declined from the prior sample (4/27) to ~275,000 copies per liter, which remains at the highest concentration among all three plants. Levels increased at both WRF A (UGA, downtown, and north Athens) and WRF B (west of Milledge Ave.). Concentrations at WRF A reached >111,000 copies per liter (from below the limit of detection on 4/27) and reached ~124,000 copies per liter at WRF B (from ~45,000 copies per liter on 4/27). Daily reported cases (using the 7-day running average) increased slightly from last week to 6 new cases per day as of 5/4/2022.**  
 
@@ -1289,13 +1301,15 @@ Since August 4, 2020 SARS&#8209;CoV&#8209;2 concentration has steadily increased
 ### Prior Six Weeks
 
 <style>
-div.yellow { background-color:#FFFDD0; border-radius: 5px; padding: 10px;}
+div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
-<div class = "yellow">
+<div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **slowly increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
+<div style="margin-bottom:15px;">
+</div>
 ```{r out.height = "500%", out.width = "100%", echo=FALSE, message=FALSE, warning=FALSE}
 load(file = "./smooth_extract_filter.rda")
 smooth_extract_filter
