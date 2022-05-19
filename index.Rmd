@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 16 & 18
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 viral RNA loads for the county continue to increase. Averaged for the week, viral load reached levels not observed since early February and were greater than ~60% of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County was 11 new cases per day as of 5/18, which is a slight decline from last week. However, with limited clinical testing this likely does not fully reflect current transmission rates.** 
+
+<span style="text-decoration:underline">May 16</span>    
+Viral loads increased at all plants for the Monday 5/16 collection. Concentration was highest at WRF B (west of Milledge Ave.) at ~762,000 copies per liter (up from ~207,000 copies per liter on 5/11), followed by WRF C (east side) at ~218,000 copies per liter (up from ~87,000 copies per liter on 5/11) and WRF A (UGA campus, downtown, and northern areas of Athens) at ~207,000 copies per liter (up slightly from ~147,000 copies per liter on 5/11).        
+
+<span style="text-decoration:underline">May 18</span>    
+SARS&#8209;CoV&#8209;2 levels continued to increase at both WRF A and C (to ~235,000 and ~388,000 copies per liter, respectively) and declined slightly at WRF B (to ~345,000 copies per liter).  
+  
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 9 & 11
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 wastewater levels are continuing to increase. Total load (all plants combined) averaged for the week reached the 50th%-ile of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County also increased to 14 new cases per day (as of 5/11), more than double that reported last week.** 
 
