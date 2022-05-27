@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 23 & 25
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 viral RNA loads for the county remain elevated. Loads in wastewater were consistent with levels observed last week, reaching  the 59th percentile of all samples to date. The reported 7-day running average of new cases in Athens-Clarke County increased to 18 new cases per day as of 5/23.** 
+
+<span style="text-decoration:underline">May 23</span>    
+Viral concentrations were consistent with those from the previous sample collected on 5/18. Concentrations remained virtually unchanged at WRF A and WRF B. Concentrations increased slightly at WRF C (from 390,000 copies/L to 712,000 copies/L).         
+
+<span style="text-decoration:underline">May 25</span>    
+SARS&#8209;CoV&#8209;22 levels were comparable to samples from 5/23. Viral concentrations fluctuated very little at WRF A (from 290,000 to 340,000 copies/L) and WRF B (from 350,000 copies/L to 270,000 copies/L). Concentrations decreased slightly at C (from 712,000 to 360,000 copies/L).  
+  
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 16 & 18
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 viral RNA loads for the county continue to increase. Averaged for the week, viral load reached levels not observed since early February and were greater than ~60% of all samples collected to date. The reported 7-day running average of new cases in Athens-Clarke County was 11 new cases per day as of 5/18, which is a slight decline from last week. However, with limited clinical testing this likely does not fully reflect current transmission rates.** 
 
