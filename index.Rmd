@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### May 31 & June 1
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads remain steady, but elevated. These findings are consistent with reported cases in Athens-Clarke County, as the 7-day moving average has remained at approximately 18 new cases per day (as of 6/2/2022).** 
+
+<span style="text-decoration:underline">May 31</span>    
+Due to the Memorial Day holiday weekend, wastewater samples were collected between Monday May 30th, and Tuesday May 31st. Viral concentrations fluctuated very little between Tuesday’s sample and the sample collected Wednesday, May 25th. Viral concentrations at WRF A decreased from 340,00 copies per Liter to 100,000 copies per Liter but increased slightly at WRF B from 266,000 to 382,000 copies per Liter. Concentrations at WRF C remained constant, at ~350,000 copies per Liter.         
+
+<span style="text-decoration:underline">June 1</span>    
+Viral concentrations increased at all WRFs in samples collected on June 1st. At WRF A, concentrations increased from 100,000 copies per Liter back to ~300,000 copies per Liter. Concentrations increased slightly at WRF B, from 382,000 copies per Liter to 658,000 copies per Liter. The greatest increase was noted at WRF C, which jumped from 306,000 copies per Liter to ~1,100,000 copies per Liter.    
+  
+<div style="margin-bottom:25px;">
+</div>
+
 ##### May 23 & 25
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 viral RNA loads for the county remain elevated. Loads in wastewater were consistent with levels observed last week, reaching  the 59th percentile of all samples to date. The reported 7-day running average of new cases in Athens-Clarke County increased to 18 new cases per day as of 5/23.** 
 
