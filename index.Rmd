@@ -58,6 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### June 20 & 22
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 load for the week continues to be elevated but remains stable compared to levels observed last week. Sample positivity remains quite high (100% of samples were positive for the N1 gene and 85% for the N2 gene), which indicates substantial transmission in the county and likely much higher than current report cases, which were 27 new cases per day (7-day moving average) as of 6/23/2022.**   
+
+<span style="text-decoration:underline">June 20</span>    
+Viral load and concentrations increased at all plants compared to the prior sample. Concentration was highest at WRF B (west of Milledge Ave) and reached >1.2 million copies per liter, followed by WRF C (east side) at >560,000 copies per liter, and WRF A (UGA, down town, and northern Athens) at >320,000 copies per liter.      
+
+
+<span style="text-decoration:underline">June 22</span>    
+Viral load and concentrations declined at all plants. The highest values were again recorded at WRF B, followed by WRF C, and WRF C. Concentrations remained >200,000 at WRF C and >450,000 at WRF B and C.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### June 13 & 15
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral RNA levels remain high (68th percentile) but have leveled off after several weeks of sustained increase. Newly reported cases in Athens Clarke County increased to 22 case per day (7-day running average) as of Thursday 6/16/2022.**   
 
