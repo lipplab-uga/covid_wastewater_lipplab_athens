@@ -66,7 +66,7 @@ Viral load and concentrations increased at all plants compared to the prior samp
 
 
 <span style="text-decoration:underline">June 22</span>    
-Viral load and concentrations declined at all plants. The highest values were again recorded at WRF B, followed by WRF C, and WRF C. Concentrations remained >200,000 at WRF A and >450,000 at WRF B and C.    
+Viral load and concentrations declined at all plants. The highest values were again recorded at WRF B, followed by WRF C, and WRF A. Concentrations remained >200,000 at WRF A and >450,000 at WRF B and C.    
 
 <div style="margin-bottom:25px;">
 </div>
