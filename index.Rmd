@@ -58,26 +58,36 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 27 & 29
-<span style="text-decoration:underline">*Side note from our team:*</span> Today marks two years of wastewater collection and reporting for SARS&#8209;CoV&#8209;2 in Athens! Thank you to all those who have and who continue to support our work. We are honored to be able to provide this service to the community. We also wanted to inform you that our funding for this work is currently winding down. We hope to provide data through the beginning of Fall term at UGA. However, you may be hearing more from us about crowd funding to continue this work longer!
+##### July 4 & 6
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Wastewater loads of SARS&#8209;CoV&#8209;2 viral RNA have remained relatively stable for the past 4 weeks but have been persistently high (68th %-ile among all samples; at a similar peak noted for the Delta surge in August 2021). Reported cases, which do not include rapid at-home tests, declined slightly to 26 new cases per day (7-day running average) as of 7/7/2022.**   
 
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 levels this week are virtually unchanged from last week. Levels remain quite elevated (66th %ile) but continue to be stable. Reported cases reached a recent high of 34 new cases per day (7-day moving average) as of 6/27 but declined slightly to 31 new cases per day as of 6/29.**   
+<span style="text-decoration:underline">July 4</span>    
+Overall viral levels were stable compared to the prior sample collection (June 29), with a small decline in concentrations at WRF C (to ~560,000 copies per liter) and increasing levels at WRF A and B (to ~424,000 and ~760,000 copies per liter, respectively).    
 
-<span style="text-decoration:underline">June 27</span>    
-SARS&#8209;CoV&#8209;2 levels exceeded 350,000 copies per liter at all plants, with the highest levels noted at WRF B (~644,000 copies per liter; areas west of Milledge Ave.)
-
-<span style="text-decoration:underline">June 29</span>    
-Concentrations remained high at all plants, but declined slightly to 290,000 copies per liter at WRF A (UGA campus, downtown, and north Athens) and to 553,000 copies per liter at WRF B. At WRF C (east side) levels reached over 880,000 copies per liter.           
+<span style="text-decoration:underline">July 6</span>    
+Over the three plants, SARS&#8209;CoV&#8209;2 levels were nearly unchanged from the Monday sample. Levels increased at WRF B (to >1 million copies per liter), and declined at WRF B and C (to ~325,000 and ~226,000 copies per liter, respectively).            
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 20 & 22
+##### June 2022
+<span style="text-decoration:underline">*Side note from our team:*</span> Today marks two years of wastewater collection and reporting for SARS&#8209;CoV&#8209;2 in Athens! Thank you to all those who have and who continue to support our work. We are honored to be able to provide this service to the community. We also wanted to inform you that our funding for this work is currently winding down. We hope to provide data through the beginning of Fall term at UGA. However, you may be hearing more from us about crowd funding to continue this work longer!
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 levels this week are virtually unchanged from last week. Levels remain quite elevated (66th %ile) but continue to be stable. Reported cases reached a recent high of 34 new cases per day (7-day moving average) as of 6/27 but declined slightly to 31 new cases per day as of 6/29.**   
+
+<span style="text-decoration:underline">June 29</span>    
+Concentrations remained high at all plants, but declined slightly to 290,000 copies per liter at WRF A (UGA campus, downtown, and north Athens) and to 553,000 copies per liter at WRF B. At WRF C (east side) levels reached over 880,000 copies per liter.
+
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">June 27</span>    
+SARS&#8209;CoV&#8209;2 levels exceeded 350,000 copies per liter at all plants, with the highest levels noted at WRF B (~644,000 copies per liter; areas west of Milledge Ave.)
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 load for the week continues to be elevated but remains stable compared to levels observed last week. Sample positivity remains quite high (100% of samples were positive for the N1 gene and 85% for the N2 gene), which indicates substantial transmission in the county and likely much higher than current report cases, which were 27 new cases per day (7-day moving average) as of 6/23/2022.**   
-
-<span style="text-decoration:underline">June 20</span>    
-Viral load and concentrations increased at all plants compared to the prior sample. Concentration was highest at WRF B (west of Milledge Ave) and reached >1.2 million copies per liter, followed by WRF C (east side) at >560,000 copies per liter, and WRF A (UGA, down town, and northern Athens) at >320,000 copies per liter.      
-
 
 <span style="text-decoration:underline">June 22</span>    
 Viral load and concentrations declined at all plants. The highest values were again recorded at WRF B, followed by WRF C, and WRF A. Concentrations remained >200,000 at WRF A and >450,000 at WRF B and C.    
@@ -85,11 +95,13 @@ Viral load and concentrations declined at all plants. The highest values were ag
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 13 & 15
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral RNA levels remain high (68th percentile) but have leveled off after several weeks of sustained increase. Newly reported cases in Athens Clarke County increased to 22 case per day (7-day running average) as of Thursday 6/16/2022.**   
+<span style="text-decoration:underline">June 20</span>    
+Viral load and concentrations increased at all plants compared to the prior sample. Concentration was highest at WRF B (west of Milledge Ave) and reached >1.2 million copies per liter, followed by WRF C (east side) at >560,000 copies per liter, and WRF A (UGA, down town, and northern Athens) at >320,000 copies per liter.      
 
-<span style="text-decoration:underline">June 13</span>    
-Viral load declined at WRF C (east side). While total load at WRF B (west of Milledge Ave) (total viral copies per day at the plan) increased slightly the concentration (copies per liter) declined to ~612,000 (from over 1 million on 6/8). Viral load increased at WRF A (UGA, down town, and northern Athens) and concentrations exceeded 460,000 copies per liter.              
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral RNA levels remain high (68th percentile) but have leveled off after several weeks of sustained increase. Newly reported cases in Athens Clarke County increased to 22 case per day (7-day running average) as of Thursday 6/16/2022.**   
 
 <span style="text-decoration:underline">June 15</span>    
 Levels at WRF C increased but declined at both WRF B and A. Concentrations at both WRF B and C continue to exceed 500,000 copies per liter.
@@ -97,11 +109,13 @@ Levels at WRF C increased but declined at both WRF B and A. Concentrations at bo
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 6 & 8
-<span style="text-decoration:underline">**Key Weekly Update: **</span>**Levels of SARS&#8209;CoV&#8209;2 RNA continued to increase across Athens-Clarke County this week, exceeding more than 70% of all samples to date. This marks the fifth week in a row where the weekly average has increased, reaching levels similar to those observed during the peak of the Delta wave in August 2021. Reported clinical cases reached 19 new cases per day (7-day running average) as of Thursday June 9.**   
+<span style="text-decoration:underline">June 13</span>    
+Viral load declined at WRF C (east side). While total load at WRF B (west of Milledge Ave) (total viral copies per day at the plan) increased slightly the concentration (copies per liter) declined to ~612,000 (from over 1 million on 6/8). Viral load increased at WRF A (UGA, down town, and northern Athens) and concentrations exceeded 460,000 copies per liter.              
 
-<span style="text-decoration:underline">June 6</span>    
-Viral load declined at both WRF B (west of Milledge Ave.) and C (eastside) compared to the prior sample collection (June 1) but remained high. Concentration at WRF B declined to ~465,000 copies per liter and were the highest among all three plants. Similarly, concentration at WRF C declined to ~455,000 copies per liter. Levels at WRF A (UGA, downtown, and northern Athens) increased to ~398,000 copies per liter.            
+<div style="margin-bottom:25px;">
+</div>
+
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Levels of SARS&#8209;CoV&#8209;2 RNA continued to increase across Athens-Clarke County this week, exceeding more than 70% of all samples to date. This marks the fifth week in a row where the weekly average has increased, reaching levels similar to those observed during the peak of the Delta wave in August 2021. Reported clinical cases reached 19 new cases per day (7-day running average) as of Thursday June 9.**   
 
 <span style="text-decoration:underline">June 8</span>    
 While levels at WRF A declined to ~198,000 copies per liter, concentrations at both WRF B and C increased to over 1 million copies per liter at each plant. We have not observed two plants exceeding 1 million copies per liter on a single day since mid January 2022.       
@@ -109,7 +123,12 @@ While levels at WRF A declined to ~198,000 copies per liter, concentrations at b
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 1
+<span style="text-decoration:underline">June 6</span>    
+Viral load declined at both WRF B (west of Milledge Ave.) and C (eastside) compared to the prior sample collection (June 1) but remained high. Concentration at WRF B declined to ~465,000 copies per liter and were the highest among all three plants. Similarly, concentration at WRF C declined to ~455,000 copies per liter. Levels at WRF A (UGA, downtown, and northern Athens) increased to ~398,000 copies per liter.            
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads remain steady, but elevated. These findings are consistent with reported cases in Athens-Clarke County, as the 7-day moving average has remained at approximately 18 new cases per day (as of 6/2/2022).** 
 
 <span style="text-decoration:underline">June 1</span>    
