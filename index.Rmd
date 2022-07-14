@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 11 & 13
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After some period of stable loads, SARS&#8209;CoV&#8209;2 RNA in wastewater is again increasing. Total viral load for the week reached the 73rd percentile of all samples collected, to date. Likewise, reported cases (which are an undercount of total cases given the widespread use of at-home tests) increased to 33 cases per day (7 day running average) as of 7/13/2022. We are in the midst of a surge that is not well-reflected in assessments of clinical reporting alone.**   
+
+<span style="text-decoration:underline">July 11</span>    
+For Monday July 11, viral levels increased at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.). Concentrations approached 350,000 copies per liter at WRF A and exceeded 1.1 million copies per liter at WRF B. Concentrations at WRF C (eastside), declined slightly but remained near 200,000 copies per liter.       
+
+<span style="text-decoration:underline">July 13</span>    
+For Wednesday July 13, concentrations increased at WRF A (to ~440,000 copies per liter) and declined at WRF B to ~775,000 copies per liter. Levels increased substantially at WRF C to ~680,000 copies per liter.             
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 4 & 6
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Wastewater loads of SARS&#8209;CoV&#8209;2 viral RNA have remained relatively stable for the past 4 weeks but have been persistently high (68th %-ile among all samples; at a similar peak noted for the Delta surge in August 2021). Reported cases, which do not include rapid at-home tests, declined slightly to 26 new cases per day (7-day running average) as of 7/7/2022.**   
 
@@ -1412,7 +1424,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
