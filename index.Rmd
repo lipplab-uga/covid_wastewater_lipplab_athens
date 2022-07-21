@@ -58,6 +58,20 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 18 & 20
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA viral loads in wastewater continue to increase incrementally, week by week. While variable between Monday and Wednesday, the average viral load for this week’s samples is greater than that of the previous week, reaching the 75th percentile of all samples collected to date. The 7-day moving average of reported cases remains stable, around 30 new cases per day. However, given the widespread use of at-home tests, reported case number likely underestimate the total number of active cases in the county.**    
+
+**The current results of local wastewater surveillance suggest that Athens-Clarke County is in the midst of a COVID-19 surge that is not well reflected by clinical reporting alone.**   
+
+<span style="text-decoration:underline">July 11</span>    
+The total viral load for Monday, July 21st decreased slightly compared to samples collected in the previous week, due to a slight decline in viral concentrations at WRF A and WRF C to ~300,000 copies per liter. Viral concentrations at WRF B remained constant, at approximately ~780,000 copies per liter.       
+
+<span style="text-decoration:underline">July 13</span>    
+The total viral load for Wednesday, July 20th increased considerably, compared to the previous samples. While viral concentrations remained constant at WRF A (~300,000 copies per Liter), viral concentrations increased at WRF B up to 1,400,000 copies per liter, and at WRF to 1,000,000 copies per liter.               
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 11 & 13
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**After some period of stable loads, SARS&#8209;CoV&#8209;2 RNA in wastewater is again increasing. Total viral load for the week reached the 73rd percentile of all samples collected, to date. Likewise, reported cases (which are an undercount of total cases given the widespread use of at-home tests) increased to 33 cases per day (7 day running average) as of 7/13/2022. We are in the midst of a surge that is not well-reflected in assessments of clinical reporting alone.**   
 
