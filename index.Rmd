@@ -63,10 +63,10 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 
 **The current results of local wastewater surveillance suggest that Athens-Clarke County is in the midst of a COVID-19 surge that is not well reflected by clinical reporting alone.**   
 
-<span style="text-decoration:underline">July 11</span>    
-The total viral load for Monday, July 21st decreased slightly compared to samples collected in the previous week, due to a slight decline in viral concentrations at WRF A and WRF C to ~300,000 copies per liter. Viral concentrations at WRF B remained constant, at approximately ~780,000 copies per liter.       
+<span style="text-decoration:underline">July 18</span>    
+The total viral load for Monday, July 18th decreased slightly compared to samples collected in the previous week, due to a slight decline in viral concentrations at WRF A and WRF C to ~300,000 copies per liter. Viral concentrations at WRF B remained constant, at approximately ~780,000 copies per liter.       
 
-<span style="text-decoration:underline">July 13</span>    
+<span style="text-decoration:underline">July 20</span>    
 The total viral load for Wednesday, July 20th increased considerably, compared to the previous samples. While viral concentrations remained constant at WRF A (~300,000 copies per Liter), viral concentrations increased at WRF B up to 1,400,000 copies per liter, and at WRF to 1,000,000 copies per liter.               
 
 <div style="margin-bottom:25px;">
