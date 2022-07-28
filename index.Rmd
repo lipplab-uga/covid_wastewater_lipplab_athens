@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### July 25 and 27
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads were stable this week compared to last week; however, levels remain high (once again reaching the 70th percentile of all samples collected to date). Cases reported to the GA DPH also changed very little from last week, with 31 new cases per day (using a 7-day moving average). Wastewater levels confirm the high transmission levels for Athens-Clarke County noted by the CDC.**      
+
+<span style="text-decoration:underline">July 25</span>    
+SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF B (west of Milledge Ave) and C (eastside) but remained highly elevated at >700,000 copies per liter. Levels at WRF A (UGA, downtown, and north Athens) increased to >400,000 copies per liter.           
+
+<span style="text-decoration:underline">July 27</span>    
+Levels were virtually unchanged at WRF B and WRF A, with concentrations of >700,000 and >400,00 copies per liter, respectively. At WRF C, levels declined to ~350,000 copies per liter.                  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### July 18 & 20
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA viral loads in wastewater continue to increase incrementally, week by week. While variable between Monday and Wednesday, the average viral load for this week’s samples is greater than that of the previous week, reaching the 75th percentile of all samples collected to date. The 7-day moving average of reported cases remains stable, around 30 new cases per day. However, given the widespread use of at-home tests, reported case number likely underestimate the total number of active cases in the county.**    
 
@@ -1438,7 +1450,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
 </div>
 
 <div style="margin-bottom:15px;">
