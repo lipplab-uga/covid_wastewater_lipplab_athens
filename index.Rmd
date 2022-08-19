@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 15 & 17
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Consistent with observations from the previous week, the total viral load of SARS&#8209;CoV&#8209;2 RNA in Athens wastewater continues to be elevated, among the 72th percentile of all observations to date. Reported cases have risen to 31 new cases per day (7-day moving average) as of August 18, 2022. Together, these results suggest that there is active transmission of SARS&#8209;CoV&#8209;2 from circulating cases COVID-19 in the community.**   
+
+<span style="text-decoration:underline">Aug 15</span>    
+The viral load of SARS&#8209;CoV&#8209;2 in Athens wastewater has remained elevated and stable over the past several weeks. Consistent detection of SARS&#8209;CoV&#8209;2 in wastewater suggests active transmission in the community. Viral concentrations at WRF A decreased from ~400,000 to ~17,000 copies per liter, while concentrations at WRF B rose from 675,000 to 1,500,000 copies per liter. Concentrations at WRF C fluctuated slightly from ~900,000 to ~460,000 copies per liter.                     
+
+<span style="text-decoration:underline">Aug 17</span>    
+The overall viral load was consistent with observations from the Monday sample. Concentrations at WRF A increased to ~240,000 copies per liter, while concentrations at WRF B fluctuated slightly down to ~800,000 copies per liter. Concentrations at WRF C rose again to elevated concentrations ~1,300,000 copies per liter.  
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### August 8 & 10
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**The SARS&#8209;CoV&#8209;2 RNA load in Athens wastewater continues to be persistently high (75th percentile this week) but is relatively stable compared to the prior three weeks. Reported cases increased slightly to 28 new cases per day (7-day moving average) as of August 11, 2022.**   
 
