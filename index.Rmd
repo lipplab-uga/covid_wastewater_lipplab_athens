@@ -58,6 +58,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 22 & 24
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 increased markedly this week, after 4 weeks of relatively stable but high levels. Total viral load for the week exceeded the 94th percentile of all samples collected to date. Concentrations exceeded 1 million copies per liter for 5 of the 6 samples collected this week. We have not observed levels this high since early January 2022, at the height of the initial omicron wave. Despite this large increase in load (and likely transmission) in the Athens area, reported cases rose only slightly to a 7-day moving average of 35 new cases per day as of August 24th. Because of the widespread use of rapid tests, wastewater levels are likely a better reflection of transmission in our area.**     
+
+<span style="text-decoration:underline">Aug 22</span>    
+Viral levels increased at all plants. Levels rose modestly at WRF B (west of Milledge Ave.) and WRF C (eastside) to 1.03 million and 1.44 million copies per liter, respectively (from 800,000 and 1.33 million copies per liter during the prior sample). Concentrations increased substantially at WRF A (UGA campus, downtown, and north Athens) to >930,000 copies per liter (from 235,000 copies per liter from the prior sample).                           
+<span style="text-decoration:underline">Aug 24</span>    
+Levels declined slightly at WRF C (to ~1.08 million copies per liter) but continued to rise at both WRF A and B. Concentrations reached 1.4 million copies per liter at WRF A and exceeded 2.9 million copies per liter at WRF B. Wednesday's viral load was the 9th highest of all samples collected to date.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### August 15 & 17
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Consistent with observations from the previous week, the total viral load of SARS&#8209;CoV&#8209;2 RNA in Athens wastewater continues to be elevated, among the 72th percentile of all observations to date. Reported cases have risen to 31 new cases per day (7-day moving average) as of August 18, 2022. Together, these results suggest that there is active transmission of SARS&#8209;CoV&#8209;2 from circulating cases COVID-19 in the community.**   
 
@@ -521,7 +532,7 @@ SARS&#8209;CoV&#8209;2 viral load increased substantially at all three plants, d
 <div style="margin-bottom:25px;">
 </div>
 
-##### December 2021
+##### 2021
 <span style="text-decoration:underline">**Key Weekly Update Dec 27:**</span> **SARS&#8209;CoV&#8209;2 viral RNA loads continue to increase this week. This sample was collected between 6:30 am on Sunday 12/26 and 6:30 am 12/27, when wastewater flows coming into each plant were much lower than average, indicating a lower population density in Athens-Clarke county over the holiday weekend. Despite reduced wastewater flow, total load for all plants doubled compared to last week (sampled on 12/20) and reached a weekly level not observed since the end of August. Load is calculated as the flow into the plant x concentration; therefore, it is important to note that this load reflects an extremely high concentration of viral RNA (all three WRFs had >900,000 copies per liter, and WRF B reached almost 2 million copies per liter). We have not observed concentrations at this level, over all three plants, since last winter/spring.**    
 
 **Reported case rates also continue to climb in Athens-Clarke County, with the 7-day running average of 89 new cases per day as of 12/28. We do not yet know how the increased use of at-home rapid tests may affect reliability of official case reports (and another reason to watch wastewater trends as we move into this next surge).**    
@@ -576,8 +587,6 @@ Total load increased substantially across the area by Wednesday, with load and c
 
 <div style="margin-bottom:25px;">
 </div> 
-
-##### November 2021
 
 <span style="text-decoration:underline">Nov 29</span>    
 Total load declined in the Monday sample collection compared to the prior collection (11/21). This decline was attributed to a lower viral load at WRF B (which had reached extremely high levels the prior week). Levels at both WRF A and WRF C increased relative to the prior sample. Concentrations at all plants were between ~140,000 and 160,000 copies per liter. It is worth noting that this sample collection began at 6:30 am on Sunday 11/28 and may reflect a lower population due to out of town travel for the Thanksgiving break. 
@@ -636,7 +645,6 @@ Viral loads increased (over all plants, combined) prior to the Wednesday (10/27)
 <div style="margin-bottom:25px;">
 </div> 
 
-##### October 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average SARS&#8209;CoV&#8209;2 viral load for the region again remained stable compared to the prior week. There was a slight decline at WRF A (UGA campus, downtown, and north Athens) and slight increase in loads at WRF B (west of Milledge) and WRF C (east side) when averaged for the week. The 7-day running average of new daily cases in Athens-Clarke County declined slightly to 9 as of 10/28/2021.**     
 
 <span style="text-decoration:underline">Oct 27</span>    
@@ -693,7 +701,6 @@ Viral RNA levels declined at WRF B but load doubled at WRF A (UGA campus, downto
 <div style="margin-bottom:25px;">
 </div> 
 
-##### September 2021
 <span style="text-decoration:underline">**Methods Update:**</span> Beginning the week of September 27th, 2021 we have revised our data analysis methods to account for improvements in our sample processing hardware and the increased number of total observations. This change is represented as a modification in our LOESS smoothing calculation (used in all "trends" plots) which changes the span from 0.6 to 0.3. This modification was made to better capture the week-to-week fluctuations in wastewater viral load. It should be noted, this modification will retroactively be applied to all previous observations therefore, any "trend" plots may vary slightly from previous data releases. We thank everyone for their continued utilization of these data and welcome any feedback!
 
 <div style="margin-bottom:25px;">
@@ -760,7 +767,6 @@ Due to the Labor Day holiday, samples were collected on Tuesday rather than Mond
 <span style="text-decoration:underline">September 1</span>     
 Viral loads increased to the second highest level in the last 6 weeks (only falling behind the sample collected for 8/23). Levels at WRF C were unchanged from Monday’s sample, but increased at both WRF A and B. Concentrations at all plants exceeded 700,000 viral copies per liter.  
 
-##### August 2021
 <span style="text-decoration:underline">August 30</span>    
 Total load of SARS&#8209;CoV&#8209;2 RNA fell slightly compared to the prior sample (collected 8/25). Levels declined at both WRF B (west of Milledge Ave) and WRF C (east side) but rose at WRF A (UGA, downtown, and north Athens). Concentrations at all plants exceeded 500,000 copies per liter.     
 
@@ -823,7 +829,6 @@ SARS&#8209;CoV&#8209;2 viral RNA increased at all three area plants. Average con
 <div style="margin-bottom:25px;">
 </div>
 
-##### July 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Viral loads have increased steadily in the county’s wastewater over the past four weeks. Viral RNA was readily detectable in all wastewater samples collected on Monday 7/26 and Wednesday 7/28. For the week, viral load reached the 42nd percentile for all samples collected to date, climbing from the 31st percentile last week. These observations indicate increased viral shedding and circulation of SARS&#8209;CoV&#8209;2 in the community. Likewise, case reports have increased to a 7-day running average of 20 new cases per day (as of 7/29). This is the highest running average reported since March 2021. Rates of positive PCR tests were consistently above 10% for the week. Clarke county vaccination rates have remained near 39% for the past several weeks.**     
 
 <span style="text-decoration:underline">July 28</span>  
@@ -874,7 +879,6 @@ Wastewater this week was sampled on Tuesday July 6th, 2021. SARS&#8209;CoV&#8209
 <div style="margin-bottom:25px;">
 </div>
 
-##### June 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **This week, levels of SARS&#8209;CoV&#8209;2 decreased below the limit of detection in all but one sample collected. Levels at WRF A were detectable on 6/30/2021, but were below the limit of detection in all samples on 6/28/2021. Reported cases in Athens ended the week at 2 new cases per day, based upon the 7-day running average. Testing rates still remain low, with approximately 109 tests per day and a 1.5% test positively rate.**  
 <span style="text-decoration:underline">June 30</span>   
 Viral levels were below the limit of detection at WRF B and WRF C. SARS&#8209;CoV&#8209;2 viral RNA was detected at WRF A at a concentration of approximately 24,000 copies/L.    
@@ -944,7 +948,6 @@ Due to the Memorial Day holiday, samples were collected on Tuesday 6/1 (represen
 <div style="margin-bottom:25px;">
 </div>
 
-##### May 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **SARS&#8209;CoV&#8209;2 levels in Athens-Clarke County wastewater remain low with average loads for the week stable or slightly declining. This is consistent with declining reported cases in the county (3 new cases per day [7-day running average] as of 5/28, with a test positivity rate of 1.8%).  31% of Athens-Clarke County was considered to be fully vaccinated as of 5/28.**   
 
 <span style="text-decoration:underline">May 26</span>   
@@ -1001,7 +1004,6 @@ SARS&#8209;CoV&#8209;2 RNA was detected at all three plants but at lower levels 
 <div style="margin-bottom:25px;">
 </div>
 
-##### April 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Average viral load declined slightly for the first time in 5 weeks. Average daily load was down at both WRF B and C but increased slightly at WRF A. Daily reported cases in Athens-Clarke County ended the week at 8 (7-day running average), after reaching recent high of 13 new cases per day (7-day average) on 4/19.**   
 
 <span style="text-decoration:underline">April 28</span>  
@@ -1062,7 +1064,6 @@ Levels of SARS&#8209;CoV&#8209;2 viral RNA were detectable at all three WRFs. Th
 <div style="margin-bottom:25px;">
 </div>
 
-##### March 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Averaged for the week, SARS‑CoV‑2 viral RNA levels increased for the second week in a row across the Athens-Clarke County wastewater treatment plants. Average levels increased at all three plants, with moderate increases for the week at WRFs A and B and a substantial increase at WRF C. Although total viral load in wastewater across the area remains relatively low (in the bottom third fraction compared to all samples collected to date), the shift toward increasing levels over the last two weeks (after several weeks of stable to declining levels) is concerning. As of April 2, reported cases remained low in Athens-Clarke County, at 8 new cases per day (7-day running average), but the number of tests administered has declined and the percentage of positive tests has increased slightly (from 3% positive on 3/24 to 4% positive on 4/2** <a href="https://dph.georgia.gov/covid-19-daily-status-report" target="_blank">7-day running average</a>**)**. **This illustrates the need for continued preventative measures as vaccine distribution increases within the county.**   
 
 <span style="text-decoration:underline">March 31</span>  
@@ -1137,7 +1138,6 @@ The 7-day running average of newly reported cases was 21.
 <div style="margin-bottom:25px;">
 </div>
 
-##### February 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **Overall, the viral load in Athens-Clarke County wastewater averaged for the week was comparable to last week's average load. However, there continues to be wide variability of viral levels in our wastewater samples. The 7-day running average of reported cases was 22 as of 02/25/2021.**     
 
 <span style="text-decoration:underline">February 24</span>    
@@ -1210,7 +1210,6 @@ Viral load (1/31 – 2/1) across the three treatment plants combined declined by
 <div style="margin-bottom:25px;">
 </div>
 
-##### January 2021
 <span style="text-decoration:underline">**Key Weekly Update:**</span> **The average viral load for the week decreased from the previous week but was still higher than 70% of all samples collected to date. Note that estimates for viral load may be underestimated, due to a significant amount of rainfall during this collection period (1/27). The 7-day average of newly reported cases ended the week (1/29) at 82. Viral load and transmission remain high in Athens-Clarke County.**  
 
 <span style="text-decoration:underline">January 27</span>    
@@ -1495,7 +1494,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
