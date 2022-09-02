@@ -58,6 +58,9 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### August 29 & 31
+_Due to a processing issue, the data update for this week will be slightly delayed. We anticipate to have the new data updated by 5pm this evening. If not viewable at this address, please visit our direct website at_ [https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) _after 5pm to view the new data as soon as it is available. We apologize for any inconvenience._   
+
 ##### August 22 & 24
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 increased markedly this week, after 4 weeks of relatively stable but high levels. Total viral load for the week exceeded the 94th percentile of all samples collected to date. Concentrations exceeded 1 million copies per liter for 5 of the 6 samples collected this week. We have not observed levels this high since early January 2022, at the height of the initial omicron wave. Despite this large increase in load (and likely transmission) in the Athens area, reported cases rose only slightly to a 7-day moving average of 35 new cases per day as of August 24th. Because of the widespread use of rapid tests, wastewater levels are likely a better reflection of transmission in our area.**     
 
