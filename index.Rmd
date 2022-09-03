@@ -59,7 +59,16 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### August 29 & 31
-_Due to a processing issue, the data update for this week will be slightly delayed. We anticipate to have the new data updated by 5pm this evening. If not viewable at this address, please visit our direct website at_ [https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) _after 5pm to view the new data as soon as it is available. We apologize for any inconvenience._   
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After the exceptionally high viral loads observed last week, especially on Wednesday 8/24, levels moderated for the week. Loads still remain historically high exceeding the 81st percentile for all samples collected to date suggesting high levels of transmission are still occurring within the county. Based on the levels observed over the past two weeks we are calling this an increasing trend, but it should be noted that loads did not continue to spike as they did the week prior. Reported cases as of 9/1 were similar to last week, with 33 new cases per day (7-day moving average) in Athens.**   
+
+<span style="text-decoration:underline">Aug 29</span>    
+Compared to the sample collected last Wednesday (8/24), SARS&#8209;CoV&#8209;2 levels declined across all three plants. Concentrations at WRF A (UGA, downtown, and northern Athens) declined to ~780,000 copies per liter, at WRF B (west of Milledge Ave.) to ~1.45 million copies per liter, and at WRF C (eastside) to ~417,000 copies per liter.   
+
+<span style="text-decoration:underline">Aug 31</span>    
+On Wednesday, concentrations remained high but continued to fall at WRF B (reaching ~574,000 copies per liter) and to a lesser extent at WRF A (to ~517,000 copies per liter). However, concentrations rose to ~729,000 copies per liter at WRF C.      
+
+<div style="margin-bottom:25px;">
+</div>   
 
 ##### August 22 & 24
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 increased markedly this week, after 4 weeks of relatively stable but high levels. Total viral load for the week exceeded the 94th percentile of all samples collected to date. Concentrations exceeded 1 million copies per liter for 5 of the 6 samples collected this week. We have not observed levels this high since early January 2022, at the height of the initial omicron wave. Despite this large increase in load (and likely transmission) in the Athens area, reported cases rose only slightly to a 7-day moving average of 35 new cases per day as of August 24th. Because of the widespread use of rapid tests, wastewater levels are likely a better reflection of transmission in our area.**     
