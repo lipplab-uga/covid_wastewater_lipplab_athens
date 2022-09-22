@@ -58,6 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### September 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**After a long rise and then plateau, SARS&#8209;CoV&#8209;2 loads are finally declining across Athens-Clarke County. Loads reached the 37th percentile and levels we have not observed since May 2022. Daily reported cases rose to 23 new cases per day (7-day moving average) but this may have been due to inconsistencies in reporting to the GA DPH (e.g., 0 new cases reported on 9/19 but 113 on 9/21) that affected the moving average.**   
+
+<span style="text-decoration:underline">Sept 19</span>    
+Levels declined at all three plants, with a notable decline at WRF A (UGA, downtown, northern Athens) to ~48,000 copies per liter. Levels remained substantially higher at WRF B (west of Milledge Ave.) with ~240,000 copies per liter and at WRF C (eastside) with ~322,000 copies per liter, but both were below levels recorded last week.    
+
+
+<span style="text-decoration:underline">Sept 21</span>    
+SARS&#8209;CoV&#8209;2 levels were stable or increasing at all plants for the Wednesday collection. There was virtually no change at WRF C. Levels increased slightly at WRF B to ~340,000 copies per liter, and doubled to ~100,000 copies per liter at WRF A. County-wide, the combined loads were still below those observed for samples collected last week.      
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### September 13 & 14
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Samples collected this week were variable between the Monday and Wednesday collections, but on average the SARS&#8209;CoV&#8209;2 load for the week was similar to that noted for the week of 9/4. Levels for the week are at the 65th percentile of all samples collected to date and the mean load has remained persistently high (similar to the prior peaks of Delta in Aug/Sept 2021 and initial Omicron in Jan 2022). Daily reported cases in Athens-Clarke County fell to 12 new cases per day (7-day moving average) as of 9/14.**   
 
@@ -1536,7 +1549,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady but elevated**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **decreasing**.
 </div>
 
 <div style="margin-bottom:15px;">
