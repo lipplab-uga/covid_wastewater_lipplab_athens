@@ -58,6 +58,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### September 26 & 28
+_Due to a processing delay our weekly data update will be delayed temporarily. We anticipate to have the new data posted by 5pm on Friday. We apologize for any inconvenience._
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### September 19 & 21
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**After a long rise and then plateau, SARS&#8209;CoV&#8209;2 loads are finally declining across Athens-Clarke County. Loads reached the 37th percentile and levels we have not observed since May 2022. Daily reported cases rose to 23 new cases per day (7-day moving average) but this may have been due to inconsistencies in reporting to the GA DPH (e.g., 0 new cases reported on 9/19 but 113 on 9/21) that affected the moving average.**   
 
