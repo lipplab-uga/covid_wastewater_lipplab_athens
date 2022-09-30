@@ -59,7 +59,16 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### September 26 & 28
-_Due to a processing delay our weekly data update will be delayed temporarily. We anticipate to have the new data posted by 5pm on Friday. We apologize for any inconvenience._
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**The SARS&#8209;CoV&#8209;2 RNA load for this week is stable compared to the week prior, leveling off at the 40th percentile among all samples, and at a level very similar to that measured a year ago this week. Despite the steady level of SARS&#8209;CoV&#8209;2 in wastewater, clinical cases reported to the GA DPH are low, with only 5 reported cases per day (7-day moving average) as of 9/28/2022, which likely reflects a decline in clinical PCR testing.**   
+
+<span style="text-decoration:underline">Sept 26</span>    
+Levels at WRF A (UGA, downtown, and north Athens) and WRF C (eastside) both increased during the Monday collection, with concentrations of ~128,000 and >715,000 copies per liter, respectively. Concentration at WRF B (west of Milledge Ave) declined to ~99,000 copies per liter.  
+
+<span style="text-decoration:underline">Sept 28</span>    
+Levels increased again WRF A (to ~208,000 copies per liter). Levels also increased at WRF B to nearly 200,000 copies per liter but declined at WRF C to ~188,000 copies per liter.
+
+<div style="margin-bottom:25px;">
+</div>
 
 <div style="margin-bottom:25px;">
 </div>
@@ -1555,7 +1564,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **decreasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
