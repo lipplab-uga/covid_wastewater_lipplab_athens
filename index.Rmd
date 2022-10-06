@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### October 3 & 5
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Our downward trend did not last long. After being stable last week, SARS&#8209;CoV&#8209;2 levels rose again. Reports from clinical surveillance in the US suggest that new Omicron subvariants are emerging, which could be contributing to this new shift in wastewater load (although we have not sequenced these samples to make a definitive statement). Reported clinical cases remain stable and low at just 5 new cases per day (7-day running average) in Athens-Clarke County as of 10/5/2022.**   
+
+<span style="text-decoration:underline">Oct 3</span>    
+SARS&#8209;CoV&#8209;2 levels were highest at WRF B (west of Milledge Ave; at ~556,000 copies per liter) and WRF C (eastside; 216,000 copies per liter), which both increased from last week. Levels declined at WRF A (UGA, downtown, and north Athens) to ~83,000 copies per liter.    
+
+<span style="text-decoration:underline">Oct 5</span>    
+Concentrations of SARS&#8209;CoV&#8209;2 RNA were consistently high across the Wednesday sample. Levels increased substantially at both WRF A and WRF C to 342,000 and 480,000 copies per liter, respectively. Levels remained nearly stable at WRF B with ~483,000 copies per liter.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### September 26 & 28
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**The SARS&#8209;CoV&#8209;2 RNA load for this week is stable compared to the week prior, leveling off at the 40th percentile among all samples, and at a level very similar to that measured a year ago this week. Despite the steady level of SARS&#8209;CoV&#8209;2 in wastewater, clinical cases reported to the GA DPH are low, with only 5 reported cases per day (7-day moving average) as of 9/28/2022, which likely reflects a decline in clinical PCR testing.**   
 
@@ -1564,7 +1576,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
