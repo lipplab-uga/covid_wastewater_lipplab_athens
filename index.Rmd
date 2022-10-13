@@ -58,6 +58,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### October 10 & 12
+_Due to a sample processing issue, our data update for this week will be delayed. We anticipate to have the new data posted by 5pm Friday. We apologize for any inconvenience._    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### October 3 & 5
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Our downward trend did not last long. After being stable last week, SARS&#8209;CoV&#8209;2 levels rose again. Reports from clinical surveillance in the US suggest that new Omicron subvariants are emerging, which could be contributing to this new shift in wastewater load (although we have not sequenced these samples to make a definitive statement). Reported clinical cases remain stable and low at just 5 new cases per day (7-day running average) in Athens-Clarke County as of 10/5/2022.**   
 
