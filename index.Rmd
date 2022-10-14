@@ -59,7 +59,13 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### October 10 & 12
-_Due to a sample processing issue, our data update for this week will be delayed. We anticipate to have the new data posted by 5pm Friday. We apologize for any inconvenience._    
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA loads were relatively stable this week compared to last, but still slightly higher than the prior 2 weeks. This suggests no significant changes in transmission in the area, but levels are still relatively high (50th percentile among all samples collected to date). This is despite very low levels of case reporting (with just 4 new cases per day [7-day moving average] as of 10/12).**   
+
+<span style="text-decoration:underline">Oct 10</span>    
+On Monday, viral levels were essentially stable at WRF B (west of Milledge Ave) compared to the sample from 10/5, whereas levels declined at WRF A (UGA, downtown, north Athens) and increased at WRF C (eastside; to >650,000 copies per liter).      
+
+<span style="text-decoration:underline">Oct 12</span>    
+For Wednesday, concentrations declined at both WRF B and WRF C, but increased at WRF A. Concentrations at all plants remain >200,000 copies per liter.     
 
 <div style="margin-bottom:25px;">
 </div>
@@ -1582,7 +1588,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
