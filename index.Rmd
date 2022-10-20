@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### October 17 & 19
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads seems to be slowly shifting up. We have called this ‘steady’ over the last few weeks but evaluating the weekly loads shows a slow upward trend since mid-September. Our total load for this week was the highest it has been since September 21, 2022 and was at the 54th percentile of all samples collected. Reported cases have remained steady, with 5 new cases per day (7-day moving average) reported as of 10/20/2022..**   
+
+<span style="text-decoration:underline">Oct 17</span>    
+The viral load over all three plants combined increased compared to the prior sample, primarily driven by a significant increase at WRF B (west of Milledge Ave) and stable to slightly declining levels at WRF A (UGA, downtown, north Athens) and WRF C (eastside). Concentrations were highest at WRF B (659,000 copies per liter), followed by WRF C (327,000 copies per liter), and WRF A (165,000 copies per liter).         
+
+<span style="text-decoration:underline">Oct 19</span>    
+Combined viral load continued to increase in the Wednesday sample. Levels increased at both WRF A (233,000 copies per liter) and C (412,000 copies per liter) and declined slightly at WRF B (590,000 copies per liter).       
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### October 10 & 12
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 RNA loads were relatively stable this week compared to last, but still slightly higher than the prior 2 weeks. This suggests no significant changes in transmission in the area, but levels are still relatively high (50th percentile among all samples collected to date). This is despite very low levels of case reporting (with just 4 new cases per day [7-day moving average] as of 10/12).**   
 
@@ -1588,7 +1600,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
