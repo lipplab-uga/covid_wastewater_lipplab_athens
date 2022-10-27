@@ -58,6 +58,9 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### October 24 & 26
+_Due to a processing delay our weekly data update will be delayed temporarily. We anticipate to have the new data posted by 5pm on Friday. We apologize for any inconvenience._    
+
 ##### October 17 & 19
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads seems to be slowly shifting up. We have called this ‘steady’ over the last few weeks but evaluating the weekly loads shows a slow upward trend since mid-September. Our total load for this week was the highest it has been since September 21, 2022 and was at the 54th percentile of all samples collected. Reported cases have remained steady, with 5 new cases per day (7-day moving average) reported as of 10/20/2022..**   
 
