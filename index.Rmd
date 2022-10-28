@@ -59,7 +59,17 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 </div>
 
 ##### October 24 & 26
-_Due to a processing delay our weekly data update will be delayed temporarily. We anticipate to have the new data posted by 5pm on Friday. We apologize for any inconvenience._    
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total SARS&#8209;CoV&#8209;2 loads for the week increased again, reaching the 64th percentile for all samples collected to date (up from the 54th percentile last week). Our loads are 10-fold higher than they were at this point last year. However, reported cases remain very low at only 3 new cases per day (7-day moving average) as of 10/26/ 2022.**   
+
+<span style="text-decoration:underline">Oct 24</span>    
+SARS&#8209;CoV&#8209;2 loads for all plants combined were nearly stable compared to the load from the prior samples (Wednesday 10/19); however, there was variability between the plants. Levels at WRF C (east side) reached >1.1 million copies per liter (the highest since August). Levels at WRF B (west of Milledge Ave) were nearly stable, while levels at WRF A (UGA campus, downtown, and north Athens) declined to about 150,000 copies per liter. This pattern at WRF A is fairly typical with declines for the Monday collection (representing a sample collection period from 6:30 am Sunday to 6:30 am Monday), and increases during the Wednesday collection (as noted below).   
+
+
+<span style="text-decoration:underline">Oct 26</span>    
+For Wednesday, levels increased substantially at WRF A (to >600,000 copies per liter) and declined at WRF C to ~400,000 copies per liter, with WRF B remaining relatively stable again (>400,000 copies per liter). The load for all plants combined increased relative to the Monday sample.         
+
+<div style="margin-bottom:25px;">
+</div>   
 
 ##### October 17 & 19
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 viral loads seems to be slowly shifting up. We have called this ‘steady’ over the last few weeks but evaluating the weekly loads shows a slow upward trend since mid-September. Our total load for this week was the highest it has been since September 21, 2022 and was at the 54th percentile of all samples collected. Reported cases have remained steady, with 5 new cases per day (7-day moving average) reported as of 10/20/2022..**   
