@@ -58,6 +58,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### November 7 & 9
+_Due to a quality control issue, the data update for this week will be temporarily delayed. We apologize for any inconvenience._
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### October 31 & November 2
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads were steady for the week, over all plants and both collection days. Levels dipped on Monday but rose again in the Wednesday sample. Reported cases increased slightly to 5 new cases per day (7-day moving average) as of 11/2/2022 compared to 3 new cases per day last week.**   
 
