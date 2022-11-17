@@ -201,7 +201,7 @@ Build loess smoothing figures figures
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_botha <- ggplot(wrfa_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_botha<<-..y..), method = "loess", color = '#1B9E77', 
-              span = 0.25, n = 863)
+              span = 0.25, n = 870)
 
 #look at the fits to align dates and total observations
 #both
@@ -279,7 +279,7 @@ save(p_wrf_a, file = "./plotly_objs/p_wrf_a.rda")
 #*****************Must always update the n = TOTAL NUMBER OF DAYS*************************
 extract_bothb <- ggplot(wrfb_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_bothb<<-..y..), method = "loess", color = '#D95F02', 
-              span = 0.25, n = 863)
+              span = 0.25, n = 870)
 
 #look at the fits to align dates and total observations
 #both
@@ -360,7 +360,7 @@ save(p_wrf_b, file = "./plotly_objs/p_wrf_b.rda")
 ```{r}
 extract_bothc <- ggplot(wrfc_both, aes(x = date, y = log_total_copies_both)) + 
   stat_smooth(aes(outfit=fit_bothc<<-..y..), method = "loess", color = '#E7298A', 
-              span = 0.25, n = 863)
+              span = 0.25, n = 870)
 
 #look at the fits to align dates and total observations
 #both

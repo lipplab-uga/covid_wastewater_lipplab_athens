@@ -58,6 +58,19 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### November 14 & 16
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral load for this week (all plants combined) fell slightly compared to last week. The marked decline observed in the Monday sample was offset by an increase across all plants in the Wednesday sample. Overall, this week’s load was near the 50th percentile across all samples to date. As of 11/16/2022, there were 5 new cases per day reported to GA DPH (7-day running average), extending a very steady trend in reported cases.**   
+
+<span style="text-decoration:underline">Nov 14</span>    
+SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave). Levels increased at WRF C (eastside) to ~387,000 copies per liter (the highest concentration among the three plants). The concentration at WRF A fell to ~94,000 copies per liter and at WRF B to ~357,000 copies per liter.   
+
+
+<span style="text-decoration:underline">Nov 16</span>    
+Concentrations increased at all three plants in the Wednesday sample. WRF C continued to have the highest level at ~573,000 copies per liter, followed by WRF B at ~379,000 copies per liter and WF A at ~237,000 copies per liter (more than doubling the Monday level).     
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### November 7 & 9
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral loads for the week increased relative to last and continues what may be a very slow increase in levels. When looking back through this fall, viral loads have increased in 5 of the last 7 weeks. This week of the 6 samples collected (3 plants x 2 days), 4 had higher levels than the prior sample. Loads at WRF C (eastside) remained steady for the week compared to last week, but at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.) weekly loads increased. In total (all plants and samples for the week combined), loads reached the 60th percentile of all samples collected to date. As of 11/10/2022, there were 3 new cases per day reported to GA DPH (7-day running average); reported cases have been around this level for the past 6 weeks.**   
 
@@ -1639,7 +1652,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
