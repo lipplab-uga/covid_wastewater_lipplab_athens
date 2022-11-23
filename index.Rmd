@@ -58,6 +58,12 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### November 21
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week samples were only collected on Monday 11/21 to allow for a Thanksgiving break for the lab. Total viral load for that collection period increased to the 77th percentile among all samples collected to date, a sizeable increase over last week’s load. Concentrations remained nearly steady at WRF C (eastside) but increased at both WRF B (area west of Milledge Ave, to >732,000 copies per liter, more than double the concentration in the prior sample) and at WRF A (UGA, downtown, and areas of north Athens, to >1.1 million copies per liter, more than triple the concentration in the prior sample). In both 2020 and 2021, we saw viral loads increase prior to or near the Thanksgiving holiday. Reported cases remained nearly steady at 5 new cases per day (7-day moving average), as of 11/23.**    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### November 14 & 16
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral load for this week (all plants combined) fell slightly compared to last week. The marked decline observed in the Monday sample was offset by an increase across all plants in the Wednesday sample. Overall, this week’s load was near the 50th percentile across all samples to date. As of 11/16/2022, there were 5 new cases per day reported to GA DPH (7-day running average), extending a very steady trend in reported cases.**   
 
@@ -1652,7 +1658,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
