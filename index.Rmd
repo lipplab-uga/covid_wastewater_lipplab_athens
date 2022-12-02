@@ -65,7 +65,7 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 Overall viral load among the three plants, combined, was stable compared to the prior sample (11/21), with increased load at WRF C (east side) and stable or slightly lower loads at WRF A (UGA, downtown, north Athens) and WRF B (west of Milledge Ave.). The highest concentration was observed at WRF B (~584,000 copies per liter), followed by WRF A (~554,000 copies per liter) and WRF C (~332,000 copies per liter).  
 
 <span style="text-decoration:underline">Nov 30</span>  
-Total load over all plants combined increased to the 89th percentile of samples collected to date. While WRF C remained relatively stable, levels at both WRF B and A increased substantially to ~685,000 and ~820,000 copies per liter, respectively.  
+Total load over all plants combined increased to the 89th percentile of samples collected to date. While WRF A remained relatively stable, levels at both WRF B and C increased substantially to ~685,000 and ~820,000 copies per liter, respectively.  
 
 <div style="margin-bottom:25px;">
 </div>
