@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### December 5 & 7
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads for the week declined slightly from the very high level noted last Wednesday and indicates a stable trend, for now. Some of the load estimates may have been affected by the rainfall this week, which can sometimes dilute samples due to rainwater entering the sewage pipes. Reported cases rose slightly this week to 9 new cases per day (7-day moving average) as of 12/7, compared to 7 on 11/30.**   
+
+<span style="text-decoration:underline">Dec 5</span>  
+Viral load decreased at all plants but levels remained above 200,000 copies per liter at all locations. The lowest concentration was ~243,000 copies per liter at WRF C (east side) followed by WRF B (west of Milledge Ave.) with ~452,000 copies per liter. The highest concentration was ~547,000 copies per liter at WRF A (UGA campus, downtown, north of Athens).     
+
+<span style="text-decoration:underline">Dec 7</span>  
+Wastewater flow was elevated at plants due to prior rainfall, which can lead to some dilution. Concentration increased substantially at WRF B to >820,000 copies per liter and the viral load per day increased by 10-fold compared to the Monday sample. Levels were nearly stable at WRF C, but declined substantially at WRF A.    
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### November 28 & 30
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Post-Thanksgiving collections this week showed a large increase in viral load, reaching the 81st percentile among all samples collected to date. This is consistent with trends in both 2020 and 2021. Weekly viral load has not been this high since late August 2022. Reported cases increased slightly to 7 new cases per day (7-day moving average) as of 11/30/2022, which included an apparent ‘data dump’ of 24 new cases on reported 11/30.**   
 
@@ -1681,7 +1693,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
