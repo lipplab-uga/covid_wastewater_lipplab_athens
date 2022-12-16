@@ -58,6 +58,18 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### December 12 & 14
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**This week SARS&#8209;CoV&#8209;2 wastewater loads increased substantially, reaching the 88th percentile of all samples collected to date. The rate of increase between last week and this week was also relatively steep; we have not seen a one week increase of this magnitude since August. Over the past two years, viral levels rose through December and early January; we are on track to repeat that trend. Although clinical cases are likely underreported due to at home tests, reported cases increased again this week to 11 new cases per day (7-day moving average, as of 12/14).**      
+
+<span style="text-decoration:underline">Dec 12</span>  
+Viral RNA levels increased considerably at both WRF A (UGA, downtown, and north Athens) and WRF C (east side). At WRF A, levels were low last Wednesday (likely due to dilution from rainfall) but increased to ~727,000 copies per liter. At WRF C, levels increased to ~521,000 copies per liter. Levels were relatively stable at WRF B (west of Milledge Ave.; ~584,000 copies per liter).      
+
+<span style="text-decoration:underline">Dec 14</span>  
+Over all three plants combined, the daily viral load on Wed reached the 92nd percentile among all samples collected to date. This was due to large increases at both WRF B and C. Levels at WRF C exceeded 1 million copies per liter and at WRF B exceeded 2 million copies per liter.   
+ 
+<div style="margin-bottom:25px;">
+</div>
+
 ##### December 5 & 7
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads for the week declined slightly from the very high level noted last Wednesday and indicates a stable trend, for now. Some of the load estimates may have been affected by the rainfall this week, which can sometimes dilute samples due to rainwater entering the sewage pipes. Reported cases rose slightly this week to 9 new cases per day (7-day moving average) as of 12/7, compared to 7 on 11/30.**   
 
@@ -1693,7 +1705,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
 </div>
 
 <div style="margin-bottom:15px;">
