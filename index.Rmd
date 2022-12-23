@@ -1888,15 +1888,27 @@ Monitoring is conducted through partnership between Athens-Clarke County Utiliti
 
 Dr. Erin Lipp
 
-Megan Lott, PhD Student
+Dr. Megan Lott
 
 William A. Norfolk, PhD Student 
 
 Megan Robertson, PhD Student 
 
+Leah Lariscy, PhD Student
+
+Taylor Maddalene, PhD Student
+
+Kelly Fry, MPH Student
+
 Amelia Foley, BS Student
 
 Lily V. Metsker, BS Student
+
+Carolina M. Declet, BS Student
+
+Breanna Timani, BS Student
+
+Abby Hoffman, BS Student
 
 For more information about our team and other ongoing research please visit the Lipp Laboratory <a href="https://publichealth.uga.edu/faculty-member/erin-k-lipp/" target="_blank">website</a>.
 
@@ -1906,7 +1918,7 @@ For more information about our team and other ongoing research please visit the 
 
 ## 
 **How to Cite**  
-Lipp EK, Lott M, Norfolk WA, Metsker LV, Foley A, and Robertson. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases. <a href="https://www.covid19.uga.edu/wastewater-athens.html" target="_blank">https://www.covid19.uga.edu/wastewater-athens.html</a>.
+Lipp EK, Lott M, Norfolk WA, Lariscy L, Metsker LV, Foley A, Robertson M, Declet CM, Fry K, Maddalene T, Timani B, and Hoffman A. 2020. Wastewater Surveillance for SARS-CoV-2 in Athens, GA. COVID-19 Portal. Center for the Ecology of Infectious Diseases. <a href="https://www.covid19.uga.edu/wastewater-athens.html" target="_blank">https://www.covid19.uga.edu/wastewater-athens.html</a>.
 
 ##
 **Contact**  
