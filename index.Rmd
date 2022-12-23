@@ -7,6 +7,18 @@ output: html_document
 <div style="margin-bottom:25px;">
 </div>
 
+<style>
+div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
+</style>
+<div class = "blue">
+Thank you for visiting our page!
+
+As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens). For further inquiries, our lab can be reached directly via email at lipplab02@gmail.com.
+</div>
+
+<div style="margin-bottom:25px;">
+</div>
+
 This dashboard provides weekly updates of SARS&#8209;CoV&#8209;2 (the virus that causes COVID&#8209;19) levels in wastewater for Athens-Clarke County (ACC). Wastewater sampling can detect viruses that may be shed in feces from infected people within an entire community, including those that are presymptomatic and asymptomatic. This offers a method of estimating trends in community-scale circulation of COVID&#8209;19 that does not rely on clinical or surveillance testing of individuals. Although we cannot currently use wastewater-based testing to estimate a specific number of people infected in a community, it can be used to understand trends and to anticipate potential increases in cases.  
 
 <span style="text-decoration:underline">Navigating this site:</span>   
@@ -58,6 +70,28 @@ _Please Note: We strive to get results for each week's sampling updated by 5:00 
 <div style="margin-bottom:25px;">
 </div>
 
+##### December 19 & 21
+<span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads declined slightly for the week after the very high levels last week but remain elevated suggesting a significant level of transmission in the community. Reported cases also remained at 11 new cases per day (as of 12/21) based on the 7-day moving average.**      
+
+<span style="text-decoration:underline">Dec 19</span>  
+Viral levels on Monday 12/19 declined at all plants compared to the levels reported the prior Wednesday (which were extremely high). Levels at WRF B (west of Milledge Ave.) continued to be the highest among the three plants, at ~734,000 copies per liter, followed by WRF C (eastside) at ~475,000 copies per liter, and WRF A (UGA, downtown, and north Athens) at ~292,000 copies per liter.      
+
+<span style="text-decoration:underline">Dec 21</span>  
+Levels increased among all plants combined for Wednesday 12/21. Similar to observations on Monday, levels were highest at WRF B (increasing to >1.1 million copies per liter), followed by WRF C (stable at ~473,000 copies per liter), and WRF A (increasing to ~442,000 copies per liter).     
+
+<span style="text-decoration:underline">Final Note:</span>  
+After 242 collection dates and 1,378 individual samples processed since May of 2020, and posting to this dashboard since August 2020, we are transitioning weekly surveillance of Athens wastewater to the GA DPH Public Health Lab (links to where to find data are posted above). We have been working with DPH to integrate Athens-Clarke County data into the CDC National Wastewater Surveillance System over the last 6 months and now is the time to let this phase of work move into the able hands of our public health agency.   
+
+When we decided back in April of 2020 to ramp up a wastewater surveillance effort for Athens it was borne out of filling a need for information on COVID&#8209;19 levels in the community, especially when results from clinical tests were very slow and sparse. We are forever grateful for start-up support from the College of Public Health and Dean Marsha Davis who trusted us enough to test the idea that we could track COVID&#8209;19 transmission in Athens using sewage. Likewise, the work could not have started without the Athens-Clarke County Public Utilities Department and the amazing wastewater treatment plant operators and their willingness to work alongside us.
+In early August 2020, we made the decision to create this live dashboard to share near-real-time results with the public, which was one of the first live dashboards for SARS&#8209;CoV&#8209;2 wastewater in the US. Posting results in near-real-time was a completely different way of doing science/research for us. We needed to conduct thorough QA/QC and contextualize weekly results in real time even while the conditions in the pandemic are in constant flux.   
+
+This was truly a project built around teamwork, both within my lab (my students have not missed a single week of sampling and updates), across the University (especially the College of Public Health and the CEID), and with the broader community and your feedback to us.    
+
+We are proud to have built a robust wastewater surveillance program in Athens and we are not leaving entirely. With DPH picking up routine testing, our lab can now focus on additional research to improve and expand how we use wastewater for infectious disease surveillance (including many pathogens beyond SARS&#8209;CoV&#8209;2) and for detecting and identifying emerging pathogens. Should the need arise we will be able to jump back into testing and surveillance.
+
+<div style="margin-bottom:25px;">
+</div>
+
 ##### December 12 & 14
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**This week SARS&#8209;CoV&#8209;2 wastewater loads increased substantially, reaching the 88th percentile of all samples collected to date. The rate of increase between last week and this week was also relatively steep; we have not seen a one week increase of this magnitude since August. Over the past two years, viral levels rose through December and early January; we are on track to repeat that trend. Although clinical cases are likely underreported due to at home tests, reported cases increased again this week to 11 new cases per day (7-day moving average, as of 12/14).**      
 
@@ -82,11 +116,8 @@ Wastewater flow was elevated at plants due to prior rainfall, which can lead to 
 <div style="margin-bottom:25px;">
 </div>
 
-##### November 28 & 30
+##### November 2022
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Post-Thanksgiving collections this week showed a large increase in viral load, reaching the 81st percentile among all samples collected to date. This is consistent with trends in both 2020 and 2021. Weekly viral load has not been this high since late August 2022. Reported cases increased slightly to 7 new cases per day (7-day moving average) as of 11/30/2022, which included an apparent ‘data dump’ of 24 new cases on reported 11/30.**   
-
-<span style="text-decoration:underline">Nov 28</span>  
-Overall viral load among the three plants, combined, was stable compared to the prior sample (11/21), with increased load at WRF C (east side) and stable or slightly lower loads at WRF A (UGA, downtown, north Athens) and WRF B (west of Milledge Ave.). The highest concentration was observed at WRF B (~584,000 copies per liter), followed by WRF A (~554,000 copies per liter) and WRF C (~332,000 copies per liter).  
 
 <span style="text-decoration:underline">Nov 30</span>  
 Total load over all plants combined increased to the 89th percentile of samples collected to date. While WRF A remained relatively stable, levels at both WRF B and C increased substantially to ~685,000 and ~820,000 copies per liter, respectively.  
@@ -94,18 +125,18 @@ Total load over all plants combined increased to the 89th percentile of samples 
 <div style="margin-bottom:25px;">
 </div>
 
-##### November 21
+<span style="text-decoration:underline">Nov 28</span>  
+Overall viral load among the three plants, combined, was stable compared to the prior sample (11/21), with increased load at WRF C (east side) and stable or slightly lower loads at WRF A (UGA, downtown, north Athens) and WRF B (west of Milledge Ave.). The highest concentration was observed at WRF B (~584,000 copies per liter), followed by WRF A (~554,000 copies per liter) and WRF C (~332,000 copies per liter).  
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**This week samples were only collected on Monday 11/21 to allow for a Thanksgiving break for the lab. Total viral load for that collection period increased to the 77th percentile among all samples collected to date, a sizeable increase over last week’s load. Concentrations remained nearly steady at WRF C (eastside) but increased at both WRF B (area west of Milledge Ave, to >732,000 copies per liter, more than double the concentration in the prior sample) and at WRF A (UGA, downtown, and areas of north Athens, to >1.1 million copies per liter, more than triple the concentration in the prior sample). In both 2020 and 2021, we saw viral loads increase prior to or near the Thanksgiving holiday. Reported cases remained nearly steady at 5 new cases per day (7-day moving average), as of 11/23.**    
 
 <div style="margin-bottom:25px;">
 </div>
 
-##### November 14 & 16
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral load for this week (all plants combined) fell slightly compared to last week. The marked decline observed in the Monday sample was offset by an increase across all plants in the Wednesday sample. Overall, this week’s load was near the 50th percentile across all samples to date. As of 11/16/2022, there were 5 new cases per day reported to GA DPH (7-day running average), extending a very steady trend in reported cases.**   
-
-<span style="text-decoration:underline">Nov 14</span>    
-SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave). Levels increased at WRF C (eastside) to ~387,000 copies per liter (the highest concentration among the three plants). The concentration at WRF A fell to ~94,000 copies per liter and at WRF B to ~357,000 copies per liter.   
-
 
 <span style="text-decoration:underline">Nov 16</span>    
 Concentrations increased at all three plants in the Wednesday sample. WRF C continued to have the highest level at ~573,000 copies per liter, followed by WRF B at ~379,000 copies per liter and WF A at ~237,000 copies per liter (more than doubling the Monday level).     
@@ -113,20 +144,26 @@ Concentrations increased at all three plants in the Wednesday sample. WRF C cont
 <div style="margin-bottom:25px;">
 </div>
 
-##### November 7 & 9
+<span style="text-decoration:underline">Nov 14</span>    
+SARS&#8209;CoV&#8209;2 RNA levels declined at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave). Levels increased at WRF C (eastside) to ~387,000 copies per liter (the highest concentration among the three plants). The concentration at WRF A fell to ~94,000 copies per liter and at WRF B to ~357,000 copies per liter.   
+
+<div style="margin-bottom:25px;">
+</div>
+
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**Total viral loads for the week increased relative to last and continues what may be a very slow increase in levels. When looking back through this fall, viral loads have increased in 5 of the last 7 weeks. This week of the 6 samples collected (3 plants x 2 days), 4 had higher levels than the prior sample. Loads at WRF C (eastside) remained steady for the week compared to last week, but at both WRF A (UGA, downtown, and north Athens) and B (west of Milledge Ave.) weekly loads increased. In total (all plants and samples for the week combined), loads reached the 60th percentile of all samples collected to date. As of 11/10/2022, there were 3 new cases per day reported to GA DPH (7-day running average); reported cases have been around this level for the past 6 weeks.**   
 
-<span style="text-decoration:underline">Nov 7</span>    
-Levels declined at WRF B to ~459,000 copies per liter, which is still elevated but down from the prior level of nearly 780,000 copies per liter in the prior sample. Levels increased at both WRF A and C, to ~215,000 and ~440,000 copies per liter, respectively.      
-   
 <span style="text-decoration:underline">Nov 9</span>    
 Viral levels declined slightly at WRF C to 353,000 copies per liter. Concentrations continued to rise at WRF A to 289,000 copies per liter and rebounded to ~900,000 copies per liter at WRF B.    
 
 <div style="margin-bottom:25px;">
 </div>
 
+<span style="text-decoration:underline">Nov 7</span>    
+Levels declined at WRF B to ~459,000 copies per liter, which is still elevated but down from the prior level of nearly 780,000 copies per liter in the prior sample. Levels increased at both WRF A and C, to ~215,000 and ~440,000 copies per liter, respectively.      
+   
+<div style="margin-bottom:25px;">
+</div>
 
-##### November 2
 <span style="text-decoration:underline">**Key Weekly Update: **</span>**SARS&#8209;CoV&#8209;2 loads were steady for the week, over all plants and both collection days. Levels dipped on Monday but rose again in the Wednesday sample. Reported cases increased slightly to 5 new cases per day (7-day moving average) as of 11/2/2022 compared to 3 new cases per day last week.**   
 
 <span style="text-decoration:underline">Nov 2</span>    
@@ -1705,7 +1742,7 @@ div.red { background-color:#FAA0A0; border-radius: 5px; padding: 10px;}
 </style>
 <div class = "red">
 
-#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **increasing**.
+#### Based on the prior two weeks, the SARS&#8209;CoV&#8209;2 viral load in Athens-Clarke county is **steady**.
 </div>
 
 <div style="margin-bottom:15px;">
