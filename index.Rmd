@@ -13,7 +13,12 @@ div.blue { background-color:#e6f0ff; border-radius: 5px; padding: 15px;}
 <div class = "blue">
 Thank you for visiting our page!
 
-As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance). We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens). For further inquiries, our lab can be reached directly via email at lipplab02@gmail.com.
+As of January 1, 2023 wastewater surveillance for SARS&#8209;CoV&#8209;2 in Athens-Clarke County has been moved to the GA Department of Public Health and CDC monitoring programs. Data for Athens-Clarke county will continue to be collected weekly and will be available at [the DPH website](https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports) and [the CDC website](https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance) (full links below). To locate the most recent data, please follow the DPH link and select the most recent surveillance report, click the "summary report" tab to view data, and use the dialog bar to select "Clarke County". We would like to thank everyone who has followed our data collection over the past three years and all who have contributed to success of this program. All data/figures posted to this page will remain available online as an archival reference. A direct link to this page can be found at our Lab's [Github page](https://lipplab-uga.github.io/covid_wastewater_lipplab_athens/) and all data/code can be found in our [GitHub repository](https://github.com/lipplab-uga/covid_wastewater_lipplab_athens). For further inquiries, our lab can be reached directly via email at lipplab02@gmail.com.
+
+DPH Website: https://dph.georgia.gov/ga-nwss-wastewater-surveillance-reports  
+CDC Website: https://covid.cdc.gov/covid-data-tracker/#wastewater-surveillance   
+
+
 </div>
 
 <div style="margin-bottom:25px;">
